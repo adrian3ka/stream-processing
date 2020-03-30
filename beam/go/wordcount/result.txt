@@ -1,0 +1,9 @@
+Halo: 1
+I: 1
+me: 1
+ok: 1
+Adrian: 2
+eka: 1
+sanjaya: 1
+love: 2
+you: 2
