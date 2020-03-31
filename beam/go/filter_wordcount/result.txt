@@ -1,0 +1,3 @@
+stomach: 1
+stay: 7
+Flourish: 3
