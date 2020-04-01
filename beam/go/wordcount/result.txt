@@ -1,9 +1,9 @@
-you: 2
+eka: 1
+love: 2
 me: 1
+ok: 1
+Adrian: 2
 sanjaya: 1
 Halo: 1
 I: 1
-love: 2
-ok: 1
-Adrian: 2
-eka: 1
+you: 2

@@ -57,7 +57,9 @@ var (
 	input = flag.String("input", "./input.txt", "File(s) to read.")
 
 	// Set this required option to specify where to write the output file.
-	output = flag.String("output", "", "Output (required).")
+	mergedOutput    = flag.String("mergedOutput", "./mergedOutput.txt", "Output (required).")
+	unmergedOutput  = flag.String("unmergedOutput", "./unmergedOutput.txt", "Output (required).")
+	unmergedOutput2 = flag.String("unmergedOutput2", "./unmergedOutput2.txt", "Output (required).")
 )
 
 func init() {
@@ -75,10 +77,14 @@ type addTimestampFn struct {
 	Min beam.EventTime `json:"min"`
 }
 
+func displayTime(timestamp mtime.Time) time.Time {
+	return time.Unix(int64(timestamp/1000), 0)
+}
+
 func (f *addTimestampFn) ProcessElement(x beam.X) (beam.EventTime, beam.X) {
 	timestamp := f.Min.Add(time.Duration(rand.Int63n(2 * time.Hour.Nanoseconds())))
 
-	fmt.Println("Processing ", x, "on server timestamp at ", timestamp)
+	fmt.Println("Processing ", x, "on server time at ", displayTime(timestamp))
 
 	return timestamp, x
 }
@@ -87,7 +93,7 @@ func (f *addTimestampFn) ProcessElement(x beam.X) (beam.EventTime, beam.X) {
 
 // formatFn is a DoFn that formats a windowed word and its count as a string.
 func formatFn(iw beam.Window, et beam.EventTime, w string, c int) string {
-	s := fmt.Sprintf("%v@%v %s: %v", et, iw, w, c)
+	s := fmt.Sprintf("Time : %s - %v@%v %s: %v", displayTime(et), et, iw, w, c)
 	return s
 }
 
@@ -97,7 +103,7 @@ func main() {
 
 	ctx := context.Background()
 
-	if *output == "" {
+	if *mergedOutput == "" || *unmergedOutput == "" {
 		log.Exit(ctx, "No output provided")
 	}
 
@@ -126,7 +132,10 @@ func main() {
 
 	formatted := beam.ParDo(s, formatFn, counted)
 	merged := beam.WindowInto(s, window.NewGlobalWindows(), formatted)
-	textio.Write(s, *output, merged)
+	textio.Write(s, *mergedOutput, merged)
+
+	textio.Write(s, *unmergedOutput, formatted)
+	textio.Write(s, *unmergedOutput2, formatted)
 
 	if err := beamx.Run(context.Background(), p); err != nil {
 		log.Exitf(ctx, "Failed to execute job: %v", err)
