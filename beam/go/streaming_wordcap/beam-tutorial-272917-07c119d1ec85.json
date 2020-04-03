@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "beam-tutorial-272917",
+  "private_key_id": "07c119d1ec8591ea204f21ce6f2724860071b36b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUPjxcpcxNMMLA\nVPiUyzSev3cxxRXoCgoj9AkQf34j9rqIbRRKPVmsDcNLNODmF0xKQmuK3f9PD0aj\nB1XicB3vjnofZv41/TykdQClLH+sXr15TK0UirHqdsmEZKuP+0rpiIwGsXszvTIS\nnumzkGyXb33j36WJlcovPhsCSdjc6dYZHFseCIK55gLr+ZboHwkEvmo2yyRz9pnw\nFbCvhOjT1vTRfGR0RR/TEgq214pjQzSSLFSi4sV/PqJaiUb3chGG1ydPeqEojDbS\nflPqKgFOrH/PRjASgHntLRf0Ybcc+b4rOJ1NgaS959J00LbUR/h3eu9MafuMBmVc\nmABaOGs/AgMBAAECggEAArvd0thZ4NaoyN8Z/USpeVqrAjZGhCDOT6HplKT9GXZ9\n9vA8wNYNzSRiPcTrxAWhzcURleN/0eNhprZF+hmKm9bV0N4RQTMcBbGcyq6KOHdX\nRnQ2jdtZflUoXwRdnLMBHIVN6cTTJZqhcKb2XgHqvCqgpapFpheKrVVwoJ9rOTE4\niQI1KCikcqwQp2zoabuobMgRf3MQfnjcho2QG+kxBFTSrby7U6LpFXgdr0W7icIy\ndmv3+ThaQP+KD4BwTplhs5SNHFQwJZfyf6h4gsWRO6l69qDyx0cbrMGEYFxmcVrp\n9sv21d4b/F23zqHpKpaqdxAnkfBYZi4Fcfr1eTalsQKBgQD6eoX0icuI8mgcfoBX\nq/tonUI73+w58hWcRH+fJB8sKUgPYlmzPZeqyQj0FqwjCFUG3hC3DLiZ3PPskjJS\nVP/IsyUACi2+DhDWHGRrqa4fKK5Z8jadeVaCWneSJtU7DVmROuSFkJfG9ZifZI/j\n1aXFV3ZqrEND8/4Vq1vafBQd8QKBgQDY6/IWAOp1DyhiNc6czDcweFFjM6yKt6Zc\nnaj5FvTYjxyDt2N4Cfnpk8FFT4cyVp0KY3ZSRVlIyr0FOUC5YwIjvW5RQfmZh1Kp\nqdQbU+tUQV90oHySRuoYXbt/RPLK4ZLwBW05GMROjRzBcBEsNAHceb7hSwMVPgok\nuvfg3/msLwKBgHW3P109pTonMmaxzP9nBDCWN5qMEijpbN6UEqZoA35tqEASqLVk\nLPNGp76PKTcNo2gm1RQyFk+5V6nGy3+GEu/vwWPTZMv9MExv64HtrLdYFxiOjLxV\nWiLJAYjeVzf5fi6SzvM2kR4gLio6yKT6s32bLTvU2YgGE1N7xR9ZUNsBAoGBAKNU\ntQlAU0kkyqF4JkQFuCB018M8K1Sfh1IBHDPBx0YwK6Y5tVmzGUt4h3Pqt799W+1w\niqzTrrCShtSiEUwFcpz6i0//vzKMo/8/8odJHs5oErm8BVAWuTjzirP/dFiylHLJ\ngz4UmesTcW1tNmD0H9qkiMcWNhIOjpCtfusBefrdAoGAcaED3l8a6mM93Lbzmh2d\n1JaQV2OPBzMWI/q50wHU6YxwEd/0d81zWeIGTzT6w4ItEcxKyr476aPn2+lCtH4g\n4zueB8xhTKxt+/h+h/G8MkLXnQ6TU/LNK2QY5DpZQuf+bJpnA70qi+JFtv5bSq1i\nj9Q0UjcIOAoYkVAd8012g1Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "beam-tutorial-272917@appspot.gserviceaccount.com",
+  "client_id": "116746122574416323757",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/beam-tutorial-272917%40appspot.gserviceaccount.com"
+}
