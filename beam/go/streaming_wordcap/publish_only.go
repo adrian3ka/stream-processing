@@ -25,45 +25,34 @@ package main
 import (
 	"context"
 	"flag"
-	"fmt"
 	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/stringx"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/pubsubio"
 	"github.com/apache/beam/sdks/go/pkg/beam/log"
 	"github.com/apache/beam/sdks/go/pkg/beam/options/gcpopts"
 	_ "github.com/apache/beam/sdks/go/pkg/beam/runners/direct"
 	"github.com/apache/beam/sdks/go/pkg/beam/util/pubsubx"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/beamx"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/debug"
 	"os"
-	"strings"
 )
 
 var (
-	data = []string{
-		"foo",
-		"bar",
-		"baz",
+	dataToPublish = []string{
+		"foo", "bar", "baz",
+		"foo", "bar", "baz",
+		"foo", "bar", "baz",
+		"foo", "bar", "baz",
+		"foo", "bar", "baz",
 	}
 )
 
 var (
-	input = flag.String("input", os.ExpandEnv("streaming-wordcap"), "Pubsub Input topic.")
-
-	_ = flag.String("output", "gs://streaming-wordcap/.dev/output.txt", "Output file (required).")
+	_ = flag.Set("output", "gs://streaming-wordcap/.dev/Output.txt")
 	_ = flag.Set("project", "beam-tutorial-272917")
 	_ = flag.Set("temp_location", "gs://streaming-wordcap/.dev")
 	_ = flag.Set("staging_location", "gs://streaming-wordcap/.staging")
 	_ = flag.Set("region", "us-east1")
 	_ = flag.Set("runner", "dataflow")
+
+	targetPubsub = flag.String("input", os.ExpandEnv("streaming-wordcap"), "Pubsub Input topic.")
 )
-
-// printFn is a DoFn that emits the words in a given line.
-func printFn(ctx context.Context, message []uint8, emit func(string)) {
-	fmt.Println("printFn >> ", string(message))
-
-	emit(string(message))
-}
 
 func main() {
 	flag.Parse()
@@ -72,33 +61,11 @@ func main() {
 	ctx := context.Background()
 	project := gcpopts.GetProject(ctx)
 
-	log.Infof(ctx, "Publishing %v messages to: %v", len(data), *input)
+	log.Infof(ctx, "Publishing %v messages to: %v", len(dataToPublish), *targetPubsub)
 
-	defer pubsubx.CleanupTopic(ctx, project, *input)
-
-	sub, err := pubsubx.Publish(ctx, project, *input, data...)
+	_, err := pubsubx.Publish(ctx, project, *targetPubsub, dataToPublish...)
 
 	if err != nil {
 		log.Fatal(ctx, err)
-	}
-
-	p := beam.NewPipeline()
-
-	source := p.Root()
-
-	fmt.Println("source >> ", source)
-
-	log.Infof(ctx, "Running streaming wordcap with subscription: %v", sub.ID())
-
-	col := pubsubio.Read(source, project, *input, &pubsubio.ReadOptions{
-		Subscription: sub.ID(),
-	})
-
-	str := beam.ParDo(source, stringx.FromBytes, col)
-	capitalize := beam.ParDo(source, strings.ToUpper, str)
-	debug.Print(source, capitalize)
-
-	if err := beamx.Run(context.Background(), p); err != nil {
-		log.Exitf(ctx, "Failed to execute job: %v", err)
 	}
 }
