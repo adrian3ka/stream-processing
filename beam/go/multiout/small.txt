@@ -1,0 +1,7 @@
+Halo: 1
+I: 1
+love: 2
+you: 2
+me: 1
+ok: 1
+eka: 1
