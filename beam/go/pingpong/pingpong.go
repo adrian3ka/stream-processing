@@ -45,9 +45,22 @@ func stitch(s beam.Scope, words beam.PCollection) (beam.PCollection, beam.PColle
 	// NOTE(herohde) 2/23/2017: Dataflow does not allow cyclic composite structures.
 
 	small1, big1 := beam.ParDo2(ping, multiFn, words, beam.SideInput{Input: words}) // self-sample (ping)
-	small2, big2 := beam.ParDo2(pong, multiFn, words, beam.SideInput{Input: big1})  // big-sample  (pong). More words are small.
-	_, big3 := beam.ParDo2(ping, multiFn, big2, beam.SideInput{Input: small1})      // small-sample big (ping). All words are big.
-	small4, _ := beam.ParDo2(pong, multiFn, small2, beam.SideInput{Input: big3})    // big-sample small (pong). All words are small.
+
+	debug.Printf(s, "finish small1 ..... %s", small1)
+	debug.Printf(s, "finish big1 ..... %s", big1)
+
+	small2, big2 := beam.ParDo2(pong, multiFn, words, beam.SideInput{Input: big1}) // big-sample  (pong). More words are small.
+
+	debug.Printf(s, "finish small2 ..... %s", small2)
+	debug.Printf(s, "finish big2 ..... %s", big2)
+
+	_, big3 := beam.ParDo2(ping, multiFn, big2, beam.SideInput{Input: small1}) // small-sample big (ping). All words are big.
+
+	debug.Printf(s, "finish big3 ..... %s", big3)
+
+	small4, _ := beam.ParDo2(pong, multiFn, small2, beam.SideInput{Input: big3}) // big-sample small (pong). All words are small.
+
+	debug.Printf(s, "finish small4 ..... %s", small4)
 
 	return small4, big3
 }
@@ -71,9 +84,12 @@ func multiFn(word string, sample []string, small, big func(string)) error {
 	}
 	avg := size / count
 
-	fmt.Println("average length : ", avg, " | word >> ", word)
+	categorizedAsSmall := len(word) < avg
 
-	if len(word) < avg {
+	fmt.Println("average length : ", avg, " | word >> ",
+		word, " | categorizedAsSmall >> ", categorizedAsSmall)
+
+	if categorizedAsSmall {
 		small(word)
 	} else {
 		big(word)
@@ -118,6 +134,13 @@ func extractFn(line string, emit func(string)) {
 // Step by step :
 // lines -> words get all string
 // words : [old pond a frog leaps in water's sound]
+// multifn :
+//   -> small : [a in]
+//   -> big : [old pond frog leaps water's sound]
+
+// stitch (input : words) :
+//   -> small1 : [a in]
+//   -> big1 : [old pond frog leaps water's sound]
 
 func main() {
 	flag.Parse()
@@ -136,13 +159,12 @@ func main() {
 
 	// Run baseline and stitch; then compare them.
 	small, big := beam.ParDo2(s, multiFn, words, beam.SideInput{Input: words})
+	debug.Printf(s, "finish main small -> %s", small)
+	debug.Printf(s, "finish main big -> %s", big)
+
 	small2, big2 := stitch(s, words)
-
-	debug.Print(s, small)
-	debug.Print(s, big)
-
-	debug.Print(s, small2)
-	debug.Print(s, big2)
+	debug.Printf(s, "finish main small2 -> %s", small2)
+	debug.Printf(s, "finish main big2 -> %s", big2)
 
 	subset(s, small, small2)
 	subset(s, big2, big)
