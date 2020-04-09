@@ -1,2 +1,74 @@
 /vendor
 beam-tutorial-*.json
+
+.env
+node_modules
+*.chk
+.idea
+target
+*.iml
+vault_password.txt
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE generated files #
+#######################
+.project
+.settings
+.classpath
+
+# VirtualEnv Files #
+###################
+*.venv
+
+# PYTHON XDG_CACHE_HOME #
+##################
+*/XDG_CACHE_HOME/*
+
+# IDEA #
+##################
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle #
+##################
+.gradle
+build/
+out/
+

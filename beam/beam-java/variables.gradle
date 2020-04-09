@@ -1,0 +1,15 @@
+ext {
+  repo = rootProject
+
+  beam = [
+    directRunner: 'org.apache.beam:beam-runners-direct-java:2.19.0',
+    sdkJavaCore : 'org.apache.beam:beam-sdks-java-core:2.19.0',
+    gcpCore     : 'org.apache.beam:google-cloud-platform-core:2.19.0',
+    gcp         : 'org.apache.beam:google-cloud-platform:2.19.0',
+    sdkIoGcp    : 'org.apache.beam:beam-sdks-java-io-google-cloud-platform:2.19.0'
+  ]
+
+  common = [
+    slf4jApi: 'org.slf4j:slf4j-api:1.7.25'
+  ]
+}

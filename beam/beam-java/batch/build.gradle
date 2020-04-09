@@ -1,0 +1,8 @@
+dependencies {
+  compile beam.sdkJavaCore
+  compile beam.directRunner
+  compile beam.gcpCore
+  compile beam.gcp
+  compile beam.sdkIoGcp
+  compile common.slf4jApi
+}

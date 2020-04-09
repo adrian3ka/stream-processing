@@ -1,0 +1,101 @@
+apply from: 'variables.gradle'
+apply plugin: 'idea'
+
+project.apply plugin: 'java'
+project.sourceCompatibility = '11'
+
+dependencies {
+  compile repo.project('batch')
+}
+
+allprojects {
+  apply plugin: "idea"
+}
+
+subprojects {
+  task analyzeDependencies(type: DependencyReportTask) {}
+
+  repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+    maven {
+      name 'nexusRelease'
+      url 'https://nexus.cermati.com/repository/cermati-maven-releases'
+    }
+    maven {
+      name 'nexusSnapshot'
+      url 'https://nexus.cermati.com/repository/cermati-maven-snapshots'
+    }
+  }
+
+  configurations.all {
+    // Pulling this would also pull the ancient Jetty 6 and Java Servlet API 2.5.
+    exclude(group: 'com.google.oauth-client', module: 'google-oauth-client-jetty')
+    resolutionStrategy {
+      dependencySubstitution {
+        substitute module('org.slf4j:slf4j-log4j12') with module("ch.qos.logback:logback-classic:1.1.3")
+        substitute module('com.google.guava:guava-jdk5') with module('com.google.guava:guava:19.0')
+        substitute module('org.elasticsearch.client:transport:5.2.2') with module('org.elasticsearch.client:transport:5.5.1')
+        substitute module('com.google.cloud:google-cloud-pubsub:0.22.0-beta') with module('com.google.cloud:google-cloud-pubsub:0.21.1-beta')
+      }
+
+      force 'com.fasterxml.jackson.http:jackson-databind:2.9.8'
+    }
+  }
+
+  apply plugin: 'java'
+  apply plugin: 'java-library-distribution'
+
+  sourceSets {
+    main {
+      java {
+        srcDirs 'src/main/java'
+        srcDirs 'src/generated/java'
+      }
+    }
+
+    test {
+      java {
+        srcDir 'src/test/java'
+      }
+      // We're setting the same dir for java + resource dir so it's
+      // easier to place test fixtures
+      resources {
+        srcDir 'src/test/java'
+      }
+    }
+  }
+
+  processResources {
+    from('src/main/java') {
+      into 'public'
+    }
+  }
+
+  sourceCompatibility = '11'
+
+  configurations.testCompile {
+    dependencies {
+    }
+  }
+
+  test {
+    useTestNG()
+    workingDir = "$rootProject.projectDir"
+
+    systemProperty 'NODE_ENVIRONMENT', 'dev'
+
+    // show standard out and standard error of the test JVM(s) on the console
+    testLogging.showStandardStreams = true
+
+    // listen to events in the test execution lifecycle
+    beforeTest { descriptor ->
+      logger.lifecycle("Running test: " + descriptor)
+    }
+
+    // listen to standard out and standard error of the test JVM(s)
+    // onOutput { descriptor, event ->
+    //     logger.lifecycle("Test: " + descriptor + " produced standard out/err: " + event.message )
+    // }
+  }
+}

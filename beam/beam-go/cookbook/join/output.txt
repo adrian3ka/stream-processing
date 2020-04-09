@@ -1,0 +1,1000 @@
+Country code: GG, Country name: Georgia, Event info: Date: 20141212, Actor1: AIRWAY, url: http://agenda.ge/news/26307/eng
+Country code: ET, Country name: Ethiopia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.dddmag.com/news/2014/12/merck-helps-africa-fight-parasitic-worm-disease
+Country code: ET, Country name: Ethiopia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.ksla.com/story/27611030/shreveport-woman-makes-a-difference-in-africa
+Country code: ET, Country name: Ethiopia, Event info: Date: 20141212, Actor1: AFRICA, url: https://appablog.wordpress.com/2014/12/12/ethiopia-will-receive-13-million-praziquantel-tablets-in-2015/
+Country code: IT, Country name: Italy, Event info: Date: 20141212, Actor1: CHINA, url: http://www.financialexpress.com/article/industry/no-pope-meeting-for-dalai-lama-as-vatican-eyes-china-ties/18150/
+Country code: IT, Country name: Italy, Event info: Date: 20141212, Actor1: AFRICA, url: http://fchornet.com/headlines/pope-francis-has-declined-h529603.html
+Country code: IT, Country name: Italy, Event info: Date: 20141212, Actor1: ITALIAN, url: http://yalibnan.com/2014/12/11/pope-wont-meet-dalai-lama-trying-to-avoid-upsetting-china/
+Country code: IT, Country name: Italy, Event info: Date: 20141212, Actor1: AFRICA, url: http://article.wn.com/view/2014/12/12/Pope_declines_Dalai_Lama_meeting_in_Rome/
+Country code: IT, Country name: Italy, Event info: Date: 20141212, Actor1: ITALIAN, url: http://yalibnan.com/2014/12/11/pope-wont-meet-dalai-lama-trying-to-avoid-upsetting-china/
+Country code: MN, Country name: Monaco, Event info: Date: 20141212, Actor1: AFRICA, url: http://news.theage.com.au/breaking-news-world/world-news-update-what-you-need-to-know-20141211-3makc.html
+Country code: NI, Country name: Nigeria, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.omantribune.com/index.php?page=news&id=179985&heading=Pakistan
+Country code: NI, Country name: Nigeria, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412120806.html
+Country code: TZ, Country name: Tanzania, Event info: Date: 20141213, Actor1: PRESIDENT, url: http://allafrica.com/stories/201412121141.html
+Country code: TZ, Country name: Tanzania, Event info: Date: 20141212, Actor1: AFRICA, url: http://road.cc/content/news/138677-want-ride-mark-cavendish-italy-right-play-offering-one-lucky-cyclist-chance
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: NAVAL BASE, url: http://www.business-standard.com/article/pti-stories/vizag-naval-base-to-celebrate-platinum-jubilee-tomorrow-114121101440_1.html
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.afghanistansun.com/index.php/sid/228472773
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://www.express.co.uk/news/uk/546438/Claire-Tiltman-Colin-Ash-Smith-murder-found-guilty
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://www.express.co.uk/news/uk/546438/Claire-Tiltman-Colin-Ash-Smith-murder-found-guilty
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.yorkpress.co.uk/features/features/11663121.From_the_Troubles_to_the_Afghan_desert__a_leading_soldier___s_life_serving_his_country/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.yorkpress.co.uk/features/features/11663121.From_the_Troubles_to_the_Afghan_desert__a_leading_soldier___s_life_serving_his_country/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141213, Actor1: AIRLINE, url: http://www.mirror.co.uk/news/uk-news/air-traffic-chaos-blamed-computer-4801275
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Recreating_the_Acropolis_Hill_and_its_temples_out_of_Lego/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Recreating_the_Acropolis_Hill_and_its_temples_out_of_Lego/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: IRELAND, url: http://www.businessweek.com/news/2014-12-11/cameron-demands-urgency-as-he-flies-in-for-northern-irish-talks
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.christiantoday.com/article/cia.torture.what.should.the.christian.response.be/44347.htm
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.southcoasttoday.com/article/20141212/NEWS/141219832/101206/NEWS0301
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: KANDAHAR, url: http://rt.com/news/214067-cia-torture-victim-guantanamo/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141213, Actor1: LONDON, url: http://www.theguardian.com/us-news/2014/dec/12/martin-luther-king-dr-uk-visit-1948
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141213, Actor1: MINIST, url: http://www.thedailystar.net/experts-against-chemical-use-55054
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.lse.co.uk/AllNews.asp?code=uwxk205f&headline=African_Minerals_Subsidiary_In_Temporary_Access_Deal_With_Timis_Mining
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFRICA, url: http://fchornet.com/headlines/a-man-faces-deportation-from-the-uk-after-h530908.html
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://rt.com/news/214067-cia-torture-victim-guantanamo/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.insidefac.com/bp-marsh-backs-south-african-reinsurance-broker-start-up
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141213, Actor1: AIRLINE, url: http://www.mirror.co.uk/news/uk-news/air-traffic-chaos-blamed-computer-4801275
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Recreating_the_Acropolis_Hill_and_its_temples_out_of_Lego/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/806068/as-nato-troops-withdraw-afghan-attacks-rise/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Recreating_the_Acropolis_Hill_and_its_temples_out_of_Lego/
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/news/article-2871431/Did-torture-stop-UK-terror-attack-Al-Qaeda-terrorist-captured-London-CIA-spies-interrogated-Guantanamo-Bay-detainee.html
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHAN, url: https://www.opendemocracy.net/ourkingdom/harry-blain/are-we-leaving-londoner-to-die-in-guantanamo
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141213, Actor1: AIRLINE, url: http://www.telegraph.co.uk/news/aviation/11290489/UK-flights-grounded-as-London-airspace-closed-live.html
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.breitbart.com/Big-Peace/2014/12/12/Unable-to-pay-salaries--Afghanistan-asks-donors-for-more-money
+Country code: UK, Country name: United Kingdom, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/news/article-2871648/UK-spies-seen-CIA-torture-Shock-admission-former-Labour-security-minister-Blair-aide-calls-Royal-Commission-Britain-s-role.html?ITO=1490&ns_campaign=1490
+Country code: VM, Country name: Vietnam, Republic of, Event info: Date: 20141212, Actor1: BANGKOK, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: VM, Country name: Vietnam, Republic of, Event info: Date: 20141212, Actor1: BANGKOK, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: VM, Country name: Vietnam, Republic of, Event info: Date: 20141212, Actor1: BANGKOK, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: VM, Country name: Vietnam, Republic of, Event info: Date: 20141212, Actor1: LAOS, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: VM, Country name: Vietnam, Republic of, Event info: Date: 20141212, Actor1: LAOS, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: VM, Country name: Vietnam, Republic of, Event info: Date: 20141212, Actor1: LAOS, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: UG, Country name: Uganda, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.glamour.com/inspired/blogs/the-conversation/2014/12/when-you-educate-a-girl-child
+Country code: ID, Country name: Indonesia, Event info: Date: 20141212, Actor1: REUTERS, url: http://www.malaysiandigest.com/world/532277-indonesia-s-garuda-airline-ceo-resigns-after-october-warning.html
+Country code: ID, Country name: Indonesia, Event info: Date: 20141212, Actor1: INDONESIA, url: http://www.malaysiandigest.com/world/532277-indonesia-s-garuda-airline-ceo-resigns-after-october-warning.html
+Country code: ID, Country name: Indonesia, Event info: Date: 20141212, Actor1: INDONESIA, url: http://www.malaysiandigest.com/world/532277-indonesia-s-garuda-airline-ceo-resigns-after-october-warning.html
+Country code: ID, Country name: Indonesia, Event info: Date: 20141212, Actor1: INDONESIA, url: http://www.malaysiandigest.com/world/532277-indonesia-s-garuda-airline-ceo-resigns-after-october-warning.html
+Country code: ID, Country name: Indonesia, Event info: Date: 20141212, Actor1: INDONESIA, url: http://www.malaysiandigest.com/world/532277-indonesia-s-garuda-airline-ceo-resigns-after-october-warning.html
+Country code: HK, Country name: Hong Kong, Event info: Date: 20141212, Actor1: THE ASSOCIATED PRESS, url: http://article.wn.com/view/2014/12/11/Mass_arrests_in_Hong_Kong_as_police_tear_down_democracy_prot_j/
+Country code: HK, Country name: Hong Kong, Event info: Date: 20141212, Actor1: THE ASSOCIATED PRESS, url: http://article.wn.com/view/2014/12/11/Mass_arrests_in_Hong_Kong_as_police_tear_down_democracy_prot_j/
+Country code: HK, Country name: Hong Kong, Event info: Date: 20141212, Actor1: LI KEQIANG, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: HK, Country name: Hong Kong, Event info: Date: 20141212, Actor1: GOVERNMENT, url: http://www.ktoo.org/2014/12/11/officials-set-dismantle-final-occupy-camp-hong-kong/
+Country code: KS, Country name: South Korea, Event info: Date: 20141213, Actor1: THAILAND, url: http://www.pattayamail.com/news/thailand-s-pm-to-attend-asean-south-korea-summit-43606
+Country code: KS, Country name: South Korea, Event info: Date: 20141212, Actor1: ASEAN, url: http://news.asiaone.com/news/singapore/pm-lee-receives-honorary-seoul-citizenship
+Country code: KS, Country name: South Korea, Event info: Date: 20141212, Actor1: ASEAN, url: http://news.asiaone.com/news/singapore/pm-lee-receives-honorary-seoul-citizenship
+Country code: NL, Country name: Netherlands, Event info: Date: 20141212, Actor1: THE NETHERLAND, url: http://article.wn.com/view/2014/12/11/Koenders_praises_Mideast_Youth_as_paragon_of_innovative_huma_c/
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://theconversation.com/working-out-ptsd-exercise-is-a-vital-part-of-treatment-34855
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://theconversation.com/working-out-ptsd-exercise-is-a-vital-part-of-treatment-34855
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/UN_voices_serious_concern_after_Taliban_attacks_hit_Kabul/
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: ASYLUM SEEKER, url: http://article.wn.com/view/2014/12/11/JRS_Launches_Centre_for_Asylum_Seekers_in_Sydneys_West_Archd/
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/UN_voices_serious_concern_after_Taliban_attacks_hit_Kabul/
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: AFGHAN, url: https://www.devex.com/news/a-critical-moment-for-afghanistan-s-decade-of-transformation-85061
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.murrayvalleystandard.com.au/story/2754982/murray-bridge-christmas-lights-brighten-lives/
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: AFGHAN, url: https://www.devex.com/news/a-critical-moment-for-afghanistan-s-decade-of-transformation-85061
+Country code: AS, Country name: Australia, Event info: Date: 20141213, Actor1: AUSTRALIA, url: http://www.batemansbaypost.com.au/story/2758918/track-watch-chaotic-weather-takes-its-toll/
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: TALIBAN, url: http://article.wn.com/view/2014/12/12/Security_Council_Press_Statement_on_Kabul_Attack_United_Nati/
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: AIRLINE, url: http://www.mudgeeguardian.com.au/story/2757835/council-to-announce-airline-tomorrow/
+Country code: AS, Country name: Australia, Event info: Date: 20141213, Actor1: AUSTRALIA, url: http://www.cruisecritic.com/news/news.cfm?ID=6103
+Country code: AS, Country name: Australia, Event info: Date: 20141212, Actor1: BRISBANE, url: http://www.abc.net.au/news/2014-12-11/queensland-storms-severe-thunderstorm-warning-brisbane/5960750
+Country code: CA, Country name: Canada, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.winnipegfreepress.com/local/Dinsdale-wont-seek-Liberal-nomination-for-Brandon-Souris-285636961.html
+Country code: CA, Country name: Canada, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.winnipegfreepress.com/local/Dinsdale-wont-seek-Liberal-nomination-for-Brandon-Souris-285636961.html
+Country code: CA, Country name: Canada, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17436-cabinet-appointments-remain-unclear-as-ghanis-four-week-deadline-nears
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: PALESTINIAN, url: http://www.menafn.com/1094038911/Palestinian-leadership-contemplates-halt-to-security-coordination-with-Israel&c=hRQk5mDlBhiAyDAImPwAL_ZohLF5RXSElhNXpt60-BI&mkt=en-us
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: ISRAEL, url: http://canadafreepress.com/index.php/article/68246
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: PALESTINIAN, url: http://www.menafn.com/1094038911/Palestinian-leadership-contemplates-halt-to-security-coordination-with-Israel&c=hRQk5mDlBhiAyDAImPwAL_ZohLF5RXSElhNXpt60-BI&mkt=en-us
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: ISRAEL, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: ISRAEL, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: ISRAEL, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: IS, Country name: Israel, Event info: Date: 20141212, Actor1: ISRAEL, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: SU, Country name: Sudan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://natmonitor.com/2014/12/12/three-time-pulitzer-prize-winning-photojournalist-michel-du-cille-has-died/
+Country code: KU, Country name: Kuwait, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.al.com/news/index.ssf/2014/12/watch_soldier_returning_from_k.html
+Country code: KU, Country name: Kuwait, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.al.com/news/index.ssf/2014/12/watch_soldier_returning_from_k.html
+Country code: KU, Country name: Kuwait, Event info: Date: 20141213, Actor1: GOVERNMENT, url: http://news.kuwaittimes.net/iraq-seeking-kuwait-war-reparation-delay-un-commission-may-consider-request/
+Country code: KU, Country name: Kuwait, Event info: Date: 20141213, Actor1: GOVERNMENT, url: http://news.kuwaittimes.net/iraq-seeking-kuwait-war-reparation-delay-un-commission-may-consider-request/
+Country code: KU, Country name: Kuwait, Event info: Date: 20141213, Actor1: GOVERNMENT, url: http://news.kuwaittimes.net/iraq-seeking-kuwait-war-reparation-delay-un-commission-may-consider-request/
+Country code: BC, Country name: Botswana, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.ktvq.com/news/operation-rhino-drop-saving-rhinos-from-slaughter/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.newzimbabwe.com/showbiz-19400-Nhimbe+to+train+youths+in+TV+production/showbiz.aspx
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://article.wn.com/view/2014/12/12/Two_SA_families_mourn/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.oxfordbusinessgroup.com/south-africa-2014
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.limerickleader.ie/news/95-stop-tour-raises-over-86k-for-limerick-charities-1-6469860
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.bizcommunity.com/Article/198/78/122560.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: TALIBAN, url: http://article.wn.com/view/2014/12/12/Security_Council_Press_Statement_on_Kabul_Attack_ECOSOC_Unit/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.morungexpress.com/people-life-etc/125861.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.siasat.com/english/news/sa-man-be-deported-after-ruling-uk-wifes-salary-too-low
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.eurasiareview.com/12122014-zuma-says-south-africa-committed-middle-east-peace-process/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://ewn.co.za/2014/12/12/OPINION-Africa-Check-Does-SA-face-an-electricity-grid-collapse
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.paperage.com/2014news/12_09_2014sappi_nanocellulose_new_process.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.gulf-times.com/africa/243/details/419685/nobel-winner-tutu-laments-south-african-%E2%80%98time-warp%E2%80%99
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.siasat.com/english/news/sa-man-be-deported-after-ruling-uk-wifes-salary-too-low
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.19actionnews.com/story/27608187/openly-gay-model-in-nobody-is-born-gay-billboard-reacts
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://hosted2.ap.org/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5/Article_2014-12-12-AF--South%20Africa-Kabul%20Life/id-5ac5476aa3fb41e789a304f2f4ea168d
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.petethomasoutdoors.com/2014/12/great-white-sharks-videotaped-attacking-plastic-seal.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://m.ecr.co.za/post/whats-on-in-durban-this-weekend-23/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.defenceweb.co.za/index.php?option=com_content&task=view&id=37371&catid=111&Itemid=242
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.sowetanlive.co.za/news/2014/12/12/i-wasn-t-grossly-negligent-tongaat-mall-engineer
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.cambstimes.co.uk/news/capturing_the_delight_of_the_union_of_south_africa_steam_locomotive_as_it_stoppped_off_in_march_1_3884069
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.bdlive.co.za/national/politics/2014/12/12/news-analysis-zuma-regards-state-firms-as-his-personal-playground
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.politicsweb.co.za/politicsweb/view/politicsweb/en/page71627?oid=874200&sn=Detail&pid=71627
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412121542.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.sowetanlive.co.za/news/2014/12/12/i-wasn-t-grossly-negligent-tongaat-mall-engineer
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://fchornet.com/headlines/a-man-faces-deportation-from-the-uk-after-h530908.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/south-africa/gauteng/blackface-pair-can-return-to-campus-1.1794968
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.bdlive.co.za/national/2014/12/12/presidents-son-guilty-of-negligent-driving
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.telecompaper.com/news/competition-commission-approves-is-mweb-deal--1054728
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://news.yahoo.com/south-africas-anc-eyes-state-sell-off-ease-141853702--business.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://mynorthwest.com/17/2666352/South-Africans-mourn-slain-compatriots
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.pharmacytimes.com/publications/issue/2014/December2014/Case-Studies-December-2014
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.jdsupra.com/legalnews/challenging-the-status-quo-south-afric-99113/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/politics/cge-payment-claims-unsubstantiated-protector-1.1795145
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.defenceweb.co.za/index.php?option=com_content&view=article&id=37369:true-rhino-poaching-death-statistics-are-30-higher&catid=87:border-security&Itemid=188
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.myfoxla.com/story/27612050/south-africans-mourn-slain-compatriots
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412121742.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.myfoxla.com/story/27612050/south-africans-mourn-slain-compatriots
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.winnipegfreepress.com/world/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan-285603371.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://hosted2.ap.org/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5/Article_2014-12-12-AF--South%20Africa-Kabul%20Life/id-5ac5476aa3fb41e789a304f2f4ea168d
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.570news.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412121742.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.bdlive.co.za/national/politics/2014/12/12/numsa-loses-constitutional-court-appeal
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.570news.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.timeslive.co.za/local/2014/12/12/numsa-loses-constitutional-court-appeal
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.bdlive.co.za/national/2014/12/12/presidents-son-guilty-of-negligent-driving
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/south-africa/gauteng/land-invaders-evicted-in-soshanguve-1.1794944
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/south-africa/gauteng/land-invaders-evicted-in-soshanguve-1.1794944
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/crime-courts/justice-for-couple-gunned-down-in-street-1.1795153
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://bushradionews.blogspot.com/2014/12/suspended-deapartment-of-labour.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/south-africa/kwazulu-natal/sanparks-man-to-head-ezemvelo-1.1794796
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.dailymail.co.uk/news/article-2871305/South-Africans-mourn-slain-compatriots.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.meetpie.com/Modules/NewsModule/newsdetails.aspx?newsid=20060
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/politics/anc-accuses-da-of-cadre-deployment-1.1795079
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.theage.com.au/world/pope-declines-to-meet-dalai-lama-reports-say-20141213-126g4v.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/crime-courts/state-calls-for-justice-in-race-slur-case-1.1795104
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.iol.co.za/news/crime-courts/state-calls-for-justice-in-race-slur-case-1.1795104
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.prweb.com/releases/2014/12/prweb12380440.htm
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.news24.com/SouthAfrica/News/Minister-sits-in-on-Cape-Town-race-case-20141212
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.ipsnews.net/2014/12/aids-response-is-leaving-african-men-behind/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412120418.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412120418.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://mg.co.za/article/2014-12-11-south-african-breeders-buck-the-system
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.news24.com/SouthAfrica/News/M-Net-apologises-to-Lotz-family-20141212
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/wires/ap/article-2871915/Before-death-teen-felt-comfortable-Kabul.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: KABUL, url: http://www.iol.co.za/news/south-africa/gauteng/sa-s-kabul-widow-forgives-the-taliban-1.1794987
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.brandonsun.com/world/breaking-news/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan-285603371.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news24.com/SouthAfrica/News/South-Africans-mourn-slain-compatriots-20141212-17
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.dailymail.co.uk/wires/ap/article-2871915/Before-death-teen-felt-comfortable-Kabul.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: KABUL, url: http://newsok.com/before-his-death-teen-felt-comfortable-in-kabul/article/feed/772247
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGANISTAN, url: http://citizen.co.za/292070/hannelie-groenewald-fogives-taliban-familys-murder/
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.washingtonpost.com/world/africa/south-africans-mourn-slain-compatriots/2014/12/12/6b87124e-81ea-11e4-b936-f3afab0155a7_story.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.arabnews.com/news/673651
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.independenttribune.com/news/world/ap/before-his-death-teen-felt-comfortable-in-kabul/article_be713f51-fe73-542f-84dd-56d5041e5cf0.html
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://hosted2.ap.org/CAANR/0260ea4c3e85456b80715585ba3c7b5b/Article_2014-12-12-AF--South%20Africa-Kabul%20Life/id-6cd66ec277af43ec946b17b76c7108e9
+Country code: SF, Country name: South Africa, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://news.yahoo.com/top-asian-news-9-00-p-m-gmt-210317484.html
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: NAURU, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: BOLIVIA, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: EVO MORALES, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: NAURU, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: UNITED NATIONS, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: UNITED NATIONS, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: UNITED NATIONS, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: BL, Country name: Bolivia, Event info: Date: 20141213, Actor1: UNITED NATIONS, url: http://www.peruviantimes.com/09/world-bank-chief-joins-final-events-at-un-climate-summit/23387/
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailytimes.com.pk/national/13-Dec-2014/nawaz-announces-rs-2-32-per-unit-cut-in-electricity-tariff
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.resilience.org/stories/2014-12-12/world-on-drip-of-unconventional-oil
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.abc.net.au/news/2014-12-13/pope-refuses-dalai-lama-meeting-over-china-sensitivities/5965118
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.abc.net.au/news/2014-12-13/pope-refuses-dalai-lama-meeting-over-china-sensitivities/5965118
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.scmp.com/news/world/article/1661545/cape-town-mayor-patricia-de-lille-praised-nobel-prize-winners-stand-dalai
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: LI KEQIANG, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: ITALY, url: http://yalibnan.com/2014/12/11/pope-wont-meet-dalai-lama-trying-to-avoid-upsetting-china/
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/an-afghan-dilemma-for-china-and-india/
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: ITALIAN, url: http://yalibnan.com/2014/12/11/pope-wont-meet-dalai-lama-trying-to-avoid-upsetting-china/
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: CHINA, url: http://yalibnan.com/2014/12/11/pope-wont-meet-dalai-lama-trying-to-avoid-upsetting-china/
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/an-afghan-dilemma-for-china-and-india/
+Country code: CH, Country name: China, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/an-afghan-dilemma-for-china-and-india/
+Country code: CE, Country name: Sri Lanka, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.globalpost.com/dispatch/news/xinhua-news-agency/141212/xinhua-asia-pacific-news-summary-at-1600gmt-dec-12
+Country code: CE, Country name: Sri Lanka, Event info: Date: 20141212, Actor1: SECRETARIAT, url: http://www.colombopage.com/archive_14B/Dec11_1418315435CH.php
+Country code: CE, Country name: Sri Lanka, Event info: Date: 20141212, Actor1: DEPUTY, url: http://www.colombopage.com/archive_14B/Dec11_1418315435CH.php
+Country code: CE, Country name: Sri Lanka, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.independent.co.uk/travel/news-and-advice/overland-travel-no-slackers--not-your-normal-rules-of-the-road-9920350.html
+Country code: CE, Country name: Sri Lanka, Event info: Date: 20141212, Actor1: SRI LANKA, url: http://www.colombopage.com/archive_14B/Dec11_1418315435CH.php
+Country code: OS, Country name: Oceans, Event info: Date: 20141212, Actor1: SCOTLAND, url: http://www.businessweek.com/news/2014-12-11/storms-cut-power-to-thousands-in-u-dot-k-dot-as-highest-warning-issued
+Country code: RP, Country name: Philippines, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/asia_pacific/2014/12/12/asia_impunity/
+Country code: RP, Country name: Philippines, Event info: Date: 20141213, Actor1: PHILIPPINE, url: http://www.thecarbondalenews.com/article/ZZ/20141208/NEWS/141209885/13618/NEWS
+Country code: RP, Country name: Philippines, Event info: Date: 20141213, Actor1: PHILIPPINE, url: http://www.thecarbondalenews.com/article/ZZ/20141208/NEWS/141209885/13618/NEWS
+Country code: RP, Country name: Philippines, Event info: Date: 20141212, Actor1: KABUL, url: http://www.mycentraloregon.com/2014/12/11/at-least-one-killed-16-injured-in-suicide-attack-at-kabul-school/
+Country code: RP, Country name: Philippines, Event info: Date: 20141213, Actor1: PHILIPPINE, url: http://www.thecarbondalenews.com/article/ZZ/20141208/NEWS/141209885/13618/NEWS
+Country code: RP, Country name: Philippines, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/asia_pacific/2014/12/12/asia_impunity/
+Country code: NZ, Country name: New Zealand, Event info: Date: 20141213, Actor1: WAIKATO, url: http://www.weatherwatch.co.nz/content/enviroment-294m-ship-berth-shocks-waikato-marine-officers
+Country code: NZ, Country name: New Zealand, Event info: Date: 20141213, Actor1: WAIKATO, url: http://www.weatherwatch.co.nz/content/enviroment-294m-ship-berth-shocks-waikato-marine-officers
+Country code: ZA, Country name: Zambia, Event info: Date: 20141212, Actor1: AFRICA, url: http://ewn.co.za/2014/12/12/OPINION-Africa-Check-Does-SA-face-an-electricity-grid-collapse
+Country code: TS, Country name: Tunisia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.chicagotribune.com/news/nationworld/sns-wp-blm-news-bc-declassified11-20141211-story.html
+Country code: SL, Country name: Sierra Leone, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.christianexaminer.com/article/time.lists.ebola.fighters.as.person.of.the.year.including.samaritans.purses.brantly/47802.htm
+Country code: SA, Country name: Saudi Arabia, Event info: Date: 20141212, Actor1: COMPANY, url: http://www.zawya.com/story/Marketing_students_of_Dar_Al_Hekma_University_learn_modern_Advertising_basics_at_Visit_Horizon_FCB_Agency-ZAWYA20141211104115/
+Country code: SA, Country name: Saudi Arabia, Event info: Date: 20141212, Actor1: COMPANY, url: http://www.zawya.com/story/Marketing_students_of_Dar_Al_Hekma_University_learn_modern_Advertising_basics_at_Visit_Horizon_FCB_Agency-ZAWYA20141211104115/
+Country code: EG, Country name: Egypt, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://modernfarmer.com/2014/12/donkey-ambulance/
+Country code: EG, Country name: Egypt, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://modernfarmer.com/2014/12/donkey-ambulance/
+Country code: EG, Country name: Egypt, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://modernfarmer.com/2014/12/donkey-ambulance/
+Country code: EG, Country name: Egypt, Event info: Date: 20141212, Actor1: SMUGGLER, url: http://www.breitbart.com/Breitbart-London/2014/12/11/Mediterranean-the-most-deadly-sea-ever-says-the-UN
+Country code: EG, Country name: Egypt, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.internationalpeaceandconflict.org/forum/topics/call-for-articles-conflict-trends-2015-1-special-issue?commentId=780588:Comment:987564
+Country code: EG, Country name: Egypt, Event info: Date: 20141212, Actor1: SMUGGLER, url: http://www.breitbart.com/Breitbart-London/2014/12/11/Mediterranean-the-most-deadly-sea-ever-says-the-UN
+Country code: EG, Country name: Egypt, Event info: Date: 20141212, Actor1: AFRICA, url: http://egyptianstreets.com/2014/12/12/the-future-of-egypt-is-in-education/
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.thenews.com.pk/Todays-News-13-34657-A-plan-to-make-Afghanistan-a-sub-state
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.chicagotribune.com/sns-wp-blm-news-bc-tusk12-20141212-story.html
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.com/the-politburo-approved-the-soviet-invasion-of-afghanistan-35-years-ago-today-2014-12
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.com.au/the-politburo-approved-the-soviet-invasion-of-afghanistan-35-years-ago-today-2014-12
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: NEW DELHI, url: http://www.ptinews.com/news/5447903_Putin-Modi-Summit-tmr--Nuclear-energy--oil-in-focus-.html
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: NEW DELHI, url: http://www.ptinews.com/news/5447903_Putin-Modi-Summit-tmr--Nuclear-energy--oil-in-focus-.html
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: RUSSIAN, url: http://www.thestatesman.net/news/92996-nuke-defence-top-putin-modi-summit-agenda.html
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.com.au/the-politburo-approved-the-soviet-invasion-of-afghanistan-35-years-ago-today-2014-12
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: RUSSIAN, url: http://www.thestatesman.net/news/92996-nuke-defence-top-putin-modi-summit-agenda.html
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.com.au/the-politburo-approved-the-soviet-invasion-of-afghanistan-35-years-ago-today-2014-12
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: RUSSIAN, url: http://www.thestatesman.net/news/92996-nuke-defence-top-putin-modi-summit-agenda.html
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: RUSSIAN, url: http://www.thestatesman.net/news/92996-nuke-defence-top-putin-modi-summit-agenda.html
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: RS, Country name: Russia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: BH, Country name: Belize, Event info: Date: 20141213, Actor1: BELIZE, url: http://www.7newsbelize.com/sstory.php?nid=30939
+Country code: TH, Country name: Thailand, Event info: Date: 20141213, Actor1: THAILAND, url: http://www.pattayamail.com/news/thailand-s-pm-to-attend-asean-south-korea-summit-43606
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.3news.co.nz/world/malala-weeps-at-sight-of-bloodied-clothes-2014121220
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34656-Many-of-inhumanly-treated-CIA-detainees-were-handed-over-to-US-by-Musharraf
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://carnegieendowment.org/2014/12/12/afghanistan-great-game-folio/hwjd
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.globalpost.com/dispatch/news/thomson-reuters/141210/us-closes-bagram-prison-says-it-has-no-more-detainees-afghanist
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailytimes.com.pk/islamabad/13-Dec-2014/corps-commanders-map-out-final-phase-of-action-against-terrorists
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.siasat.com/english/news/five-militants-arrested-pakistan
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.afghanistansun.com/index.php/sid/228472773
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://newsweekpakistan.com/malalas-supporters-celebrate-her-nobel-win/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://newsweekpakistan.com/malalas-supporters-celebrate-her-nobel-win/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.globalpost.com/dispatch/news/thomson-reuters/141210/us-closes-bagram-prison-says-it-has-no-more-detainees-afghanist
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://prepodcms.billionaire.com/style/1271/popinjay-bagging-a-fair-days-pay
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.siasat.com/english/news/five-militants-arrested-pakistan
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34656-Many-of-inhumanly-treated-CIA-detainees-were-handed-over-to-US-by-Musharraf
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://newsweekpakistan.com/malalas-supporters-celebrate-her-nobel-win/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://thenationonlineng.net/new/chibok-girls-make-afps-10-influential-2014-figures-world/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.theage.com.au/world/malala-yousafzais-nobel-peace-prize-speech-lauded-20141210-124mbl.html
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-9-289855-The-sleeping-fighter-in-Fata
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34657-A-plan-to-make-Afghanistan-a-sub-state
+Country code: PK, Country name: Pakistan, Event info: Date: 20141213, Actor1: GOVERNMENT OFFICIAL, url: http://nation.com.pk/islamabad/13-Dec-2014/pti-govt-talks-after-lahore-protest
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://www.dawn.com/news/1150501&c=x1usNnphhrzC0P_qUnjUVSv2skL_XgO2Rv2nKZHUmzo&mkt=en-us
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.dw.de/german-national-confirmed-dead-in-suicide-bombing-in-kabul/a-18125712
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/afghan-sense-of-insecurity/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://www.pakistantoday.com.pk/2014/12/13/comment/afghan-sense-of-insecurity/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/The_rise_and_fall_of_an_alQaida_leader/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.chicagotribune.com/news/ct-michelle-obama-educating-girls-met-1213-20141212-story.html
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/The_rise_and_fall_of_an_alQaida_leader/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.afghanistansun.com/index.php/sid/228478153
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.pakistantoday.com.pk/2014/12/12/national/taliban-slams-nobel-for-malala/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://thenationonlineng.net/new/chibok-girls-make-afps-10-influential-2014-figures-world/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/The_rise_and_fall_of_an_alQaida_leader/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17426-parliament-calls-mehsud-handover-violation-of-afghan-sovereignty
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.thefrontierpost.com/2014/12/pak-afghan-business-women-conference-agenda-discussed/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.thefrontierpost.com/2014/12/pak-afghan-business-women-conference-agenda-discussed/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34656-Many-of-inhumanly-treated-CIA-detainees-were-handed-over-to-US-by-Musharraf
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34656-Many-of-inhumanly-treated-CIA-detainees-were-handed-over-to-US-by-Musharraf
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: KABUL, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: PK, Country name: Pakistan, Event info: Date: 20141213, Actor1: GOVERNMENT, url: http://www.thenews.com.pk/Todays-News-13-34654-Talks-with-PTI-to-be-held-today-tomorrow
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: ABDUL QADIR, url: http://www.thenews.com.pk/Todays-News-13-34658-Baloch-urges-PTI-to-hold-talks-avoid-agitation
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: ABDUL QADIR, url: http://www.omantribune.com/index.php?page=news&id=179982&heading=Pakistan
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: ABDUL QADIR, url: http://www.thenews.com.pk/Todays-News-13-34658-Baloch-urges-PTI-to-hold-talks-avoid-agitation
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: ABDUL QADIR, url: http://www.thenews.com.pk/Todays-News-13-34658-Baloch-urges-PTI-to-hold-talks-avoid-agitation
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.focus-fen.net/news/2014/12/12/357110/pakistan-taliban-slam-malala-over-nobel-prize.html
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-9-289855-The-sleeping-fighter-in-Fata
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dw.de/german-national-confirmed-dead-in-suicide-bombing-in-kabul/a-18125712
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://www.thenews.com.pk/Todays-News-9-289855-The-sleeping-fighter-in-Fata
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/news/article-2871648/UK-spies-seen-CIA-torture-Shock-admission-former-Labour-security-minister-Blair-aide-calls-Royal-Commission-Britain-s-role.html?ITO=1490&ns_campaign=1490
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-9-289853-The-shadows-of-Bagram
+Country code: PK, Country name: Pakistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tucsonsentinel.com/nationworld/report/120914_guantanamo_prisoners_uruguay/freed-gitmo-prisoners-go-uruguay/
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://vestnikkavkaza.net/news/economy/63207.html&c=DSr5SS94ktYlIxlzN6Uase-AzG9pENvpjltSAmS_rLg&mkt=en-us
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://vestnikkavkaza.net/news/economy/63207.html&c=DSr5SS94ktYlIxlzN6Uase-AzG9pENvpjltSAmS_rLg&mkt=en-us
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.radioaustralia.net.au/international/2011-06-29/witnesses-describe-hotel-attack-terror/1398835
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://vestnikkavkaza.net/news/economy/63207.html&c=DSr5SS94ktYlIxlzN6Uase-AzG9pENvpjltSAmS_rLg&mkt=en-us
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AIRWAY, url: http://agenda.ge/news/26307/eng
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: TURKEY, url: http://www.independent.co.uk/news/world/europe/400-critics-of-erdogan-expected-to-be-arrested-says-twitter-user-9919090.html
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: TURKEY, url: http://www.independent.co.uk/news/world/europe/400-critics-of-erdogan-expected-to-be-arrested-says-twitter-user-9919090.html
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://vestnikkavkaza.net/news/economy/63207.html&c=DSr5SS94ktYlIxlzN6Uase-AzG9pENvpjltSAmS_rLg&mkt=en-us
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://vestnikkavkaza.net/news/economy/63207.html&c=DSr5SS94ktYlIxlzN6Uase-AzG9pENvpjltSAmS_rLg&mkt=en-us
+Country code: TU, Country name: Turkey, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://vestnikkavkaza.net/news/economy/63207.html&c=DSr5SS94ktYlIxlzN6Uase-AzG9pENvpjltSAmS_rLg&mkt=en-us
+Country code: DR, Country name: Dominican Republic, Event info: Date: 20141212, Actor1: SANTERIA, url: http://www.bpnews.net/43904/forsaking-false-saints-for-the-true-god
+Country code: MT, Country name: Malta, Event info: Date: 20141212, Actor1: MALTA, url: http://gozonews.com/54034/atc-strike-in-italy-on-friday-may-cause-delays-to-air-malta-flights/
+Country code: MT, Country name: Malta, Event info: Date: 20141213, Actor1: MALTA, url: http://www.timesofmalta.com/articles/view/20141212/social/Announcements.547854
+Country code: MT, Country name: Malta, Event info: Date: 20141213, Actor1: MALTA, url: http://www.timesofmalta.com/articles/view/20141212/social/Announcements.547854
+Country code: MT, Country name: Malta, Event info: Date: 20141213, Actor1: HOSPITAL, url: http://www.timesofmalta.com/articles/view/20141212/social/Announcements.547854
+Country code: MT, Country name: Malta, Event info: Date: 20141213, Actor1: HOSPITAL, url: http://www.timesofmalta.com/articles/view/20141212/social/Announcements.547854
+Country code: GA, Country name: Gambia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.advocate.com/world/2014/12/12/photos-thousands-gambians-attend-antigay-rally
+Country code: GA, Country name: Gambia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.eversheds.com/global/en/what/articles/index.page?ArticleID=en/Africa_group/Africa-e-briefing-December-2014&c=ipAtXEGy0R3zIMYkDlqkiZ8Ri_6qtUEFyrcUmsiiSxs&mkt=en-us
+Country code: TD, Country name: Trinidad and Tobago, Event info: Date: 20141212, Actor1: TRINIDAD, url: http://www.entornointeligente.com/articulo/4416518/TRINIDAD-Y-TOBAGO-2015-Chutney-Soca-Monarch-kicks-off-rss-11122014
+Country code: HR, Country name: Croatia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.nineoclock.ro/hero-dog-max-dumped-by-the-army-amazes-the-world/
+Country code: AJ, Country name: Azerbaijan, Event info: Date: 20141212, Actor1: AZERBAIJAN, url: http://en.apa.az/news/220270
+Country code: AJ, Country name: Azerbaijan, Event info: Date: 20141212, Actor1: AZERBAIJAN, url: http://en.apa.az/news/220270
+Country code: AJ, Country name: Azerbaijan, Event info: Date: 20141212, Actor1: AFRICA, url: http://article.wn.com/view/2014/12/12/ECR_group_condemns_the_arrest_of_investigative_journalist_Kh/
+Country code: AJ, Country name: Azerbaijan, Event info: Date: 20141212, Actor1: SPOKESMAN, url: http://en.apa.az/news/220270
+Country code: RI, Country name: Serbia, Event info: Date: 20141212, Actor1: GOVERNMENT, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: GV, Country name: Guinea, Event info: Date: 20141212, Actor1: AFRICA, url: http://news.gnom.es/pr/lynden-international-partners-with-gates-foundation-in-ebola-treatment-initiative
+Country code: WA, Country name: Namibia, Event info: Date: 20141212, Actor1: AFRICA, url: http://ewn.co.za/2014/12/12/OPINION-Africa-Check-Does-SA-face-an-electricity-grid-collapse
+Country code: WA, Country name: Namibia, Event info: Date: 20141212, Actor1: AFRICA, url: http://ewn.co.za/2014/12/12/OPINION-Africa-Check-Does-SA-face-an-electricity-grid-collapse
+Country code: WA, Country name: Namibia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.newera.com.na/2014/12/12/independent-single-woman-trend/
+Country code: WA, Country name: Namibia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.newera.com.na/2014/12/12/independent-single-woman-trend/
+Country code: AR, Country name: Argentina, Event info: Date: 20141213, Actor1: CHANCELLOR, url: http://www2.anba.com.br/noticia/21866203/diplomacy/ambassador-wants-to-broaden-brazil-lebanon-relations/
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141213, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/12/357074/helicopter-joins-in-vain-search-for-ex-head-of-bulgarias-sans-roundup.html
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141213, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/12/357074/helicopter-joins-in-vain-search-for-ex-head-of-bulgarias-sans-roundup.html
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141212, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/11/357038/helicopter-joined-search-for-ex-head-of-bulgarias-sans-no-results-official.html
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141212, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/11/357038/helicopter-joined-search-for-ex-head-of-bulgarias-sans-no-results-official.html
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141213, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/12/357074/helicopter-joins-in-vain-search-for-ex-head-of-bulgarias-sans-roundup.html
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141213, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/12/357074/helicopter-joins-in-vain-search-for-ex-head-of-bulgarias-sans-roundup.html
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141212, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/11/357038/helicopter-joined-search-for-ex-head-of-bulgarias-sans-no-results-official.html
+Country code: BU, Country name: Bulgaria, Event info: Date: 20141212, Actor1: SOFIA, url: http://focus-fen.net/./news/2014/12/11/357038/helicopter-joined-search-for-ex-head-of-bulgarias-sans-no-results-official.html
+Country code: SN, Country name: Singapore, Event info: Date: 20141212, Actor1: CHINESE, url: http://www.fastmarkets.com/base-metals-news/shfe-close-base-metals-price-lower-as-chinese-equities-continue-correction-86597
+Country code: SO, Country name: Somalia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.worldtribune.com/2014/12/12/no-season-peace-joy-record-breaking-57-million-war-victims/
+Country code: SO, Country name: Somalia, Event info: Date: 20141212, Actor1: AFRICA, url: http://article.wn.com/view/2014/12/12/Two_SA_families_mourn/
+Country code: SO, Country name: Somalia, Event info: Date: 20141212, Actor1: AFRICA, url: http://magharebia.com/en_GB/articles/awi/features/2014/12/12/feature-01
+Country code: SO, Country name: Somalia, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.coastweek.com/3750-Humanitarian-situation-worsens-in-Somalia-says-UN-co-ordinato.htm
+Country code: SO, Country name: Somalia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.worldtribune.com/2014/12/12/no-season-peace-joy-record-breaking-57-million-war-victims/
+Country code: SW, Country name: Sweden, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: SW, Country name: Sweden, Event info: Date: 20141212, Actor1: KABUL, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: SW, Country name: Sweden, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: SW, Country name: Sweden, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: SW, Country name: Sweden, Event info: Date: 20141212, Actor1: KABUL, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: SW, Country name: Sweden, Event info: Date: 20141212, Actor1: KABUL, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://medicalxpress.com/news/2014-12-ptsd-vital-treatment.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/EU_Mulls_New_Russia_Sanctions_Over_Crimea_Denmark_Says/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/EU_Mulls_New_Russia_Sanctions_Over_Crimea_Denmark_Says/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.nineoclock.ro/hero-dog-max-dumped-by-the-army-amazes-the-world/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://elpais.com/elpais/2014/12/12/inenglish/1418382880_458479.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/EU_Mulls_New_Russia_Sanctions_Over_Crimea_Denmark_Says/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.winnipegfreepress.com/local/Dinsdale-wont-seek-Liberal-nomination-for-Brandon-Souris-285636961.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.winnipegfreepress.com/local/Dinsdale-wont-seek-Liberal-nomination-for-Brandon-Souris-285636961.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://dunyanews.tv/index.php/en/Pakistan/249765-Raw-to-malign-Pakistan-in-international-community
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.observer-reporter.com/article/20141212/NEWS05/141219814
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.observer-reporter.com/article/20141212/NEWS05/141219814
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tbo.com/health/pulitzer-winning-photojournalist-dies-in-liberia-ap_health99a3c0ee35e345389a584fcbe1f72ba8
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.washingtonpost.com/world/iraq-presses-hagel-for-greater-us-military-support-against-islamic-state/2014/12/09/14bb34a6-7fae-11e4-8882-03cf08410beb_story.html?tid=hpModule_04941f10-8a79-11e2-98d9-3012c1cd8d1e
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mysanantonio.com/news/local/crime/article/Ex-cop-to-serve-time-for-shooting-stabbing-5953370.php
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.allmediany.com/news/39531-congress-authorizes-577-billion-in-us-defense-spending
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.wantchinatimes.com/news-subclass-cnt.aspx?id=20141212000137&cid=1101
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.wantchinatimes.com/news-subclass-cnt.aspx?id=20141212000137&cid=1101
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.thonline.com/news/national_world/article_d7d9dcd3-999d-516d-9479-53ff67916bb4.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.thonline.com/news/national_world/article_d7d9dcd3-999d-516d-9479-53ff67916bb4.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.newkerala.com/news/2014/fullnews-137948.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34656-Many-of-inhumanly-treated-CIA-detainees-were-handed-over-to-US-by-Musharraf
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34656-Many-of-inhumanly-treated-CIA-detainees-were-handed-over-to-US-by-Musharraf
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.hulldailymail.co.uk/Poppy-wearing-thugs-beat-Afghan-veteran-Corporal/story-25675097-detail/story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://fchornet.com/headlines/the-prince-of-wales-has-officially-opened-a-h530893.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://telesurtv.net/english/news/Afghan-Troops-Inept-Casualties-Soaring-20141211-0047.html&c=DBvWFzyX4EGHsJ4zJRfpqd4f64F9PCX3GzEaCbD5n6o&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessweek.com/news/2014-12-12/ex-louis-berger-group-ceo-pleads-guilty-in-usaid-fraud
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.financialexpress.com/article/miscellaneous/german-killed-in-kabul-attack-on-play-condemning-suicide-bombings/18358/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.financialexpress.com/article/miscellaneous/german-killed-in-kabul-attack-on-play-condemning-suicide-bombings/18358/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.smh.com.au/world/kabul-suicide-attack-at-play-condemning-suicide-bombers-20141212-125jix.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.globalpost.com/dispatch/news/xinhua-news-agency/141212/xinhua-asia-pacific-news-summary-at-1600gmt-dec-12
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.scunthorpetelegraph.co.uk/8203-Poppy-wearing-thugs-beat-Afghan-hero-Cpl/story-25702039-detail/story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HERAT, url: http://www.bostonglobe.com/opinion/2014/12/14/afghanistan-future-lies-with-saffron-farmers/6I0QKr1fngwv5POVQaO8GO/story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.expressnews.com/news/us-world/article/Suicide-blasts-kill-5-Afghan-troops-German-5952122.php
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Security_Council_Press_Statement_on_Kabul_Attack_ECOSOC_Unit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://article.wn.com/view/2014/12/12/Security_Council_Press_Statement_on_Kabul_Attack_ECOSOC_Unit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news1130.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/wires/ap/article-2871915/Before-death-teen-felt-comfortable-Kabul.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://ksut.org/post/how-can-rule-law-bring-justness-and-not-just-justice
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17417-62-inmates-including-taliban-collaborators-released-from-pul-e-charkhi
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17417-62-inmates-including-taliban-collaborators-released-from-pul-e-charkhi
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Security_Council_Press_Statement_on_Kabul_Attack_United_Nati/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.thefrontierpost.com/2014/12/pak-afghan-business-women-conference-agenda-discussed/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Recreating_the_Acropolis_Hill_and_its_temples_out_of_Lego/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Recreating_the_Acropolis_Hill_and_its_temples_out_of_Lego/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://reliefweb.int/report/iran-islamic-republic/iran-extends-residence-time-450000-afghan-refugees&c=A1tSHEZZOab7d1hVlThHu4Xp1F6Iof31jDOqdjGkTEo&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.nst.com.my/node/62144
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.khaama.com/17-militants-killed-16-injured-in-nangarhar-operations-8847
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tribune.com.pk/story/805924/porous-borders-landikotal-ration-quota-allegedly-being-smuggled-to-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://news.xinhuanet.com/english/2014-12/12/c_133851104.htm
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/taxonomy/term/3179&c=-Pw9K83AVDc1BQsE7_ug-KGG-_Io1SlMmGUlbDD1iwk&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17417-62-inmates-including-taliban-collaborators-released-from-pul-e-charkhi
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17417-62-inmates-including-taliban-collaborators-released-from-pul-e-charkhi
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17417-62-inmates-including-taliban-collaborators-released-from-pul-e-charkhi
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.khaama.com/president-ghani-appoints-new-acting-ministers-for-four-ministries-8848
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.khaama.com/president-ghani-appoints-new-acting-ministers-for-four-ministries-8848
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17436-cabinet-appointments-remain-unclear-as-ghanis-four-week-deadline-nears
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17436-cabinet-appointments-remain-unclear-as-ghanis-four-week-deadline-nears
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.khaama.com/afghan-intelligence-stops-smuggling-attempt-of-27-children-to-pakistan-8851
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.radioaustralia.net.au/international/2011-06-23/obama-announces-afghan-withdrawals/1398829
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dawn.com/news/1150611/chehlum-in-peshawar-today
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.turkishpress.com/news/415499&c=OR6G7B6jYMS3QX8etUSHc-cGBkjH4NaMGK6ib5EmF6w&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dawn.com/news/1150611/chehlum-in-peshawar-today
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/taxonomy/term/3179&c=-Pw9K83AVDc1BQsE7_ug-KGG-_Io1SlMmGUlbDD1iwk&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://carnegieendowment.org/2014/12/12/afghanistan-great-game-folio/hwjd
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.wlox.com/story/27618192/defense-bill-critical-to-south-ms-jobs-awaits-presidents-signature
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.christiantoday.com/article/cia.torture.what.should.the.christian.response.be/44347.htm
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.radioaustralia.net.au/international/2011-06-29/witnesses-describe-hotel-attack-terror/1398835
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.northjersey.com/community-news/tattoo-shop-donating-in-name-of-fallen-officer-soldier-1.1149824
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.vocativ.com/world/afghanistan-world/isis-vs-taliban-2/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.hertsandessexobserver.co.uk/Heroes-welcome-Wimbish-soldiers-returning/story-25702378-detail/story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ocala.com/article/20141212/OPINION/141219924
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.khaama.com/16th-general-assembly-of-youths-ended-in-tirana-98765
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.northjersey.com/community-news/tattoo-shop-donating-in-name-of-fallen-officer-soldier-1.1149824
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenorthernecho.co.uk/news/11664160.Village_mosaic_funded_by_late_county_councillor_unveiled/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/afghan-sense-of-insecurity/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.fastcoexist.com/3039654/change-generation/this-massive-chart-shows-the-war-in-afghanistan-as-a-numbing-litany-of-dea
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://worldmeets.us/lorientlejour000051POSTED.shtml
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.brecorder.com/top-stories/0/1251598/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.cdispatch.com/news/article.asp?aid=38683
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://caffeinatedthoughts.com/2014/12/army-chaplain-under-fire-for-advocating-christianity/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.military.com/daily-news/2014/12/12/fort-bragg-says-farewell-to-xviii-airborne-corps.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-13-34657-A-plan-to-make-Afghanistan-a-sub-state
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.brecorder.com/brief-recordings/0/1250666/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.dailytimes.com.pk/foreign/12-Dec-2014/un-slams-attack-at-french-institute-in-kabul
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KANDAHAR, url: http://rt.com/news/214067-cia-torture-victim-guantanamo/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.thonline.com/news/national_world/article_d7d9dcd3-999d-516d-9479-53ff67916bb4.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.huffingtonpost.com/chris-lockyear/counterterrorism-counterh_b_6310158.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://telesurtv.net/english/news/Afghan-Troops-Inept-Casualties-Soaring-20141211-0047.html&c=DBvWFzyX4EGHsJ4zJRfpqd4f64F9PCX3GzEaCbD5n6o&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.smh.com.au/world/kabul-suicide-attack-at-play-condemning-suicide-bombers-20141212-125jix.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.londonmercury.com/index.php/sid/228472581
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news1130.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-9-289855-The-sleeping-fighter-in-Fata
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.warringtonguardian.co.uk/news/11663180.Orford_woman_investigated_over_missing_charity_money_is_convicted_benefit_cheat/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HAMID KARZAI, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.londonmercury.com/index.php/sid/228472581
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/UN_voices_serious_concern_after_Taliban_attacks_hit_Kabul/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ktvz.com/news/sunriver-soldier-family-connects-across-the-miles/30210378
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://www.dawn.com/news/1150501&c=x1usNnphhrzC0P_qUnjUVSv2skL_XgO2Rv2nKZHUmzo&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17445-ghani-promises-security-at-any-cost-after-suicide-attack-on-high-school-theater
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.dawn.com/news/1150578/army-to-carry-on-operations-based-on-intelligence
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/international/13-Dec-2014/un-voices-concern-after-taliban-attacks-hit-kabul
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/international/13-Dec-2014/un-voices-concern-after-taliban-attacks-hit-kabul
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.expressnews.com/news/us-world/article/Suicide-blasts-kill-5-Afghan-troops-German-5952122.php
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.kfvs12.com/story/27601553/cia-chief-challenges-senate-torture-report
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.myfoxla.com/story/27612050/south-africans-mourn-slain-compatriots
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.myfoxla.com/story/27612050/south-africans-mourn-slain-compatriots
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.sbs.com.au/news/article/2014/12/12/australian-wounded-kabul-attack
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.heraldandnews.com/news/ap_news/teen-suicide-bomber-targets-kabul-school/article_5bb11818-8197-11e4-bf08-b32df805e6a3.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.warringtonguardian.co.uk/news/11663180.Orford_woman_investigated_over_missing_charity_money_is_convicted_benefit_cheat/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.carbonated.tv/news/afghanistan-kabul-bare-legged-woman
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.kplctv.com/story/27611852/kabul-hit-by-deadly-taliban-blast
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.myfoxla.com/story/27612050/south-africans-mourn-slain-compatriots
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.warringtonguardian.co.uk/news/11663180.Orford_woman_investigated_over_missing_charity_money_is_convicted_benefit_cheat/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.thefrontierpost.com/2014/12/pak-afghan-business-women-conference-agenda-discussed/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.dw.de/german-national-confirmed-dead-in-suicide-bombing-in-kabul/a-18125712
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: https://www.centralmaine.com/2014/12/11/teen-suicide-bomber-hits-school-in-afghanistan-a-german-citizen-is-killed-after-the-bomber-walked-into-a-packed-auditorium-during-a-performance/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://themountaineer.villagesoup.com/p/welcome-home-brother/1278533&c=FZq_WOgRhDZSDb2wOMf42ZueNU5R9yGSKbed-pxni94&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.newspressnow.com/news/nation_and_world/ap/article_baf9ee78-ad22-5bb3-a66b-a7ca00fd5bc2.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.turkishpress.com/news/415499&c=OR6G7B6jYMS3QX8etUSHc-cGBkjH4NaMGK6ib5EmF6w&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.chicagotribune.com/news/nationworld/sns-wp-blm-news-bc-declassified11-20141211-story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://newsweekpakistan.com/cia-torture-report-little-comfort-to-ex-detainees/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.financialexpress.com/article/miscellaneous/german-killed-in-kabul-attack-on-play-condemning-suicide-bombings/18358/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://hosted2.ap.org/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5/Article_2014-12-12-AF--South%20Africa-Kabul%20Life/id-5ac5476aa3fb41e789a304f2f4ea168d
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.myfoxla.com/story/27612050/south-africans-mourn-slain-compatriots
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.myfoxla.com/story/27612050/south-africans-mourn-slain-compatriots
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.canberratimes.com.au/world/pulitzerwinning-photojournalist-michel-du-cille-dies-in-liberia-on-assignment-20141212-1269xi.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.montgomeryadvertiser.com/story/news/local/dispatch/2014/12/11/congress-try-air-force-plan-shape-forces-future/20278159/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://apb.directionsmag.com/entry/gis-health-weekly-news-community-healthe-workers-map/427560
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.yourmiddleeast.com/videos/watch-world-famous-writer-meets-with-inspiring-young-syrian-refugees_28536
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://dailysignal.com/2014/12/12/watch-megyn-kelly-take-ivy-leaguers-delaying-exams-america-grit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://apb.directionsmag.com/entry/gis-health-weekly-news-community-healthe-workers-map/427560
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://dailysignal.com/2014/12/12/watch-megyn-kelly-take-ivy-leaguers-delaying-exams-america-grit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.nineoclock.ro/hero-dog-max-dumped-by-the-army-amazes-the-world/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thonline.com/news/national_world/article_d7d9dcd3-999d-516d-9479-53ff67916bb4.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.arabnews.com/news/673586
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thelocal.de/20141212/german-killed-in-afghan-suicide-attack
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.kplctv.com/story/27611852/kabul-hit-by-deadly-taliban-blast
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/wires/afp/article-2871601/Fiction-reality-deadly-Kabul-theatre-blast.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.al.com/news/index.ssf/2014/12/watch_soldier_returning_from_k.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.almanar.com.lb/english/adetails.php?eid=185326&frid=22&seccatid=47&cid=22&fromval=1
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.financialexpress.com/article/miscellaneous/german-killed-in-kabul-attack-on-play-condemning-suicide-bombings/18358/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thestatesman.net/news/93338-pakistan-has-stake-in-afghan-peace-process-us.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.theage.com.au/national/cia-must-convince-moderate-muslims-it-has-turned-away-from-torture-20141212-1257ag.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.khaama.com/afghan-intelligence-stops-smuggling-attempt-of-27-children-to-pakistan-8851
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.montgomeryadvertiser.com/story/news/local/dispatch/2014/12/11/congress-try-air-force-plan-shape-forces-future/20278159/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.newkerala.com/news/2014/fullnews-138011.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://timesargus.com/article/20141212/OPINION02/712129886
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://dailysignal.com/2014/12/12/watch-megyn-kelly-take-ivy-leaguers-delaying-exams-america-grit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.tolonews.com/en/afghanistan/17424-ministry-says-320-afghan-mothers-die-every-100000-births
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.vancouverdesi.com/news/nridiaspora/afghani-bruce-lee-lookalike-hopes-to-shed-positive-light-on-his-war-torn-country/823144/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.northjersey.com/community-news/tattoo-shop-donating-in-name-of-fallen-officer-soldier-1.1149824
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/afghan-sense-of-insecurity/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/afghan-sense-of-insecurity/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://abc7chicago.com/society/boys-get-surprise-as-dad-returns-home-from-afghanistan/435055/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.washingtonpost.com/opinions/foreign-policy-follies/2014/12/12/d15fddce-8156-11e4-b936-f3afab0155a7_story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/afghan-sense-of-insecurity/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://modernfarmer.com/2014/12/donkey-ambulance/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.cdispatch.com/news/article.asp?aid=38683
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenorthernecho.co.uk/news/11664160.Village_mosaic_funded_by_late_county_councillor_unveiled/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://dailysignal.com/2014/12/12/watch-megyn-kelly-take-ivy-leaguers-delaying-exams-america-grit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://worldmeets.us/lorientlejour000051POSTED.shtml
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.northjersey.com/community-news/tattoo-shop-donating-in-name-of-fallen-officer-soldier-1.1149824
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.theadanews.com/news/pulitzer-winning-journalist-dies-in-liberia/article_eb68d7ce-8256-11e4-9e25-6bdeb87f3717.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.northjersey.com/news/michel-du-cille-three-time-pulitzer-prize-winning-photojournalist-dies-at-58-1.1152444
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.fox28.com/story/27610766/senator-donnelly-urges-passage-of-bill-to-help-prevent-military-suicides
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.app.com/story/opinion/columnists/2014/12/11/robinson-answered-evil-evil/20261245/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.al.com/news/index.ssf/2014/12/watch_soldier_returning_from_k.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.vancouverdesi.com/news/nridiaspora/afghani-bruce-lee-lookalike-hopes-to-shed-positive-light-on-his-war-torn-country/823144/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.theage.com.au/national/cia-must-convince-moderate-muslims-it-has-turned-away-from-torture-20141212-1257ag.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.breitbart.com/Big-Peace/2014/12/12/Unable-to-pay-salaries--Afghanistan-asks-donors-for-more-money
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://modernfarmer.com/2014/12/donkey-ambulance/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.plenglish.com/index.php?option=com_content&task=view&id=3365581&Itemid=1
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HAMID KARZAI, url: http://www.tolonews.com/en/afghanistan/17428-president-ghani-condemns-cia-torture-tactics
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HAMID KARZAI, url: http://www.tolonews.com/en/afghanistan/17428-president-ghani-condemns-cia-torture-tactics
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thefrontierpost.com/2014/12/corps-commanders-meeting-assesses-progress-on-military-operations/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.yourmiddleeast.com/videos/watch-world-famous-writer-meets-with-inspiring-young-syrian-refugees_28536
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.tolonews.com/en/miscellaneous-category/17421-first-100-days-president-ghani-asks-for-slow-withdraw-of-foreign-forces-from-afghanistan
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.washingtonpost.com/opinions/foreign-policy-follies/2014/12/12/d15fddce-8156-11e4-b936-f3afab0155a7_story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://dailysignal.com/2014/12/12/watch-megyn-kelly-take-ivy-leaguers-delaying-exams-america-grit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.vocativ.com/world/afghanistan-world/isis-vs-taliban-2/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.vocativ.com/world/afghanistan-world/isis-vs-taliban-2/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.vocativ.com/world/afghanistan-world/isis-vs-taliban-2/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.vocativ.com/world/afghanistan-world/isis-vs-taliban-2/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mynews3.com/content/news/story/313th-Military-Police-Detachment-Las-Vegas-return/CwGrxSdSZU6lcczUsM3iJg.cspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.plenglish.com/index.php?option=com_content&task=view&id=3365581&Itemid=1
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mynews3.com/mostpopular/story/313th-Military-Police-Detachment-Las-Vegas-return/CwGrxSdSZU6lcczUsM3iJg.cspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: JALALABAD, url: http://www.nst.com.my/node/62144
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/an-afghan-dilemma-for-china-and-india/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.denverpost.com/editorials/ci_27126494/cutting-cord-afghanistan
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HAMID KARZAI, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HAMID KARZAI, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://news2.onlinenigeria.com/news/general/390787-suicide-bomber-targets-french-school-in-kabul.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HERAT, url: http://www.bostonglobe.com/opinion/2014/12/14/afghanistan-future-lies-with-saffron-farmers/6I0QKr1fngwv5POVQaO8GO/story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: HERAT, url: http://www.bostonglobe.com/opinion/2014/12/14/afghanistan-future-lies-with-saffron-farmers/6I0QKr1fngwv5POVQaO8GO/story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://news2.onlinenigeria.com/news/general/390787-suicide-bomber-targets-french-school-in-kabul.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.commercialappeal.com/news/day-in-pictures-december-12-2014
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.english.rfi.fr/asia-pacific/20141212-taliban-targeted-culture-and-creation-kabul-school-blast-hollande
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/Seven_dead_as_two_suicide_attacks_rock_Kabul/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.tolonews.com/en/afghanistan/17426-parliament-calls-mehsud-handover-violation-of-afghan-sovereignty
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://www.brecorder.com/general-news/172/1250752/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/Seven_dead_as_two_suicide_attacks_rock_Kabul/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.khaama.com/revival-of-attan-afghanistans-national-dance-8846
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thefrontierpost.com/2014/12/pak-afghan-business-women-conference-agenda-discussed/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.independent.ie/world-news/americas/teen-suicide-bomber-in-deadly-attack-at-high-school-30825842.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://telesurtv.net/english/news/Afghan-Troops-Inept-Casualties-Soaring-20141211-0047.html&c=DBvWFzyX4EGHsJ4zJRfpqd4f64F9PCX3GzEaCbD5n6o&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.theage.com.au/world/seven-dead-as-suicide-attacks-rock-kabul-20141211-125g8d.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.clevelandstar.com/index.php/sid/228472581
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/us-diplomats-visit-rcci-to-discuss-pak-afghan-business-women-moot
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://news2.onlinenigeria.com/news/general/390787-suicide-bomber-targets-french-school-in-kabul.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.tolonews.com/en/afghanistan/17445-ghani-promises-security-at-any-cost-after-suicide-attack-on-high-school-theater
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dawn.com/news/1150501&c=x1usNnphhrzC0P_qUnjUVSv2skL_XgO2Rv2nKZHUmzo&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.theage.com.au/world/seven-dead-as-suicide-attacks-rock-kabul-20141211-125g8d.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/us-diplomats-visit-rcci-to-discuss-pak-afghan-business-women-moot
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.theage.com.au/world/seven-dead-as-suicide-attacks-rock-kabul-20141211-125g8d.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Security_Council_Press_Statement_on_Kabul_Attack_ECOSOC_Unit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.dawn.com/news/1150578/army-to-carry-on-operations-based-on-intelligence
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.thefrontierpost.com/2014/12/sadiqi-security-forces-casualties-up-by-20pc/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/us-diplomats-visit-rcci-to-discuss-pak-afghan-business-women-moot
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://www.thenews.com.pk/Todays-News-9-289855-The-sleeping-fighter-in-Fata
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://nation.com.pk/international/13-Dec-2014/un-voices-concern-after-taliban-attacks-hit-kabul
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Unable_to_pay_salaries_Afghanistan_asks_donors_for_more_mone/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.aawsat.net/2014/12/article55339411
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/asia_pacific/2014/12/12/asia_impunity/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://carnegieendowment.org/2014/12/12/afghanistan-great-game-folio/hwjd
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.aawsat.net/2014/12/article55339411
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://theconversation.com/a-friend-injured-in-kabul-and-a-sad-message-about-testing-limits-in-afghanistan-today-35407
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.dawn.com/news/1150501&c=x1usNnphhrzC0P_qUnjUVSv2skL_XgO2Rv2nKZHUmzo&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://nation.com.pk/international/13-Dec-2014/un-voices-concern-after-taliban-attacks-hit-kabul
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.tolonews.com/en/afghanistan/17445-ghani-promises-security-at-any-cost-after-suicide-attack-on-high-school-theater
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.khaama.com/haqqani-network-used-child-bomber-in-french-school-attack-nds-8849
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.business-standard.com/article/pti-stories/un-voices-serious-concern-after-taliban-attacks-hit-kabul-114121200202_1.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.theage.com.au/world/seven-dead-as-suicide-attacks-rock-kabul-20141211-125g8d.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://zeenews.india.com/news/south-asia/un-voices-serious-concern-after-taliban-attacks-hit-kabul_1513476.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://zeenews.india.com/news/south-asia/un-voices-serious-concern-after-taliban-attacks-hit-kabul_1513476.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.tolonews.com/en/afghanistan/17429-six-mod-personnel-killed-in-kabul-suicide-attack
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://news2.onlinenigeria.com/news/general/390787-suicide-bomber-targets-french-school-in-kabul.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.sbs.com.au/news/article/2014/12/12/australian-wounded-kabul-attack
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news.com.au/world/slain-teenager-jean-pierre-groenewald-felt-safe-in-afghanistan-before-taliban-murder/story-fndir2ev-1227154813519
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.channelnewsasia.com/news/asiapacific/fiction-becomes-reality/1526882.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.dailytimes.com.pk/editorial/13-Dec-2014/afghanistan-bleeds
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.brecorder.com/general-news/172/1250752/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.expressnews.com/news/us-world/article/Suicide-blasts-kill-5-Afghan-troops-German-5952122.php
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/Jos_bomb_attacks_Poor_Nigerians_need_protection_g/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.tolonews.com/en/afghanistan/17426-parliament-calls-mehsud-handover-violation-of-afghan-sovereignty
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.news24.com/SouthAfrica/News/South-Africans-mourn-slain-compatriots-20141212-17
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://zeenews.india.com/news/south-asia/un-voices-serious-concern-after-taliban-attacks-hit-kabul_1513476.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.thenews.com.pk/Todays-News-9-289855-The-sleeping-fighter-in-Fata
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.news-journal.com/news/world/german-citizen-killed-in-kabul-bombing/article_250211d2-aa04-5852-9aa8-7b38bfc65b08.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://ksut.org/post/how-can-rule-law-bring-justness-and-not-just-justice
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.tolonews.com/en/afghanistan/17429-six-mod-personnel-killed-in-kabul-suicide-attack
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.business-standard.com/article/pti-stories/un-voices-serious-concern-after-taliban-attacks-hit-kabul-114121200202_1.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.business-standard.com/article/pti-stories/un-voices-serious-concern-after-taliban-attacks-hit-kabul-114121200202_1.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://article.wn.com/view/2014/12/12/Security_Council_Press_Statement_on_Kabul_Attack_ECOSOC_Unit/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.sussexcountian.com/article/ZZ/20141211/NEWS/141219955/13617/NEWS
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://telesurtv.net/english/news/Afghan-Troops-Inept-Casualties-Soaring-20141211-0047.html&c=DBvWFzyX4EGHsJ4zJRfpqd4f64F9PCX3GzEaCbD5n6o&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://citizen.co.za/292070/hannelie-groenewald-fogives-taliban-familys-murder/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: ZAHIR TANIN, url: http://www.enewspf.com/latest-news/latest-national/latest-national-news/57618-afghanistan-un-security-council-backs-agreement-on-new-non-combat-nato-mission.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.cfr.org/about/newsletters/archive/newsletter/n2450
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Unable_to_pay_salaries_Afghanistan_asks_donors_for_more_mone/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Cat_gorges_on_1000_of_fish_in_Russian_airport/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/UN_voices_serious_concern_after_Taliban_attacks_hit_Kabul/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://english.al-akhbar.com/content/world-reacts-cia-torture-report-anger-apathy
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://english.al-akhbar.com/content/world-reacts-cia-torture-report-anger-apathy
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.sussexcountian.com/article/ZZ/20141211/NEWS/141219955/13617/NEWS
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.sussexcountian.com/article/ZZ/20141211/NEWS/141219955/13617/NEWS
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://rt.com/news/214067-cia-torture-victim-guantanamo/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.chicagotribune.com/news/nationworld/sns-wp-blm-news-bc-declassified11-20141211-story.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://english.al-akhbar.com/content/world-reacts-cia-torture-report-anger-apathy
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: ASHRAF GHANI, url: http://english.al-akhbar.com/content/world-reacts-cia-torture-report-anger-apathy
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.tolonews.com/en/afghanistan/17438-us-closes-last-detention-center-in-afghanistan-as-senate-report-sparks-controversy
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.turkishpress.com/news/415499&c=OR6G7B6jYMS3QX8etUSHc-cGBkjH4NaMGK6ib5EmF6w&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.londonmercury.com/index.php/sid/228472581
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.turkishpress.com/news/415499&c=OR6G7B6jYMS3QX8etUSHc-cGBkjH4NaMGK6ib5EmF6w&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.smh.com.au/world/kabul-suicide-attack-at-play-condemning-suicide-bombers-20141212-125jix.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.financialexpress.com/article/miscellaneous/german-killed-in-kabul-attack-on-play-condemning-suicide-bombings/18358/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.militarytimes.com/story/military/crime/2014/12/12/army-afghanistan-supreme-fraud/20208249/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://ewn.co.za/2014/12/12/Pierre-Korkie-laid-to-rest
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.570news.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.stripes.com/news/middle-east/i-love-the-life-i-m-living-south-african-teen-killed-in-kabul-had-no-regrets-1.318919
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/Pierre_Korkie_laid_to_rest/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: https://www.opendemocracy.net/ourkingdom/harry-blain/are-we-leaving-londoner-to-die-in-guantanamo
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://nation.com.pk/business/13-Dec-2014/afghanistan-plans-to-set-up-3-free-economic-zones-for-pak-investors
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.stripes.com/news/middle-east/us-providing-little-information-to-judge-progress-against-islamic-state-1.319012
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/wires/ap/article-2871116/Washington-Post-photojournalist-dies-Liberia.html
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.stripes.com/news/middle-east/us-providing-little-information-to-judge-progress-against-islamic-state-1.319012
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.washingtonpost.com/news/in-sight/wp/2014/12/12/michel-du-cille-dignity-tragedy/
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.tolonews.com/en/afghanistan/17438-us-closes-last-detention-center-in-afghanistan-as-senate-report-sparks-controversy
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://carnegieendowment.org/2014/12/12/afghanistan-great-game-folio/hwjd
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://telesurtv.net/english/news/Afghan-Troops-Inept-Casualties-Soaring-20141211-0047.html&c=DBvWFzyX4EGHsJ4zJRfpqd4f64F9PCX3GzEaCbD5n6o&mkt=en-us
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: KABUL, url: http://www.naharnet.com/stories/en/158870-u-n-voices-serious-concern-after-taliban-attacks-hit-kabul
+Country code: AF, Country name: Afghanistan, Event info: Date: 20141212, Actor1: TALIBAN, url: http://carnegieendowment.org/2014/12/12/afghanistan-great-game-folio/hwjd
+Country code: LA, Country name: Laos, Event info: Date: 20141212, Actor1: BANGKOK, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: LA, Country name: Laos, Event info: Date: 20141212, Actor1: BANGKOK, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: LA, Country name: Laos, Event info: Date: 20141212, Actor1: LAOS, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: LA, Country name: Laos, Event info: Date: 20141212, Actor1: LAOS, url: http://www.internationalrivers.org/resources/pr-flawed-consultation-rubber-stamp-for-don-sahong-dam-8462
+Country code: BO, Country name: Belarus, Event info: Date: 20141212, Actor1: RUSSIAN, url: http://www.tvr.by/eng/news.asp?id=30752&cid=15
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.dw.de/german-national-confirmed-dead-in-suicide-bombing-in-kabul/a-18125712
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://gulftoday.ae/portal/f331d233-c7be-4dff-ab6e-21c1b5586407.aspx
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: TALIBAN, url: http://article.wn.com/view/2014/12/12/Kabul_suicide_attack_at_play_condemning_suicide_bombers_y/
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: KABUL, url: http://www.thonline.com/news/national_world/article_e34d9910-81a9-11e4-8c15-7b55d08716c6.html
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: THE NETHERLAND, url: http://article.wn.com/view/2014/12/11/Koenders_praises_Mideast_Youth_as_paragon_of_innovative_huma_c/
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.commercialappeal.com/news/day-in-pictures-december-12-2014
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: AFGHAN, url: http://news2.onlinenigeria.com/news/general/390787-suicide-bomber-targets-french-school-in-kabul.html
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: AFGHAN, url: http://news2.onlinenigeria.com/news/general/390787-suicide-bomber-targets-french-school-in-kabul.html
+Country code: GM, Country name: Germany, Event info: Date: 20141212, Actor1: TALIBAN, url: http://article.wn.com/view/2014/12/12/UN_voices_serious_concern_after_Taliban_attacks_hit_Kabul/
+Country code: UV, Country name: Burkina Faso, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.ifex.org/burkina_faso/2014/12/08/huge_victory/
+Country code: UV, Country name: Burkina Faso, Event info: Date: 20141212, Actor1: AFRICA, url: http://article.wn.com/view/2014/12/12/ECR_group_condemns_the_arrest_of_investigative_journalist_Kh/
+Country code: KZ, Country name: Kazakhstan, Event info: Date: 20141212, Actor1: LI KEQIANG, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: KZ, Country name: Kazakhstan, Event info: Date: 20141212, Actor1: KAZAKHSTAN, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: KZ, Country name: Kazakhstan, Event info: Date: 20141212, Actor1: KAZAKHSTAN, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: KZ, Country name: Kazakhstan, Event info: Date: 20141212, Actor1: KAZAKHSTAN, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: KZ, Country name: Kazakhstan, Event info: Date: 20141212, Actor1: GOVERNMENT, url: http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/t1218435.shtml
+Country code: UZ, Country name: Uzbekistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: UZ, Country name: Uzbekistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://magicvalley.com/news/local/idaho-man-charged-in-uzbekistan-terror-plot/article_162d26d1-befe-54b8-98ca-bd2fd378913e.html
+Country code: ZI, Country name: Zimbabwe, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412120806.html
+Country code: ZI, Country name: Zimbabwe, Event info: Date: 20141212, Actor1: ZIMBABWE, url: http://www.delmarvanow.com/story/news/local/maryland/2014/12/10/chambers-ireton-consequences/20214243/
+Country code: ZI, Country name: Zimbabwe, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.dailymail.co.uk/wires/reuters/article-2871374/Zimbabwes-Mnangagwa-sworn-office-leads-race-succeed-Mugabe.html
+Country code: ZI, Country name: Zimbabwe, Event info: Date: 20141212, Actor1: ZIMBABWEAN, url: http://bulawayo24.com/index-id-opinion-sc-columnist-byo-59225.html
+Country code: NO, Country name: Norway, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.abc.net.au/news/2014-12-12/malala-yousafzai-slammed-by-pakistan-taliban/5964912
+Country code: NO, Country name: Norway, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.omantribune.com/index.php?page=news&id=179985&heading=Pakistan
+Country code: NO, Country name: Norway, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.omantribune.com/index.php?page=news&id=179985&heading=Pakistan
+Country code: NO, Country name: Norway, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.southcoasttoday.com/article/20141212/NEWS/141219832/101206/NEWS0301
+Country code: NO, Country name: Norway, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.ndtv.com/article/world/malala-yousafzai-sympathetic-to-mexican-protester-at-nobel-ceremony-633460
+Country code: SY, Country name: Syria, Event info: Date: 20141212, Actor1: TALIBAN, url: http://dailystar.com.lb/News/Lebanon-News/2014/Dec-12/280814-jumblatt-hostage-swap-no-blow-to-lebanons-prestige.ashx
+Country code: SY, Country name: Syria, Event info: Date: 20141212, Actor1: TALIBAN, url: http://dailystar.com.lb/News/Lebanon-News/2014/Dec-12/280814-jumblatt-hostage-swap-no-blow-to-lebanons-prestige.ashx
+Country code: SY, Country name: Syria, Event info: Date: 20141212, Actor1: SMUGGLER, url: http://www.breitbart.com/Breitbart-London/2014/12/11/Mediterranean-the-most-deadly-sea-ever-says-the-UN
+Country code: SY, Country name: Syria, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tucsonsentinel.com/nationworld/report/120914_guantanamo_prisoners_uruguay/freed-gitmo-prisoners-go-uruguay/
+Country code: QA, Country name: Qatar, Event info: Date: 20141212, Actor1: TALIBAN, url: http://dailystar.com.lb/News/Lebanon-News/2014/Dec-12/280814-jumblatt-hostage-swap-no-blow-to-lebanons-prestige.ashx
+Country code: QA, Country name: Qatar, Event info: Date: 20141212, Actor1: AFRICA, url: http://businessnews.com.ng/2014/12/12/telecom-sector-attracts-24-foreign-investments-minister/
+Country code: MO, Country name: Morocco, Event info: Date: 20141213, Actor1: MINIST, url: http://www.newstimeafrica.com/archives/37009
+Country code: MP, Country name: Mauritius, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.lemauricien.com/article/sub-saharan-africa-s-perspective-distance-learning
+Country code: PO, Country name: Portugal, Event info: Date: 20141212, Actor1: PORTUGAL, url: http://www.dailymail.co.uk/news/article-2869936/Female-Met-officer-taking-Madeleine-McCann-inquiry-arrives-Portugal-ahead-questioning-former-suspect-Robert-Murat.html
+Country code: PO, Country name: Portugal, Event info: Date: 20141212, Actor1: POLICE, url: http://www.dailymail.co.uk/news/article-2869936/Female-Met-officer-taking-Madeleine-McCann-inquiry-arrives-Portugal-ahead-questioning-former-suspect-Robert-Murat.html
+Country code: PO, Country name: Portugal, Event info: Date: 20141212, Actor1: POLICE, url: http://www.dailymail.co.uk/news/article-2869936/Female-Met-officer-taking-Madeleine-McCann-inquiry-arrives-Portugal-ahead-questioning-former-suspect-Robert-Murat.html
+Country code: UP, Country name: Ukraine, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.heritage.org/research/commentary/2014/12/fivethirtyeight-gets-land-mine-data-wrong
+Country code: UP, Country name: Ukraine, Event info: Date: 20141212, Actor1: DONBAS, url: http://itar-tass.com/en/world/766382
+Country code: MX, Country name: Mexico, Event info: Date: 20141213, Actor1: MEXICO, url: http://www.si.com/swim-daily/2014/12/11/throwback-thursday-2002-bridget-hall-mexico
+Country code: MX, Country name: Mexico, Event info: Date: 20141213, Actor1: ARKANSAS, url: http://www.si.com/swim-daily/2014/12/11/throwback-thursday-2002-bridget-hall-mexico
+Country code: MX, Country name: Mexico, Event info: Date: 20141212, Actor1: TALIBAN, url: http://timesargus.com/article/20141212/NEWS04/712129977
+Country code: MX, Country name: Mexico, Event info: Date: 20141213, Actor1: ARKANSAS, url: http://www.si.com/swim-daily/2014/12/11/throwback-thursday-2002-bridget-hall-mexico
+Country code: TX, Country name: Turkmenistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.eurasianet.org/node/71331
+Country code: JA, Country name: Japan, Event info: Date: 20141212, Actor1: INVESTOR, url: http://www.investing.com/analysis/japanese-yen-trading-lower-in-the-asian-session-235402
+Country code: JA, Country name: Japan, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.itweb.co.za/index.php?option=com_content&view=article&id=140039:Printers-load-shedding-got-you-down-
+Country code: TI, Country name: Tajikistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.wantchinatimes.com/news-subclass-cnt.aspx?id=20141212000137&cid=1101
+Country code: TI, Country name: Tajikistan, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.wantchinatimes.com/news-subclass-cnt.aspx?id=20141212000137&cid=1101
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17445-ghani-promises-security-at-any-cost-after-suicide-attack-on-high-school-theater
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFRICA, url: http://travel.iafrica.com/departurelounge/975025.html
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.afghanistansun.com/index.php/sid/228485635
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.sbs.com.au/news/article/2014/12/12/australian-wounded-kabul-attack
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: KABUL, url: http://www.kplctv.com/story/27611852/kabul-hit-by-deadly-taliban-blast
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.afghanistansun.com/index.php/sid/228490069
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: KABUL, url: http://www.kplctv.com/story/27611852/kabul-hit-by-deadly-taliban-blast
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.afghanistansun.com/index.php/sid/228485635
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.english.rfi.fr/asia-pacific/20141212-taliban-targeted-culture-and-creation-kabul-school-blast-hollande
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/wires/afp/article-2871382/German-killed-Afghan-suicide-attack-Berlin.html
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Cat_gorges_on_1000_of_fish_in_Russian_airport/
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/German_citizen_killed_in_Kabul_school_bombing_v/
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: TALIBAN, url: http://economictimes.indiatimes.com/news/international/world-news/un-voices-serious-concern-after-taliban-attacks-hit-kabul/articleshow/45491302.cms
+Country code: FR, Country name: France, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.theage.com.au/world/seven-dead-as-suicide-attacks-rock-kabul-20141211-125g8d.html
+Country code: MZ, Country name: Mozambique, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.thecattlesite.com/news/47107/oie-encouraged-by-progress-made-in-fmd-controlled-areas&c=HvLwHOLPdvYtohTKRHEBPG90XMIa0wRZzp6Yen1lxa8&mkt=en-us
+Country code: MZ, Country name: Mozambique, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.defenceweb.co.za/index.php?option=com_content&view=article&id=37369:true-rhino-poaching-death-statistics-are-30-higher&catid=87:border-security&Itemid=188
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/wires/ap/article-2871915/Before-death-teen-felt-comfortable-Kabul.html
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/wires/ap/article-2871915/Before-death-teen-felt-comfortable-Kabul.html
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Pierre_Korkie_laid_to_rest/
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.sfgate.com/news/world/article/South-Africans-mourn-slain-compatriots-5952403.php
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.newspressnow.com/news/nation_and_world/ap/article_5ab85c22-6efc-524e-bafa-108b312a2ad7.html
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: VILLAGE, url: http://sfbayview.com/2014/12/i-grew-up-in-guantanamo-now-that-you-have-heard-my-story-you-cannot-turn-away/
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.independenttribune.com/news/world/ap/before-his-death-teen-felt-comfortable-in-kabul/article_be713f51-fe73-542f-84dd-56d5041e5cf0.html
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.arabnews.com/news/673651
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.arabnews.com/news/673651
+Country code: YM, Country name: Yemen, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://hosted2.ap.org/CAANR/0260ea4c3e85456b80715585ba3c7b5b/Article_2014-12-12-AF--South%20Africa-Kabul%20Life/id-6cd66ec277af43ec946b17b76c7108e9
+Country code: CU, Country name: Cuba, Event info: Date: 20141213, Actor1: CUBA, url: http://cubadata.blogspot.com/2014/12/requiem-for-10th-of-december.html
+Country code: CU, Country name: Cuba, Event info: Date: 20141212, Actor1: VILLAGE, url: http://sfbayview.com/2014/12/i-grew-up-in-guantanamo-now-that-you-have-heard-my-story-you-cannot-turn-away/
+Country code: SG, Country name: Senegal, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.dailysabah.com/world/2014/12/12/ebola-fighters-named-times-people-of-the-year
+Country code: EI, Country name: Ireland, Event info: Date: 20141212, Actor1: IRELAND, url: http://www.irishexaminer.com/ireland/mhaukfsnauoj/rss2/
+Country code: EI, Country name: Ireland, Event info: Date: 20141213, Actor1: BUSINESS, url: http://www.irishexaminer.com/ireland/allergen-info-must-appear-on-all-menus-302147.html
+Country code: EI, Country name: Ireland, Event info: Date: 20141213, Actor1: BUSINESS, url: http://www.irishexaminer.com/ireland/allergen-info-must-appear-on-all-menus-302147.html
+Country code: EI, Country name: Ireland, Event info: Date: 20141213, Actor1: BUSINESS, url: http://www.irishexaminer.com/ireland/allergen-info-must-appear-on-all-menus-302147.html
+Country code: EI, Country name: Ireland, Event info: Date: 20141212, Actor1: IRELAND, url: http://www.businessweek.com/news/2014-12-11/cameron-demands-urgency-as-he-flies-in-for-northern-irish-talks
+Country code: EI, Country name: Ireland, Event info: Date: 20141212, Actor1: DUBLIN, url: http://www.rte.ie/news/2014/1211/666279-homelessness/
+Country code: EI, Country name: Ireland, Event info: Date: 20141212, Actor1: IRELAND, url: http://www.midlandsradio.fm/news/gardaa-investigate-discovery-of-mans-body-in-meath
+Country code: KE, Country name: Kenya, Event info: Date: 20141212, Actor1: BANK, url: http://www.the-star.co.ke/news/co-op-banks-ouma-ruled-out-tomorrows-play
+Country code: KE, Country name: Kenya, Event info: Date: 20141212, Actor1: BANK, url: http://www.the-star.co.ke/news/co-op-banks-ouma-ruled-out-tomorrows-play
+Country code: KE, Country name: Kenya, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.rep-am.com/articles/2014/12/12/news/national/848718.txt
+Country code: CQ, Country name: Northern Mariana Islands, Event info: Date: 20141212, Actor1: TALIBAN, url: http://dailystar.com.lb/News/Lebanon-News/2014/Dec-12/280814-jumblatt-hostage-swap-no-blow-to-lebanons-prestige.ashx
+Country code: CQ, Country name: Northern Mariana Islands, Event info: Date: 20141212, Actor1: THERESA MAY, url: http://www.northamptonchron.co.uk/news/politics/home-secretary-theresa-may-visiting-northampton-1-6468668
+Country code: AM, Country name: Armenia, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://agenda.ge/news/26279/eng
+Country code: AM, Country name: Armenia, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.aysor.am/en/news/2014/12/11/Suicide-bomber-hits-French-Cultural-Center-in-Kabul/883977
+Country code: AM, Country name: Armenia, Event info: Date: 20141212, Actor1: ARMENIA, url: http://agenda.ge/news/26279/eng
+Country code: BE, Country name: Belgium, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.chicagotribune.com/sns-wp-blm-news-bc-tusk12-20141212-story.html
+Country code: BE, Country name: Belgium, Event info: Date: 20141212, Actor1: RUSSIA, url: http://www.ptinews.com/news/5447181_Deals-with-Russia-for-direct-sourcing-of-diamonds-.html
+Country code: LI, Country name: Liberia, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.canberratimes.com.au/world/pulitzerwinning-photojournalist-michel-du-cille-dies-in-liberia-on-assignment-20141212-1269xi.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/news/article-2872354/Twisted-trio-won-t-death-kidnapped-raped-tortured-dismembered-Marine-wife-refusing-participate-bondage-sex-games-husband-Afghanistan.html?ITO=1490&ns_campaign=1490
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.observer-reporter.com/article/20141212/NEWS05/141219814
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tbo.com/health/pulitzer-winning-photojournalist-dies-in-liberia-ap_health99a3c0ee35e345389a584fcbe1f72ba8
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://magicvalley.com/news/local/idaho-man-charged-in-uzbekistan-terror-plot/article_162d26d1-befe-54b8-98ca-bd2fd378913e.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.washingtonpost.com/world/iraq-presses-hagel-for-greater-us-military-support-against-islamic-state/2014/12/09/14bb34a6-7fae-11e4-8882-03cf08410beb_story.html?tid=hpModule_04941f10-8a79-11e2-98d9-3012c1cd8d1e
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.the-leader.com/article/20141208/NEWS/141209731/10059/NEWS
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessweek.com/news/2014-12-12/ex-louis-berger-group-ceo-pleads-guilty-in-usaid-fraud
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.stripes.com/news/maritime-drones-make-waves-among-navies-worldwide-1.151087
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businessweek.com/news/2014-12-12/ex-louis-berger-group-ceo-pleads-guilty-in-usaid-fraud
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.businessinsider.in/The-Politburo-Approved-The-Soviet-Invasion-Of-Afghanistan-35-Years-Ago-Today/articleshow/45499640.cms
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/an-afghan-dilemma-for-china-and-india/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.pakistantoday.com.pk/2014/12/13/comment/an-afghan-dilemma-for-china-and-india/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.radioaustralia.net.au/international/2011-06-23/obama-announces-afghan-withdrawals/1398829
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.phoenixherald.com/index.php/sid/228472581
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news1130.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.birminghamstar.com/index.php/sid/228472581
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news1130.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.digitalspy.com/fun/news/a616124/bruce-lee-lookalike-wows-martial-arts-fans.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.digitalspy.com/fun/news/a616124/bruce-lee-lookalike-wows-martial-arts-fans.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.dailymail.co.uk/news/article-2872354/Twisted-trio-won-t-death-kidnapped-raped-tortured-dismembered-Marine-wife-refusing-participate-bondage-sex-games-husband-Afghanistan.html?ITO=1490&ns_campaign=1490
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.whig.com/story/27611261/washington-post-photojournalist-dies-in-liberia
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.observer-reporter.com/article/20141212/NEWS05/141219814
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.elpasoinc.com/news/wire/washington/article_cc64c484-1240-5843-b7d7-bda3384f523a.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tbo.com/health/pulitzer-winning-photojournalist-dies-in-liberia-ap_health99a3c0ee35e345389a584fcbe1f72ba8
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: WASHINGTON, url: http://nhpr.org/post/ohio-protestors-among-those-headed-dc-march-against-police-violence
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.amaproracing.com/ft/news/index.cfm?cid=61888
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://agenda.ge/news/26279/eng
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: PRESIDENT, url: http://agenda.ge/news/26279/eng
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Pierre_Korkie_laid_to_rest/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: KABUL, url: http://article.wn.com/view/2014/12/12/Pierre_Korkie_laid_to_rest/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ourmidland.com/news/plymouth-elementary-students-learn-about-the-military-experience-from-veteran/article_f790843a-ba8b-583a-b62a-ed5027f80ac0.html
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SCHOOL, url: http://www.laportecountylife.com/community/education/48850-barker-middle-school-named-state-finalist-in-samsung-solve-for-tomorrow-contest
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: COMPANY, url: http://www.katc.com/story/27618428/factory-of-workers-out-of-the-job-in-iberia-parish
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: HERAT, url: http://www.bostonglobe.com/opinion/2014/12/14/afghanistan-future-lies-with-saffron-farmers/6I0QKr1fngwv5POVQaO8GO/story.html
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: MAINE, url: http://article.wn.com/view/2014/12/12/TravelCenters_of_America_to_Participate_in_Wreaths_across_Am/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: MINNESOTA, url: http://www.mprnews.org/story/2014/12/12/dayton-pheasants
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.northjersey.com/community-news/clubs-and-service-organizations/knights-of-columbus-tank-pull-helps-wounded-veterans-1.1152078
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: PRESIDENT, url: http://newyork.cbslocal.com/2014/12/12/small-fire-prompts-evacuation-of-american-museum-of-natural-history/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tdn-net.com/news/editorial/150863815/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tdn-net.com/news/editorial/150863815/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: CORNISH, url: http://nhpr.org/post/ohio-protestors-among-those-headed-dc-march-against-police-violence
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: CORNISH, url: http://nhpr.org/post/ohio-protestors-among-those-headed-dc-march-against-police-violence
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.dallassun.com/index.php/sid/228472581
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mysanantonio.com/news/local/crime/article/Ex-cop-to-serve-time-for-shooting-stabbing-5953370.php
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.military.com/daily-news/2014/12/12/senators-hold-threatens-clay-hunt-veteran-suicide-legislation.html
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.wcax.com/story/27616585/south-burlington-students-get-technical
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: PERU, url: http://blueandgreentomorrow.com/2014/12/11/ed-davey-investors-should-be-informed-of-fossil-fuel-investment-risks/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SCHOOL, url: http://wyomingpublicmedia.org/post/meeteetse-school-wins-science-award
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.the-leader.com/article/20141208/NEWS/141209731/10059/NEWS
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: HAMID KARZAI, url: http://www.tolonews.com/en/afghanistan/17428-president-ghani-condemns-cia-torture-tactics
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://freerepublic.com/focus/f-chat/3236586/posts
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mysanantonio.com/news/local/crime/article/Ex-cop-to-serve-time-for-shooting-stabbing-5953370.php
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.eonline.com/news/606035/beverly-johnson-bill-cosby-took-my-power-and-now-i-m-taking-it-back
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://reliefweb.int/report/world/opinion-water-scarcity-danger-sign-time-innovate-and-fast
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.tolonews.com/en/afghanistan/17428-president-ghani-condemns-cia-torture-tactics
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.renewableenergyworld.com/rea/news/article/2014/12/threatened-by-renewable-energy-fossil-fuel-companies-highlight-their-role-in-alleviating-poverty
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.opb.org/radio/programs/state-of-wonder/article/mic-crenshaws-afrikan-hip-hop-caravan/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412121155.html
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.paysonroundup.com/news/2014/dec/12/santa-arrives-wintery-weather/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news1130.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://mynorthwest.com/17/2666352/South-Africans-mourn-slain-compatriots
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.news1130.com/2014/12/12/south-africans-hold-separate-memorial-services-for-compatriots-slain-in-yemen-and-afghanistan/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: POLICE, url: http://www.sfweekly.com/thesnitch/2014/12/12/san-francisco-police-bracing-for-heavy-weekend-of-protest
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SENATE, url: http://wtop.com/289/3761488/Congressional-vote-to-avoid-shutdown-slated-for-Thursday-night
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SENATE, url: http://wtop.com/289/3761488/Congressional-vote-to-avoid-shutdown-slated-for-Thursday-night
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: DISTRICT OF COLUMBIA, url: http://hereandnow.wbur.org/2014/12/12/justice-for-all-march
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.wired.com/2014/12/war-us-governments-unreleased-torture-pictures/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SENATE, url: http://www.laopinion.com/congress-averts-government-shutdown-at-least-for-now
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SENATE, url: http://www.laopinion.com/congress-averts-government-shutdown-at-least-for-now
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.newsmax.com/newsfront/black-holder-police-garner/2014/12/12/id/612747/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://egyptianstreets.com/2014/12/12/the-future-of-egypt-is-in-education/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.washingtonpost.com/world/africa/before-his-death-safrican-teen-felt-comfortable-in-kabul/2014/12/12/534691fa-821c-11e4-b936-f3afab0155a7_story.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: JUDGE, url: http://www.thehindu.com/news/national/murugadoss-is-sought-after-because-of-earlier-order-judge/article6683207.ece
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: JUDGE, url: http://www.thehindu.com/news/national/murugadoss-is-sought-after-because-of-earlier-order-judge/article6683207.ece
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.journalgazette.net/news/local/Daddys-name-a-big-deal-3960397
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: COMPANY, url: http://www.katc.com/story/27618428/factory-of-workers-out-of-the-job-in-iberia-parish
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: MINNESOTA, url: http://www.kare11.com/story/life/2014/12/11/explore-minnesota-scavenger-hunt/20234829/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.christianexaminer.com/article/time.lists.ebola.fighters.as.person.of.the.year.including.samaritans.purses.brantly/47802.htm
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://carycitizen.com/2014/12/12/meteor-shower-peaks-tomorrow-night-nc/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.the-leader.com/article/20141208/NEWS/141209731/10059/NEWS
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.dailymail.co.uk/travel/travel_news/article-2870468/From-bloodied-polar-bear-intimate-African-portraits-Travel-Photographer-Awards-hail-world-s-glorious-gritty.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: SCHOOL, url: http://www.opednews.com/populum/page.php?f=White-Coat-Die-Ins-by-Medi-by-Joan-Brunwasser-Activism_Healthcare_Police-Brutality_Students-Youth-141210-942.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.the-leader.com/article/20141208/NEWS/141209731/10059/NEWS
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://newyork.cbslocal.com/2014/12/12/small-fire-prompts-evacuation-of-american-museum-of-natural-history/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: PRESIDENT, url: http://newyork.cbslocal.com/2014/12/12/small-fire-prompts-evacuation-of-american-museum-of-natural-history/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://13wham.com/news/features/top-stories/stories/tshirts-week-121214-18446.shtml
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.dailyastorian.com/10-things-to-know-for-friday-da-ap-webfeeds-news-nation-world707ae8f06f46471ea7eaaa6da99b75be
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: COMPANY, url: http://www.prweb.com/releases/2014/12/prweb12384810.htm
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: COMPANY, url: http://www.prweb.com/releases/2014/12/prweb12384810.htm
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://allafrica.com/stories/201412121155.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.pennlive.com/midstate/index.ssf/2014/12/wolf_i_dont_know_what_thats_li.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://themountaineer.villagesoup.com/p/welcome-home-brother/1278533&c=FZq_WOgRhDZSDb2wOMf42ZueNU5R9yGSKbed-pxni94&mkt=en-us
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: UNITED STATES, url: http://blogs.nbc12.com/weather/2014/12/a-pineapple-what.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.newsmax.com/Newsmax-Tv/clarke-forgive-white-slavery/2014/12/11/id/612600/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: INVESTOR, url: http://blueandgreentomorrow.com/2014/12/11/ed-davey-investors-should-be-informed-of-fossil-fuel-investment-risks/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://triblive.com/news/allegheny/7342097-74/veterans-suits-financial
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.military.com/daily-news/2014/12/12/senators-hold-threatens-clay-hunt-veteran-suicide-legislation.html
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.tolonews.com/en/afghanistan/17426-parliament-calls-mehsud-handover-violation-of-afghan-sovereignty
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.prurgent.com/2014-12-11/pressrelease369789.htm
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mynews3.com/content/news/story/313th-Military-Police-Detachment-Las-Vegas-return/CwGrxSdSZU6lcczUsM3iJg.cspx
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.law360.com/newjersey/articles/604332/ex-louis-berger-ceo-pleads-guilty-to-usaid-contract-fraud
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.law360.com/newjersey/articles/604332/ex-louis-berger-ceo-pleads-guilty-to-usaid-contract-fraud
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.motorcycle-usa.com/504/20641/Motorcycle-Article/Superprestigio-Live-Stream-on-FansChoice-TV.aspx
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.scotusblog.com/2014/12/argument-analysis-a-living-federal-tort-claims-act/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: CHIEF JUSTICE, url: http://www.scotusblog.com/2014/12/argument-analysis-a-living-federal-tort-claims-act/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mynews3.com/mostpopular/story/313th-Military-Police-Detachment-Las-Vegas-return/CwGrxSdSZU6lcczUsM3iJg.cspx
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: HAMID KARZAI, url: http://www.tolonews.com/en/afghanistan/17428-president-ghani-condemns-cia-torture-tactics
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: KABUL, url: http://www.dawn.com/news/1150578/army-to-carry-on-operations-based-on-intelligence
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.turkishpress.com/news/415499&c=OR6G7B6jYMS3QX8etUSHc-cGBkjH4NaMGK6ib5EmF6w&mkt=en-us
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.law360.com/newjersey/articles/604332/ex-louis-berger-ceo-pleads-guilty-to-usaid-contract-fraud
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.tolonews.com/en/miscellaneous-category/17421-first-100-days-president-ghani-asks-for-slow-withdraw-of-foreign-forces-from-afghanistan
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: JALALABAD, url: http://www.nst.com.my/node/62144
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: MAINE, url: http://article.wn.com/view/2014/12/12/TravelCenters_of_America_to_Participate_in_Wreaths_across_Am/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://globalnews.ca/news/1723973/watch-police-chief-spends-night-at-school-dressed-as-superman-to-make-kids-feel-safe/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SCHOOL, url: http://globalnews.ca/news/1723973/watch-police-chief-spends-night-at-school-dressed-as-superman-to-make-kids-feel-safe/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: SCHOOL, url: http://globalnews.ca/news/1723973/watch-police-chief-spends-night-at-school-dressed-as-superman-to-make-kids-feel-safe/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: POLICE, url: http://globalnews.ca/news/1723973/watch-police-chief-spends-night-at-school-dressed-as-superman-to-make-kids-feel-safe/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: ARMENIA, url: http://agenda.ge/news/26279/eng
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: ARMENIAN, url: http://agenda.ge/news/26279/eng
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Recreating_the_Acropolis_Hill_and_its_temples_out_of_Lego/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.denverpost.com/editorials/ci_27126494/cutting-cord-afghanistan
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.denverpost.com/editorials/ci_27126494/cutting-cord-afghanistan
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: NEW YORK, url: http://wraltechwire.com/12-days-of-broadband-day-7-blair-levin-says-triangle-well-on-way-to-next-gen-internet/14270017/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: DEMONSTRATOR, url: http://dcist.com/2014/12/vigil_for_justice_to_take_place_all.php
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: GOVERNMENT, url: http://www.newsmax.com/Newsfront/budget-shutdown-amnesty-Frank-Dodd/2014/12/11/id/612381/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.ifex.org/afghanistan/2014/12/05/violence_threats/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.thelocal.de/20141212/german-killed-in-afghan-suicide-attack
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://article.wn.com/view/2014/12/12/Unable_to_pay_salaries_Afghanistan_asks_donors_for_more_mone/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.sussexcountian.com/article/ZZ/20141211/NEWS/141219955/13617/NEWS
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://tribune.com.pk/story/805931/neighbourhood-watch-report-on-cia-torture-tactics-stir-anger-in-afghanistan/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.militarytimes.com/story/military/crime/2014/12/12/army-afghanistan-supreme-fraud/20208249/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://triblive.com/news/allegheny/7342097-74/veterans-suits-financial
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.militarytimes.com/story/military/crime/2014/12/12/army-afghanistan-supreme-fraud/20208249/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://triblive.com/news/allegheny/7342097-74/veterans-suits-financial
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://triblive.com/news/allegheny/7342097-74/veterans-suits-financial
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.militarytimes.com/story/military/crime/2014/12/12/army-afghanistan-supreme-fraud/20208249/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://triblive.com/news/allegheny/7342097-74/veterans-suits-financial
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.militarytimes.com/story/military/crime/2014/12/12/army-afghanistan-supreme-fraud/20208249/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: WASHINGTON, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: WASHINGTON, url: http://www.usnews.com/news/articles/2014/12/11/challenges-face-the-us-as-lead-middle-east-peace-negotiator-between-israel-and-palestine
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mycentraljersey.com/story/news/local/somerset-county/2014/12/12/bernardsville-ceo-guilty-defrauding-united-states-millions/20315261/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://carnegieendowment.org/2014/12/12/afghanistan-great-game-folio/hwjd
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: KABUL, url: http://capecod.wickedlocal.com/article/ZZ/20141211/NEWS/141219955/13629/NEWS
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: DISTRICT OF COLUMBIA, url: http://hereandnow.wbur.org/2014/12/12/justice-for-all-march
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: STUDENT, url: http://wlns.com/2014/12/12/breslin-center-hosts-msu-graduation-ceremonies/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: MALE, url: http://hereandnow.wbur.org/2014/12/12/justice-for-all-march
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: RIGHTS ACTIVIST, url: http://www.newsmax.com/newsfront/black-holder-police-garner/2014/12/12/id/612747/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://hereandnow.wbur.org/2014/12/12/justice-for-all-march
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: UNITED STATES, url: http://www.newsmax.com/newsfront/black-holder-police-garner/2014/12/12/id/612747/
+Country code: US, Country name: United States, Event info: Date: 20141213, Actor1: WASHINGTON, url: http://www.msmagazine.com/news/uswirestory.asp?ID=15366
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://news.asiaone.com/news/world/congress-authorizes-577-billion-s758-billion-us-defense-spending
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.washingtonpost.com/news/in-sight/wp/2014/12/12/michel-du-cille-dignity-tragedy/
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.sussexcountian.com/article/ZZ/20141211/NEWS/141219955/13617/NEWS
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.stripes.com/news/middle-east/us-providing-little-information-to-judge-progress-against-islamic-state-1.319012
+Country code: US, Country name: United States, Event info: Date: 20141212, Actor1: PROTESTER, url: http://www.10tv.com/content/stories/apexchange/2014/12/10/ferguson-protesters-update.html
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.military.com/daily-news/2014/12/12/senators-hold-threatens-clay-hunt-veteran-suicide-legislation.html
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.washingtonpost.com/news/in-sight/wp/2014/12/12/michel-du-cille-dignity-tragedy/
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://triblive.com/news/allegheny/7342097-74/veterans-suits-financial
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.stripes.com/news/us/pensions-and-perks-for-military-brass-questioned-by-congress-1.318855
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.businesstimes.com.sg:80/government-economy/congress-authorises-us577-billion-in-us-defense-spending
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.stripes.com/news/us/pensions-and-perks-for-military-brass-questioned-by-congress-1.318855
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.washingtonpost.com/news/in-sight/wp/2014/12/12/michel-du-cille-dignity-tragedy/
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.montgomeryadvertiser.com/story/news/local/dispatch/2014/12/11/congress-try-air-force-plan-shape-forces-future/20278159/
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.stripes.com/news/maritime-drones-make-waves-among-navies-worldwide-1.151087
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://triblive.com/news/allegheny/7342097-74/veterans-suits-financial
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://apb.directionsmag.com/entry/gis-health-weekly-news-community-healthe-workers-map/427560
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.nst.com.my/node/62144
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mycentraljersey.com/story/news/local/somerset-county/2014/12/12/bernardsville-ceo-guilty-defrauding-united-states-millions/20315261/
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.vancouverdesi.com/news/putin-reassured-after-talks-agreements-with-old-ally-comment-special-to-ians/823030/
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.military.com/daily-news/2014/12/12/senators-hold-threatens-clay-hunt-veteran-suicide-legislation.html
+Country code: IZ, Country name: Iraq, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://www.mycentraljersey.com/story/news/local/somerset-county/2014/12/12/bernardsville-ceo-guilty-defrauding-united-states-millions/20315261/
+Country code: SP, Country name: Spain, Event info: Date: 20141212, Actor1: AFGHANISTAN, url: http://elpais.com/elpais/2014/12/12/inenglish/1418382880_458479.html
+Country code: SP, Country name: Spain, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.dailysabah.com/world/2014/12/12/ebola-fighters-named-times-people-of-the-year
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: PRESIDENT, url: http://economictimes.indiatimes.com/news/politics-and-nation/bjp-president-amit-shah-in-raipur-tomorrow/articleshow/45479456.cms
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AMIT, url: http://economictimes.indiatimes.com/news/politics-and-nation/bjp-president-amit-shah-in-raipur-tomorrow/articleshow/45479456.cms
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AMIT, url: http://economictimes.indiatimes.com/news/politics-and-nation/bjp-president-amit-shah-in-raipur-tomorrow/articleshow/45479456.cms
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: ISMAIL KHAN, url: http://indianexpress.com/article/india/india-others/mp-christian-event-to-convert-tribals-stopped/
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: ISMAIL KHAN, url: http://indianexpress.com/article/india/india-others/mp-christian-event-to-convert-tribals-stopped/
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AMIT, url: http://economictimes.indiatimes.com/news/politics-and-nation/bjp-president-amit-shah-in-raipur-tomorrow/articleshow/45479456.cms
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: PRANAB MUKHERJEE, url: http://www.sify.com/news/mukherjee-to-attend-valedictory-function-of-all-india-services-in-mussoorie-news-national-omllK1bbdagif.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: RUSSIA, url: http://www.ptinews.com/news/5447181_Deals-with-Russia-for-direct-sourcing-of-diamonds-.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: TALIBAN, url: http://www.dw.de/german-national-confirmed-dead-in-suicide-bombing-in-kabul/a-18125712
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.diamondworld.net/Content/WDC-India-2014-Delegates-Speak/10939
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: ABDUL QADIR, url: https://iaoj.wordpress.com/2014/12/04/analysis-sindhi-nationalists-stand-divided/
+Country code: IN, Country name: India, Event info: Date: 20141213, Actor1: NAVAL BASE, url: http://article.wn.com/view/2014/12/12/Jewish_terrorist_named_behind_Jerusalem_school_arson/
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: NAVAL, url: http://www.business-standard.com/article/pti-stories/vizag-naval-base-to-celebrate-platinum-jubilee-tomorrow-114121101440_1.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.thehindu.com/sci-tech/energy-and-environment/lima-talks-hang-by-a-thread/article6686828.ece
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: RUSSIA, url: http://www.ptinews.com/news/5447181_Deals-with-Russia-for-direct-sourcing-of-diamonds-.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AFRICA, url: http://www.diamondworld.net/Content/WDC-India-2014-Delegates-Speak/10939
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AFRICA, url: http://twocircles.net/2014dec12/1418374600.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: JUDGE, url: http://www.thehindu.com/news/national/murugadoss-is-sought-after-because-of-earlier-order-judge/article6683207.ece
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: JUDGE, url: http://www.thehindu.com/news/national/murugadoss-is-sought-after-because-of-earlier-order-judge/article6683207.ece
+Country code: IN, Country name: India, Event info: Date: 20141213, Actor1: WEST BENGAL, url: http://www.indiatvnews.com/politics/national/mamata-dares-pm-narendra-modi-amit-shah-to-arrest-her-in-saradha-scam-23643.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: PRANAB MUKHERJEE, url: http://www.sify.com/news/mukherjee-to-attend-valedictory-function-of-all-india-services-in-mussoorie-news-national-omllK1bbdagif.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: AFGHAN, url: http://www.thenews.com.pk/Todays-News-13-34657-A-plan-to-make-Afghanistan-a-sub-state
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: RUSSIAN, url: http://www.thestatesman.net/news/92996-nuke-defence-top-putin-modi-summit-agenda.html
+Country code: IN, Country name: India, Event info: Date: 20141212, Actor1: RUSSIAN, url: http://www.thestatesman.net/news/92996-nuke-defence-top-putin-modi-summit-agenda.html
