@@ -1,8 +1,17 @@
 dependencies {
   compile beam.sdkJavaCore
+
+  // needed for direct runner
   compile beam.directRunner
   compile beam.gcpCore
   compile beam.gcp
+
+  // need for gs File System
   compile beam.sdkIoGcp
+
   compile common.slf4jApi
+  compile common.logbackCore
+
+  // Beam pipeline needs this slf4j
+  compile common.slf4jJdk14
 }

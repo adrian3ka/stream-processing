@@ -10,6 +10,9 @@ ext {
   ]
 
   common = [
-    slf4jApi: 'org.slf4j:slf4j-api:1.7.25'
+    slf4jApi   : 'org.slf4j:slf4j-api:1.7.25',
+    slf4j      : 'org.slf4j:slf4j-log4j12:1.7.25',
+    logbackCore: 'ch.qos.logback:logback-core:0.9.19',
+    slf4jJdk14 : "org.slf4j:slf4j-jdk14:1.7.25",
   ]
 }
