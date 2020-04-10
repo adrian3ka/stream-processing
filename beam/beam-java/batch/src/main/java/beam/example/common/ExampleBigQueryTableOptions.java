@@ -46,7 +46,9 @@ public interface ExampleBigQueryTableOptions extends GcpOptions {
 
   void setBigQuerySchema(TableSchema schema);
 
-  /** Returns the job name as the default BigQuery table name. */
+  /**
+   * Returns the job name as the default BigQuery table name.
+   */
   class BigQueryTableFactory implements DefaultValueFactory<String> {
     @Override
     public String create(PipelineOptions options) {

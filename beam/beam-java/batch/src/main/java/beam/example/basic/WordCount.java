@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package beam.example;
+package beam.example.basic;
 
 import beam.example.common.ExampleUtils;
 import org.apache.beam.sdk.Pipeline;
