@@ -20,6 +20,7 @@ package beam.example.bigquery;
 import com.google.api.services.bigquery.model.TableFieldSchema;
 import com.google.api.services.bigquery.model.TableRow;
 import com.google.api.services.bigquery.model.TableSchema;
+import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO.TypedRead;
@@ -102,7 +103,7 @@ public class BigQueryTornadoes {
       TableRow row =
         new TableRow()
           .set("month", c.element().getKey())
-          .set("tornado_count", c.element().getValue());
+          .set("tornado_count", c.element().getValue() * 10);
       c.output(row);
     }
   }
@@ -205,7 +206,7 @@ public class BigQueryTornadoes {
   }
 
   static String[] appendArgs(String[] args) {
-    List<String> listArgs = new ArrayList<String>(Arrays.asList(args));
+    List<String> listArgs = new ArrayList<>(Arrays.asList(args));
 
     listArgs.add("--project=" + PROJECT_ID);
 
@@ -216,7 +217,6 @@ public class BigQueryTornadoes {
   }
 
   public static void main(String[] args) {
-
     // Dont forget to setup on IDE
     // GOOGLE_APPLICATION_CREDENTIALS=../../google-credentials/[certs-name].json
 
@@ -224,6 +224,7 @@ public class BigQueryTornadoes {
       appendArgs(args)
     ).withValidation().as(Options.class);
     options.setTempLocation(GCS_TMP_LOCATION);
+    options.setRunner(DirectRunner.class);
 
     runBigQueryTornadoes(options);
   }
