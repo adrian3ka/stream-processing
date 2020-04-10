@@ -103,7 +103,7 @@ public class BigQueryTornadoes {
       TableRow row =
         new TableRow()
           .set("month", c.element().getKey())
-          .set("tornado_count", c.element().getValue() * 10);
+          .set("tornado_count", c.element().getValue());
       c.output(row);
     }
   }
