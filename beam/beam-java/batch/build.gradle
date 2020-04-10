@@ -14,4 +14,8 @@ dependencies {
 
   // Beam pipeline needs this slf4j
   compile common.slf4jJdk14
+
+  // Need for PA Assert
+  compile common.hamcrestCore
+  compile common.hamcrestLibrary
 }
