@@ -17,6 +17,7 @@
  */
 package beam.example.bigquery;
 
+import beam.example.common.ExampleUtils;
 import com.google.api.services.bigquery.model.TableFieldSchema;
 import com.google.api.services.bigquery.model.TableRow;
 import com.google.api.services.bigquery.model.TableSchema;
@@ -35,7 +36,6 @@ import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.vendor.guava.v26_0_jre.com.google.common.collect.Lists;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -68,16 +68,10 @@ public class BigQueryTornadoes {
   // Default to using a 1000 row subset of the public weather station table publicdata:samples.gsod.
   private static final String WEATHER_SAMPLES_TABLE = "clouddataflow-readonly:samples.weather_stations";
 
-  private static final String PROJECT_ID = "beam-tutorial-272917";
-
   // Please replace beam-tutorial-272917 with your own project name
   // also replace the cookbook with the data sets you already created
   // you can specify the last part with anything
-  private static final String TORNADOES_OUTPUT = PROJECT_ID + ":cookbook.tornadoes";
-
-  // Create your own storage first on google storage
-  private static final String GCS_STAGING_LOCATION = "gs://beam-tutorial-272917/staging";
-  private static final String GCS_TMP_LOCATION = "gs://beam-tutorial-272917/tmp";
+  private static final String TORNADOES_OUTPUT = ExampleUtils.PROJECT_ID + ":cookbook.tornadoes";
 
   /**
    * Examines each row in the input table. If a tornado was recorded in that sample, the month in
@@ -205,25 +199,14 @@ public class BigQueryTornadoes {
     p.run().waitUntilFinish();
   }
 
-  static String[] appendArgs(String[] args) {
-    List<String> listArgs = new ArrayList<>(Arrays.asList(args));
-
-    listArgs.add("--project=" + PROJECT_ID);
-
-    String[] itemsArray = new String[listArgs.size()];
-    itemsArray = listArgs.toArray(itemsArray);
-
-    return itemsArray;
-  }
-
   public static void main(String[] args) {
     // Dont forget to setup on IDE
     // GOOGLE_APPLICATION_CREDENTIALS=../../google-credentials/[certs-name].json
 
     Options options = PipelineOptionsFactory.fromArgs(
-      appendArgs(args)
+      ExampleUtils.appendArgs(args)
     ).withValidation().as(Options.class);
-    options.setTempLocation(GCS_TMP_LOCATION);
+    options.setTempLocation(ExampleUtils.GCS_TMP_LOCATION);
     options.setRunner(DirectRunner.class);
 
     runBigQueryTornadoes(options);

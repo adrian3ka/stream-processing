@@ -1,1 +1,3 @@
 include 'batch'
+include 'lib'
+include 'stream'

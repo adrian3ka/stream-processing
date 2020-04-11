@@ -2,10 +2,15 @@ dependencies {
   compile src.example.lib
 
   compile beam.sdkJavaCore
-  compile beam.sdkIoGcp
 
   // needed for direct runner
   compile beam.directRunner
+
+  // need for gs File System
+  compile beam.sdkIoGcp
+
+  // For google Io like pubsub
+  compile 'com.google.cloud:google-cloud-storage:1.90.0'
 
   compile common.slf4jApi
   compile common.logbackCore

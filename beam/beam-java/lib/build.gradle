@@ -1,7 +1,7 @@
 dependencies {
-  compile src.example.lib
-
   compile beam.sdkJavaCore
+
+  // need for gs File System
   compile beam.sdkIoGcp
 
   // needed for direct runner
