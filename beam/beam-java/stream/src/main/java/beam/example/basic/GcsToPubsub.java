@@ -58,7 +58,7 @@ public class GcsToPubsub {
     }
   }
 
-  public static class CountWords
+  public static class PrintLine
     extends PTransform<PCollection<String>, PCollection<String>> {
     @Override
     public PCollection<String> expand(PCollection<String> lines) {
@@ -74,15 +74,14 @@ public class GcsToPubsub {
     System.out.println("Preparing Options.......");
     GcsToPubsubOptions options = PipelineOptionsFactory.fromArgs(
       ExampleUtils.appendArgs(args)
-    ).withValidation()
-      .as(GcsToPubsubOptions.class);
+    ).withValidation().as(GcsToPubsubOptions.class);
 
     Pipeline p = Pipeline.create(options);
 
     System.out.println("Preparing Publish.......");
 
     p.apply("Read GCS", TextIO.read().from(options.getInputFile()))
-      .apply(new CountWords())
+      .apply(new PrintLine())
       .apply("Sending Pub/sub", PubsubIO.writeStrings().to(STREAMING_TOPIC));
 
     PipelineResult result = p.run();

@@ -11,6 +11,7 @@ ext {
 
   beam = [
     directRunner: 'org.apache.beam:beam-runners-direct-java:2.19.0',
+    dataflowRunner: 'org.apache.beam:beam-runners-google-cloud-dataflow-java:2.19.0',
     sdkJavaCore : 'org.apache.beam:beam-sdks-java-core:2.19.0',
     sdkIoGcp    : 'org.apache.beam:beam-sdks-java-io-google-cloud-platform:2.19.0'
   ]
@@ -22,5 +23,16 @@ ext {
     slf4jJdk14     : "org.slf4j:slf4j-jdk14:1.7.25",
     hamcrestCore   : "org.hamcrest:hamcrest-core:$hamcrest_version",
     hamcrestLibrary: "org.hamcrest:hamcrest-library:$hamcrest_version",
+    commonsText    : 'org.apache.commons:commons-text:1.6',
+    json           : 'org.json:json:20090211'
+  ]
+
+  google = [
+    cloudKms: 'com.google.cloud:google-cloud-kms:1.38.0'
+  ]
+
+  annotations = [
+    autoValue         : "com.google.auto.value:auto-value-annotations:1.6.2",
+    autoValueProcessor: "com.google.auto.value:auto-value:1.6.2"
   ]
 }

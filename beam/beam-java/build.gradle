@@ -1,3 +1,7 @@
+plugins {
+  id "net.ltgt.apt" version "0.20"
+}
+
 apply from: 'variables.gradle'
 apply plugin: 'idea'
 
@@ -10,6 +14,7 @@ dependencies {
 
 allprojects {
   apply plugin: "idea"
+  apply plugin: "net.ltgt.apt-idea"
 }
 
 subprojects {

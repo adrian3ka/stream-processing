@@ -5,6 +5,7 @@ dependencies {
 
   // needed for direct runner
   compile beam.directRunner
+  compile beam.dataflowRunner
 
   // need for gs File System
   compile beam.sdkIoGcp
@@ -21,4 +22,9 @@ dependencies {
   // Need for PA Assert
   compile common.hamcrestCore
   compile common.hamcrestLibrary
+  compile common.json
+
+  // Annotations
+  compileOnly annotations.autoValue
+  annotationProcessor annotations.autoValue
 }

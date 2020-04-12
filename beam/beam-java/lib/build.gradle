@@ -16,4 +16,13 @@ dependencies {
   // Need for PA Assert
   compile common.hamcrestCore
   compile common.hamcrestLibrary
+  compile common.commonsText
+  compile common.json
+
+  // Google
+  compile google.cloudKms
+
+  // Annotations
+  compileOnly 'com.google.auto.value:auto-value:1.5'
+  annotationProcessor 'com.google.auto.value:auto-value:1.5'
 }
