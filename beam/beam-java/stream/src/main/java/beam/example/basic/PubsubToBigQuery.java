@@ -18,6 +18,8 @@ package beam.example.basic;
 
 import static beam.example.basic.TextToBigQueryStreaming.wrapBigQueryInsertError;
 
+import beam.example.common.ExampleUtils;
+import com.google.api.services.bigquery.model.TableReference;
 import com.google.api.services.bigquery.model.TableRow;
 import beam.example.coders.FailsafeElementCoder;
 import beam.example.converters.BigQueryConverters.FailsafeJsonToTableRow;
@@ -32,17 +34,19 @@ import beam.example.values.FailsafeElement;
 import com.google.common.collect.ImmutableList;
 
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Map;
 
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.PipelineResult;
 import org.apache.beam.sdk.coders.CoderRegistry;
 import org.apache.beam.sdk.coders.StringUtf8Coder;
-import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
+import org.apache.beam.sdk.io.gcp.bigquery.*;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO.Write.CreateDisposition;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO.Write.WriteDisposition;
-import org.apache.beam.sdk.io.gcp.bigquery.BigQueryInsertError;
-import org.apache.beam.sdk.io.gcp.bigquery.InsertRetryPolicy;
-import org.apache.beam.sdk.io.gcp.bigquery.WriteResult;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubIO;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubMessage;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubMessageWithAttributesCoder;
@@ -128,6 +132,13 @@ import org.slf4j.LoggerFactory;
  */
 public class PubsubToBigQuery {
 
+  private static final String BIGQUERY_OUTPUT = ExampleUtils.PROJECT_ID + ":cookbook.pubsub_to_bigquery";
+  private static final String DEADLETTER_OUTPUT = ExampleUtils.PROJECT_ID + ":cookbook.deadletter_pubsub_to_bigquery";
+
+  public static final String STREAMING_TOPIC = "projects/beam-tutorial-272917/topics/pubsub-to-bigquery-streaming";
+  private static final String STREAMING_SUBSCRIPTION = "projects/"
+    + ExampleUtils.PROJECT_ID + "/subscriptions/pubsub-to-bigquery-streaming-subscription";
+
   /**
    * The log to output status messages to.
    */
@@ -183,11 +194,13 @@ public class PubsubToBigQuery {
    */
   public interface Options extends PipelineOptions, JavascriptTextTransformerOptions {
     @Description("Table spec to write the output to")
+    @Default.String(BIGQUERY_OUTPUT)
     ValueProvider<String> getOutputTableSpec();
 
     void setOutputTableSpec(ValueProvider<String> value);
 
     @Description("Pub/Sub topic to read the input from")
+    @Default.String(STREAMING_TOPIC)
     ValueProvider<String> getInputTopic();
 
     void setInputTopic(ValueProvider<String> value);
@@ -196,13 +209,14 @@ public class PubsubToBigQuery {
       "The Cloud Pub/Sub subscription to consume from. "
         + "The name should be in the format of "
         + "projects/<project-id>/subscriptions/<subscription-name>.")
+    @Default.String(STREAMING_SUBSCRIPTION)
     ValueProvider<String> getInputSubscription();
 
     void setInputSubscription(ValueProvider<String> value);
 
     @Description(
       "This determines whether the template reads from " + "a pub/sub subscription or a topic")
-    @Default.Boolean(false)
+    @Default.Boolean(true)
     Boolean getUseSubscription();
 
     void setUseSubscription(Boolean value);
@@ -210,6 +224,7 @@ public class PubsubToBigQuery {
     @Description(
       "The dead-letter table to output to within BigQuery in <project-id>:<dataset>.<table> "
         + "format. If it doesn't exist, it will be created during pipeline execution.")
+    @Default.String(DEADLETTER_OUTPUT)
     ValueProvider<String> getOutputDeadletterTable();
 
     void setOutputDeadletterTable(ValueProvider<String> value);
@@ -221,10 +236,17 @@ public class PubsubToBigQuery {
    * PubsubToBigQuery#run(Options)} method to start the pipeline and invoke {@code
    * result.waitUntilFinish()} on the {@link PipelineResult}.
    *
+   * The example to be publish on pubsub is : {"message": "asd"}
+   * Please input the raw string, be careful on the publish message on pubsub google it's just only add the attributes
+   * not the message itself.
+   *
    * @param args The command-line args passed by the executor.
    */
   public static void main(String[] args) {
-    Options options = PipelineOptionsFactory.fromArgs(args).withValidation().as(Options.class);
+    System.out.println("Setting up the main pipeline......");
+    Options options = PipelineOptionsFactory.fromArgs(
+      ExampleUtils.appendArgs(args)
+    ).withValidation().as(Options.class);
 
     run(options);
   }
@@ -287,15 +309,17 @@ public class PubsubToBigQuery {
     WriteResult writeResult =
       convertedTableRows
         .get(TRANSFORM_OUT)
+        .apply(ParDo.of(new DisplayTableRow()))
         .apply(
           "WriteSuccessfulRecords",
           BigQueryIO.writeTableRows()
             .withoutValidation()
-            .withCreateDisposition(CreateDisposition.CREATE_NEVER)
+            .withCreateDisposition(CreateDisposition.CREATE_IF_NEEDED)
             .withWriteDisposition(WriteDisposition.WRITE_APPEND)
             .withExtendedErrorInfo()
             .withMethod(BigQueryIO.Write.Method.STREAMING_INSERTS)
             .withFailedInsertRetryPolicy(InsertRetryPolicy.retryTransientErrors())
+            .withJsonSchema(ResourceUtils.getPubsubToBigQueryTableSchemaJson())
             .to(options.getOutputTableSpec()));
 
     /*
@@ -321,7 +345,7 @@ public class PubsubToBigQuery {
         convertedTableRows.get(TRANSFORM_DEADLETTER_OUT)))
       .apply("Flatten", Flatten.pCollections())
       .apply(
-        "WriteFailedRecords",
+        "WriteFailedRecordsToBigquery",
         ErrorConverters.WritePubsubMessageErrors.newBuilder()
           .setErrorRecordsTable(
             ValueProviderUtils.maybeUseDefaultDeadletterTable(
@@ -333,7 +357,7 @@ public class PubsubToBigQuery {
 
     // 5) Insert records that failed insert into deadletter table
     failedInserts.apply(
-      "WriteFailedRecords",
+      "WriteFailedRecordsFromFailedInsertIntoDeadletterTable",
       ErrorConverters.WriteStringMessageErrors.newBuilder()
         .setErrorRecordsTable(
           ValueProviderUtils.maybeUseDefaultDeadletterTable(
@@ -403,12 +427,14 @@ public class PubsubToBigQuery {
 
     @Override
     public PCollectionTuple expand(PCollection<PubsubMessage> input) {
-
+      System.out.println("Setting pipeline for PubsubMessageToTableRow....");
       PCollectionTuple udfOut =
         input
           // Map the incoming messages into FailsafeElements so we can recover from failures
           // across multiple transforms.
-          .apply("MapToRecord", ParDo.of(new PubsubMessageToFailsafeElementFn()))
+          .apply("MapToRecord", ParDo.of(
+            new PubsubMessageToFailsafeElementFn()
+          ))
           .apply(
             "InvokeUDF",
             FailsafeJavascriptUdf.<PubsubMessage>newBuilder()
@@ -419,15 +445,14 @@ public class PubsubToBigQuery {
               .build());
 
       // Convert the records which were successfully processed by the UDF into TableRow objects.
-      PCollectionTuple jsonToTableRowOut =
-        udfOut
-          .get(UDF_OUT)
-          .apply(
-            "JsonToTableRow",
-            FailsafeJsonToTableRow.<PubsubMessage>newBuilder()
-              .setSuccessTag(TRANSFORM_OUT)
-              .setFailureTag(TRANSFORM_DEADLETTER_OUT)
-              .build());
+      PCollectionTuple jsonToTableRowOut = udfOut
+        .get(UDF_OUT)
+        .apply(
+          "JsonToTableRow",
+          FailsafeJsonToTableRow.<PubsubMessage>newBuilder()
+            .setSuccessTag(TRANSFORM_OUT)
+            .setFailureTag(TRANSFORM_DEADLETTER_OUT)
+            .build());
 
       // Re-wrap the PCollections so we can return a single PCollectionTuple
       return PCollectionTuple.of(UDF_OUT, udfOut.get(UDF_OUT))
@@ -442,13 +467,27 @@ public class PubsubToBigQuery {
    * {@link FailsafeElement} class so errors can be recovered from and the original message can be
    * output to a error records table.
    */
-  static class PubsubMessageToFailsafeElementFn
-    extends DoFn<PubsubMessage, FailsafeElement<PubsubMessage, String>> {
+  static class PubsubMessageToFailsafeElementFn extends DoFn<PubsubMessage, FailsafeElement<PubsubMessage, String>> {
     @ProcessElement
     public void processElement(ProcessContext context) {
       PubsubMessage message = context.element();
+      String messageString = new String(message.getPayload(), StandardCharsets.UTF_8);
+
+      System.out.println("Incoming message >> " + messageString);
+
       context.output(
-        FailsafeElement.of(message, new String(message.getPayload(), StandardCharsets.UTF_8)));
+        FailsafeElement.of(message, messageString));
+    }
+  }
+
+  static class DisplayTableRow extends DoFn<TableRow, TableRow> {
+    @ProcessElement
+    public void processElement(ProcessContext context) {
+      TableRow tableRow = context.element();
+
+      System.out.println("Display table row >> " + tableRow.toString());
+
+      context.output(tableRow);
     }
   }
 }

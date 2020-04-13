@@ -1,0 +1,9 @@
+{
+  "fields": [
+    {
+      "name": "message",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    }
+  ]
+}

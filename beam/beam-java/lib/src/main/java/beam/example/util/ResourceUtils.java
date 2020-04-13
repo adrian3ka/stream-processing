@@ -22,14 +22,21 @@ import org.slf4j.LoggerFactory;
 
 import java.nio.charset.StandardCharsets;
 
-/** The {@link ResourceUtils} class provides helper methods for handling common resources. */
+/**
+ * The {@link ResourceUtils} class provides helper methods for handling common resources.
+ */
 public class ResourceUtils {
-  /** The log to output status messages to. */
+  /**
+   * The log to output status messages to.
+   */
   private static final Logger LOG = LoggerFactory.getLogger(ResourceUtils.class);
 
-  /** The path within resources to the dead-letter BigQuery schema. */
-  private static final String DEADLETTER_SCHEMA_FILE_PATH =
-      "schema/streaming_source_deadletter_table_schema.json";
+  /**
+   * The path within resources to the dead-letter BigQuery schema.
+   */
+  private static final String DEADLETTER_SCHEMA_FILE_PATH = "schema/streaming_source_deadletter_table_schema.json";
+  private static final String PUBSUB_TO_BIGQUERY_SCHEMA_FILE_PATH =
+    "schema/streaming_pubsub_to_bigquery_table_schema.json";
 
   /**
    * Retrieves the file contents of the dead-letter schema file within the project's resources into
@@ -41,11 +48,25 @@ public class ResourceUtils {
     String schemaJson = null;
     try {
       schemaJson =
-          Resources.toString(
-              Resources.getResource(DEADLETTER_SCHEMA_FILE_PATH), StandardCharsets.UTF_8);
+        Resources.toString(
+          Resources.getResource(DEADLETTER_SCHEMA_FILE_PATH), StandardCharsets.UTF_8);
     } catch (Exception e) {
       LOG.error(
-          "Unable to read {} file from the resources folder!", DEADLETTER_SCHEMA_FILE_PATH, e);
+        "Unable to read {} file from the resources folder!", DEADLETTER_SCHEMA_FILE_PATH, e);
+    }
+
+    return schemaJson;
+  }
+
+  public static String getPubsubToBigQueryTableSchemaJson() {
+    String schemaJson = null;
+    try {
+      schemaJson =
+        Resources.toString(
+          Resources.getResource(PUBSUB_TO_BIGQUERY_SCHEMA_FILE_PATH), StandardCharsets.UTF_8);
+    } catch (Exception e) {
+      LOG.error(
+        "Unable to read {} file from the resources folder!", DEADLETTER_SCHEMA_FILE_PATH, e);
     }
 
     return schemaJson;
