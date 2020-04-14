@@ -2,8 +2,12 @@ plugins {
   id "net.ltgt.apt" version "0.20"
 }
 
+group = "beam-example"
+
 apply from: 'variables.gradle'
 apply plugin: 'idea'
+apply plugin: 'java-library'
+apply plugin: 'maven-publish'
 
 project.apply plugin: 'java'
 project.sourceCompatibility = '1.8'
@@ -23,14 +27,6 @@ subprojects {
   repositories {
     mavenCentral()
     maven { url 'https://jitpack.io' }
-    maven {
-      name 'nexusRelease'
-      url 'https://nexus.cermati.com/repository/cermati-maven-releases'
-    }
-    maven {
-      name 'nexusSnapshot'
-      url 'https://nexus.cermati.com/repository/cermati-maven-snapshots'
-    }
   }
 
   apply plugin: 'java'
@@ -49,6 +45,27 @@ subprojects {
 
   configurations.testCompile {
     dependencies {
+    }
+  }
+}
+
+publishing {
+  publications {
+    maven(MavenPublication) {
+      artifact("build/libs/beam-java.jar") {
+        extension "jar"
+        version "0.0.2"
+      }
+    }
+  }
+  repositories {
+    maven {
+      name "nexus"
+      url "http://localhost:9001/repository/maven-releases/"
+      credentials {
+        username project.repoUser
+        password project.repoPassword
+      }
     }
   }
 }
