@@ -119,7 +119,10 @@ import java.util.concurrent.TimeUnit;
  */
 public class DebugTriggerExample {
   // Numeric value of fixed window duration, in minutes
-  public static final int WINDOW_DURATION = 1;
+  private static final int WINDOW_DURATION = 5;
+  private static final Duration ALLOWED_LATENESS = Duration.standardDays(1);
+  private static final Duration TRIGGER_EVERY = Duration.standardMinutes(1);
+  private static final Duration TRIGGER_EVERY_AFTER_LATENESS = Duration.standardMinutes(3);
   // Constants used in triggers.
   // Speeding up ONE_MINUTE or FIVE_MINUTES helps you get an early approximation of results.
   // ONE_MINUTE is used only with processing time before the end of the window
@@ -214,7 +217,12 @@ public class DebugTriggerExample {
         .apply("ReadMyFile", TextIO.read().from(DATA_SOURCE_PATH))
         .apply("InsertRandomDelays", ParDo.of(new InsertDelays()))
         .apply(ParDo.of(new ExtractFlowInfo()))
-        .apply(new TriggerCollection.CalculateTotalFlow(options.getWindowDuration()));
+        .apply(new TriggerCollection.CalculateTotalFlow(
+          WINDOW_DURATION,
+          ALLOWED_LATENESS,
+          TRIGGER_EVERY,
+          TRIGGER_EVERY_AFTER_LATENESS
+        ));
 
     System.out.println("Preparing pipeline for result list size " + resultList.size());
 
