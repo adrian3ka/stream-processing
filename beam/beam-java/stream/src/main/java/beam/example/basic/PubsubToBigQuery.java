@@ -16,12 +16,8 @@
 
 package beam.example.basic;
 
-import static beam.example.basic.TextToBigQueryStreaming.wrapBigQueryInsertError;
-
-import beam.example.common.ExampleUtils;
-import com.google.api.services.bigquery.model.TableReference;
-import com.google.api.services.bigquery.model.TableRow;
 import beam.example.coders.FailsafeElementCoder;
+import beam.example.trigger.common.ExampleUtils;
 import beam.example.converters.BigQueryConverters.FailsafeJsonToTableRow;
 import beam.example.converters.ErrorConverters;
 import beam.example.transformer.JavascriptTextTransformer.FailsafeJavascriptUdf;
@@ -31,42 +27,33 @@ import beam.example.util.DualInputNestedValueProvider.TranslatorInput;
 import beam.example.util.ResourceUtils;
 import beam.example.util.ValueProviderUtils;
 import beam.example.values.FailsafeElement;
+import com.google.api.services.bigquery.model.TableRow;
 import com.google.common.collect.ImmutableList;
-
-import java.nio.charset.StandardCharsets;
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Map;
-
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.PipelineResult;
 import org.apache.beam.sdk.coders.CoderRegistry;
 import org.apache.beam.sdk.coders.StringUtf8Coder;
-import org.apache.beam.sdk.io.gcp.bigquery.*;
+import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO.Write.CreateDisposition;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO.Write.WriteDisposition;
+import org.apache.beam.sdk.io.gcp.bigquery.BigQueryInsertError;
+import org.apache.beam.sdk.io.gcp.bigquery.InsertRetryPolicy;
+import org.apache.beam.sdk.io.gcp.bigquery.WriteResult;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubIO;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubMessage;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubMessageWithAttributesCoder;
-import org.apache.beam.sdk.options.Default;
-import org.apache.beam.sdk.options.Description;
-import org.apache.beam.sdk.options.PipelineOptions;
-import org.apache.beam.sdk.options.PipelineOptionsFactory;
-import org.apache.beam.sdk.options.ValueProvider;
-import org.apache.beam.sdk.transforms.DoFn;
-import org.apache.beam.sdk.transforms.Flatten;
-import org.apache.beam.sdk.transforms.MapElements;
-import org.apache.beam.sdk.transforms.PTransform;
-import org.apache.beam.sdk.transforms.ParDo;
-import org.apache.beam.sdk.transforms.SerializableFunction;
+import org.apache.beam.sdk.options.*;
+import org.apache.beam.sdk.transforms.*;
 import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.values.PCollectionList;
 import org.apache.beam.sdk.values.PCollectionTuple;
 import org.apache.beam.sdk.values.TupleTag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.nio.charset.StandardCharsets;
+
+import static beam.example.basic.TextToBigQueryStreaming.wrapBigQueryInsertError;
 
 /**
  * The {@link PubsubToBigQuery} pipeline is a streaming pipeline which ingests data in JSON format

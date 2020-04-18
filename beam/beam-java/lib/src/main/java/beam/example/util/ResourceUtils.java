@@ -20,7 +20,10 @@ import com.google.common.io.Resources;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Paths;
 
 /**
  * The {@link ResourceUtils} class provides helper methods for handling common resources.
@@ -70,5 +73,14 @@ public class ResourceUtils {
     }
 
     return schemaJson;
+  }
+
+  public static String getData(String name) {
+    URL resource = ResourceUtils.class.getResource("/data/" + name);
+    try {
+      return Paths.get(resource.toURI()).toFile().getAbsolutePath();
+    } catch (Exception e) {
+      throw new RuntimeException(e);
+    }
   }
 }

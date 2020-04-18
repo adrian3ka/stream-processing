@@ -17,7 +17,7 @@
  */
 package beam.example.basic;
 
-import beam.example.common.ExampleUtils;
+import beam.example.trigger.common.ExampleUtils;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.metrics.Counter;

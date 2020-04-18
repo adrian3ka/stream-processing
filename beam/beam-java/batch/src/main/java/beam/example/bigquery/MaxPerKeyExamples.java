@@ -17,7 +17,7 @@
  */
 package beam.example.bigquery;
 
-import beam.example.common.ExampleUtils;
+import beam.example.trigger.common.ExampleUtils;
 import com.google.api.services.bigquery.model.TableFieldSchema;
 import com.google.api.services.bigquery.model.TableRow;
 import com.google.api.services.bigquery.model.TableSchema;

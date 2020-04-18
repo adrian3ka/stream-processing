@@ -6,9 +6,19 @@ dependencies {
 
   // needed for direct runner
   compile beam.directRunner
+  compile beam.dataflowRunner
+
+  compile google.cloudStorage
+  compile google.pubsub
+  compile google.gson
 
   compile common.slf4jApi
   compile common.logbackCore
+
+  // For google Io like pubsub
+  compile google.cloudStorage
+  compile google.pubsub
+  compile google.gson
 
   // Beam pipeline needs this slf4j
   compile common.slf4jJdk14
@@ -18,11 +28,15 @@ dependencies {
   compile common.hamcrestLibrary
   compile common.commonsText
   compile common.json
+  compile common.ioGrpc
 
   // Google
   compile google.cloudKms
 
   // Annotations
-  compileOnly 'com.google.auto.value:auto-value:1.5'
-  annotationProcessor 'com.google.auto.value:auto-value:1.5'
+  compileOnly annotations.autoValue
+  annotationProcessor annotations.autoValue
+  compile annotations.lombok
+  annotationProcessor annotations.lombok
+  implementation 'org.jetbrains:annotations:15.0'
 }

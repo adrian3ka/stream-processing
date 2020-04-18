@@ -15,23 +15,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package beam.example.common;
+package beam.example.game.utils;
 
-import org.apache.beam.sdk.options.Default;
-import org.apache.beam.sdk.options.Description;
-import org.apache.beam.sdk.options.PipelineOptions;
+import org.joda.time.DateTimeZone;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
 
-/** Options that can be used to configure the Beam examples. */
-public interface ExampleOptions extends PipelineOptions {
-  @Description("Whether to keep jobs running after local process exit")
-  @Default.Boolean(false)
-  boolean getKeepJobsRunning();
+import java.util.TimeZone;
 
-  void setKeepJobsRunning(boolean keepJobsRunning);
+/** Shared constants between game series classes. */
+public class GameConstants {
 
-  @Description("Number of workers to use when executing the injector pipeline")
-  @Default.Integer(1)
-  int getInjectorNumWorkers();
+  public static final String TIMESTAMP_ATTRIBUTE = "timestamp_ms";
 
-  void setInjectorNumWorkers(int numWorkers);
+  public static final DateTimeFormatter DATE_TIME_FORMATTER =
+      DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss.SSS")
+          .withZone(DateTimeZone.forTimeZone(TimeZone.getTimeZone("America/Los_Angeles")));
 }

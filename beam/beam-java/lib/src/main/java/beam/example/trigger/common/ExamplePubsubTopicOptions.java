@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package beam.example.common;
+package beam.example.trigger.common;
 
 import org.apache.beam.sdk.extensions.gcp.options.GcpOptions;
 import org.apache.beam.sdk.options.Default;
@@ -23,22 +23,26 @@ import org.apache.beam.sdk.options.DefaultValueFactory;
 import org.apache.beam.sdk.options.Description;
 import org.apache.beam.sdk.options.PipelineOptions;
 
-/** Options that can be used to configure Pub/Sub topic/subscription in Beam examples. */
-public interface ExamplePubsubTopicAndSubscriptionOptions extends ExamplePubsubTopicOptions {
-  @Description("Pub/Sub subscription")
-  @Default.InstanceFactory(PubsubSubscriptionFactory.class)
-  String getPubsubSubscription();
+/**
+ * Options that can be used to configure Pub/Sub topic in Beam examples.
+ */
+public interface ExamplePubsubTopicOptions extends GcpOptions {
+  @Description("Pub/Sub topic")
+  @Default.InstanceFactory(PubsubTopicFactory.class)
+  String getPubsubTopic();
 
-  void setPubsubSubscription(String subscription);
+  void setPubsubTopic(String topic);
 
-  /** Returns a default Pub/Sub subscription based on the project and the job names. */
-  class PubsubSubscriptionFactory implements DefaultValueFactory<String> {
+  /**
+   * Returns a default Pub/Sub topic based on the project and the job names.
+   */
+  class PubsubTopicFactory implements DefaultValueFactory<String> {
     @Override
     public String create(PipelineOptions options) {
       return "projects/"
-          + options.as(GcpOptions.class).getProject()
-          + "/subscriptions/"
-          + options.getJobName();
+        + options.as(GcpOptions.class).getProject()
+        + "/topics/"
+        + options.getJobName();
     }
   }
 }

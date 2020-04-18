@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package beam.example.common;
+package beam.example.trigger.common;
 
 import com.google.api.services.bigquery.model.TableSchema;
 import org.apache.beam.sdk.extensions.gcp.options.GcpOptions;
@@ -30,7 +30,7 @@ import org.apache.beam.sdk.options.PipelineOptions;
  */
 public interface ExampleBigQueryTableOptions extends GcpOptions {
   @Description("BigQuery dataset name")
-  @Default.String("beam_examples")
+  @Default.String("cookbook")
   String getBigQueryDataset();
 
   void setBigQueryDataset(String dataset);

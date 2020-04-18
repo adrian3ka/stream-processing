@@ -17,9 +17,9 @@
  */
 package beam.example.basic;
 
-import beam.example.common.ExampleBigQueryTableOptions;
-import beam.example.common.ExampleOptions;
-import beam.example.common.WriteOneFilePerWindow;
+import beam.example.trigger.common.ExampleBigQueryTableOptions;
+import beam.example.trigger.common.ExampleOptions;
+import beam.example.trigger.common.WriteOneFilePerWindow;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.PipelineResult;
 import org.apache.beam.sdk.io.TextIO;
