@@ -1,20 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package beam.example.trigger;
 
 import beam.example.basic.PubsubToBigQuery;
@@ -28,7 +11,6 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.pubsub.v1.ProjectSubscriptionName;
 import com.google.pubsub.v1.ProjectTopicName;
-import com.sun.org.apache.bcel.internal.generic.INEG;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.SneakyThrows;
@@ -80,7 +62,7 @@ public class TriggerExampleSeriesOne {
   }
 
   @AllArgsConstructor
-  private static class OutputMessage extends Thread {
+  public static class OutputMessage extends Thread {
     public final String key;
     public final Integer value;
     public final Instant eventTime;
@@ -138,6 +120,7 @@ public class TriggerExampleSeriesOne {
    * 12.15..12.20 pick 12.20
    * 21.00..21.05 pick 21.05
    * <p>
+   * Better to run this example not to close to the next window, because the dataflow need to be prepared and initiatted
    * Assuming now is : 10:00:00
    * And the window is 5 one minutes with allowed lateness 5 minutes after.
    * <p>
@@ -249,6 +232,69 @@ public class TriggerExampleSeriesOne {
         nextWindow.plus(11 * MINUTES))
     );
 
+  // The noise message inside the window
+  private static final List<OutputMessage> randomOutputMessageInsideWindow = Arrays.asList(
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES * 30 + SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES * 30 + SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES * 30 + SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES * 30 + SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES * 30 + SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES * 30 + SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(MINUTES * 30 + SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(2 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 40 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 40 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 40 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(3 * MINUTES + 45 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 30 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS)),
+    new OutputMessage("6", 10, nextWindow.plus(4 * MINUTES * 59 * SECONDS))
+  );
+
   // The messages outside the window, this noise is for advancing the watermark at the current pane
   private static final List<OutputMessage> randomOutputMessage = Arrays.asList(
     new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + SECONDS)),
@@ -271,16 +317,109 @@ public class TriggerExampleSeriesOne {
     new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 6 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 8 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 14 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 24 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 34 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 45 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 52 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 52 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + 56 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES)),
     new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 14 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 24 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 34 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 35 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 44 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 52 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 52 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(6 * MINUTES + 56 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 2 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 12 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 22 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 29 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 35 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 44 * SECONDS)),
-    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + SECONDS)),
-    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + SECONDS)),
-    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + SECONDS)),
-    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 54 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(7 * MINUTES + 56 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + 4 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + 14 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + 24 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + 34 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + 44 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(8 * MINUTES + 54 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 22 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 27 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 29 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 32 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 36 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 46 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 46 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(9 * MINUTES + 54 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES)),
     new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 4 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 6 * SECONDS)),
@@ -289,19 +428,27 @@ public class TriggerExampleSeriesOne {
     new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 26 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 27 * SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 28 * SECONDS)),
-    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 29 * SECONDS))
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 29 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 32 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 33 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 34 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 36 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 39 * SECONDS)),
+    new OutputMessage("5", 10, nextWindow.plus(10 * MINUTES + 43 * SECONDS))
   );
 
+
+  /**
+   * Add more noise, you can try to remove this and view the difference between them, the watermark never advance so
+   * the default and allowedLateness could get all of the data. And the other method (speculative and sequential)
+   * will showing data as EARLIER.
+   */
 
   public static void main(String[] args) {
     outputMessages.forEach(Thread::start);
 
-    /**
-     *  Add more noise, you can try to remove this and view the difference between them, the watermark never advance so
-     *  the default and allowedLateness could get all of the data. And the other method (speculative and sequential)
-     *  will showing data as EARLIER.
-     */
     randomOutputMessage.forEach(Thread::start);
+    randomOutputMessageInsideWindow.forEach(Thread::start);
 
     System.out.println("The example will start ingesting the data at " + nextWindow.toString());
 
@@ -329,7 +476,7 @@ public class TriggerExampleSeriesOne {
       ));
 
     for (int i = 0; i < resultList.size(); i++) {
-      String stepName = TriggerExampleSeriesOne.class + "_" + DebugTriggerExample.triggerTypes.get(i);
+      String stepName = "TriggerExampleSeriesOne_" + DebugTriggerExample.triggerTypes.get(i);
 
       TableReference tableRef =
         TriggerCollection.getTableReference(
