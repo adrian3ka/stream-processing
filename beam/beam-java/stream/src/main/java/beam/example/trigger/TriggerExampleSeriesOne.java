@@ -476,7 +476,7 @@ public class TriggerExampleSeriesOne {
       ));
 
     for (int i = 0; i < resultList.size(); i++) {
-      String stepName = "TriggerExampleSeriesOne_" + DebugTriggerExample.triggerTypes.get(i);
+      String stepName = "TriggerExampleSeriesOne_" + TriggerCollection.triggerTypes.get(i);
 
       TableReference tableRef =
         TriggerCollection.getTableReference(
