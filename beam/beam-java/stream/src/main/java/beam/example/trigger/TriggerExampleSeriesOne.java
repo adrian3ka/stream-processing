@@ -145,7 +145,7 @@ public class TriggerExampleSeriesOne {
    * 5             | 50                 | 10:00:03   | 10:00:47
    * 5             | 30                 | 10:01:00   | 10:01:03
    * 5             | 30                 | 10:02:00   | 10:06:00  <- late
-   * 5             | 20                 | 10:04:10   | 10:05:15  <- late
+   * 5             | 20                 | 10:04:10   | 10:05:27  <- late
    * 5             | 60                 | 10:03:59   | 10:04:05
    * <p>
    * 5             | 20                 | 10:03:01   | 10.05:30  <- late
@@ -200,7 +200,12 @@ public class TriggerExampleSeriesOne {
    * <p>
    * Note : Please run this example using google dataflow because the SDK have some issue that the watermark didn't
    * advancing for pubsub on direct runner. And also please recalculate based on the processing time on the
-   * EmitAndAddTimestamp flow
+   * EmitAndAddTimestamp flow. And please don't forget to view the processing time one the record because the
+   * pipeline didn't always cut the watermark pane at exactly window time.
+   * E.g.
+   * The window is 5 minutes, sometimes the watermark could be cut out at 5 minutes 19 seconds. So don't be confused if
+   * the data resulted in BQ is different from the example, just recalculate that the timing before 5 minutes 19 seconds
+   * counted as EARLY and ON_TIME (before the window closed) data
    */
 
   private static final Instant nextWindow = TriggerCollection.getNearestWindowOf(WINDOW_DURATION);
@@ -218,7 +223,7 @@ public class TriggerExampleSeriesOne {
         nextWindow.plus(6 * MINUTES)),
       new OutputMessage("5", 20,
         nextWindow.plus(4 * MINUTES + 10 * SECONDS),
-        nextWindow.plus(5 * MINUTES + 15 * SECONDS)),
+        nextWindow.plus(5 * MINUTES + 27 * SECONDS)),
       new OutputMessage("5", 60,
         nextWindow.plus(3 * MINUTES + 59 * SECONDS),
         nextWindow.plus(4 * MINUTES + 5 * SECONDS)),
