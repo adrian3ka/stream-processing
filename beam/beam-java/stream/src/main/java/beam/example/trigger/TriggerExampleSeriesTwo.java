@@ -301,7 +301,6 @@ public class TriggerExampleSeriesTwo {
 
     options.setRunner(RUNNER);
     options.setJobName(SERIES + "-" + Instant.now().getMillis());
-    options.setNumWorkers(2);
 
     Pipeline pipeline = Pipeline.create(options);
 
