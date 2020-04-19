@@ -126,18 +126,9 @@ public class TriggerExampleSeriesTwo {
    * 5             | 50                 | 1                 | true    | true   | ON_TIME | [09:59:00...10:01:00]
    * 5             | 140                | 3                 | true    | true   | ON_TIME | [10:00:00...10:02:00]
    * 5             | 190                | 4                 | true    | true   | ON_TIME | [10:01:00...10:03:00]
-   * 5             | 160                | 3                 | true    | true   | ON_TIME | [10:03:00...10:05:00]
-   * 5             | 20                 | 1                 | true    | true   | ON_TIME | [10:04:00...10:06:00]
-   * Note :
-   * 5             | 60                 | 10:03:59   | 10:04:05
-   * This data will be aggregated to the window on 10:03:00..10:05:00, so you will not see any data on 10:02:00..10:04:00.
-   * Because when the trigger is firing, there are no data available at 10:03:59 so it will record any data on
-   * 10:03:00..10:05:00. You can try to set the data to
-   * 5             | 60                 | 10:03:50   | 10:03:50
-   * and you will see the result become
-   * 5             | 100                | 2                 | true    | true   | ON_TIME | [10:02:00...10:04:00]
+   * 5             | 160                | 3                 | true    | true   | ON_TIME | [10:02:00...10:04:00]
    * 5             | 60                 | 1                 | true    | true   | ON_TIME | [10:03:00...10:05:00]
-   *
+   * 5             | 20                 | 1                 | true    | true   | ON_TIME | [10:04:00...10:06:00]
    * <p>
    * Note : Please run this example using google dataflow because the SDK have some issue that the watermark didn't
    * advancing for pubsub on direct runner. And also please recalculate based on the processing time on the
