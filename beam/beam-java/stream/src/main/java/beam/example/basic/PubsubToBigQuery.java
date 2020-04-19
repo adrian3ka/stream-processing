@@ -29,6 +29,7 @@ import beam.example.util.ValueProviderUtils;
 import beam.example.values.FailsafeElement;
 import com.google.api.services.bigquery.model.TableRow;
 import com.google.common.collect.ImmutableList;
+import org.apache.beam.runners.dataflow.options.DataflowPipelineWorkerPoolOptions;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.PipelineResult;
 import org.apache.beam.sdk.coders.CoderRegistry;
@@ -179,7 +180,7 @@ public class PubsubToBigQuery {
    * The {@link Options} class provides the custom execution options passed by the executor at the
    * command-line.
    */
-  public interface Options extends PipelineOptions, JavascriptTextTransformerOptions {
+  public interface Options extends PipelineOptions, JavascriptTextTransformerOptions, DataflowPipelineWorkerPoolOptions {
     @Description("Table spec to write the output to")
     @Default.String(BIGQUERY_OUTPUT)
     ValueProvider<String> getOutputTableSpec();
@@ -222,7 +223,7 @@ public class PubsubToBigQuery {
    * wait for it's execution to finish. If blocking execution is required, use the {@link
    * PubsubToBigQuery#run(Options)} method to start the pipeline and invoke {@code
    * result.waitUntilFinish()} on the {@link PipelineResult}.
-   *
+   * <p>
    * The example to be publish on pubsub is : {"message": "asd"}
    * Please input the raw string, be careful on the publish message on pubsub google it's just only add the attributes
    * not the message itself.

@@ -42,23 +42,23 @@ public class TriggerExampleSeriesOne {
   private static final Duration ALLOWED_LATENESS = Duration.standardMinutes(5);
   private static final Duration TRIGGER_EVERY = Duration.standardMinutes(1);
   private static final Duration TRIGGER_EVERY_AFTER_LATENESS = Duration.standardMinutes(2);
-  private static final String TIMESTAMP_KEY = "timestamp_ms";
-  private static final String DATASET = "cookbook";
+  static final String TIMESTAMP_KEY = "timestamp_ms";
+  static final String DATASET = "cookbook";
 
-  private static final ProjectTopicName TOPIC_NAME =
+  private static final ProjectTopicName TOPIC_NAME_SERIES_ONE =
     ProjectTopicName.of(ExampleUtils.PROJECT_ID, SERIES);
 
   private static final ProjectSubscriptionName SUBSCRIPTION_NAME =
     ProjectSubscriptionName.of(ExampleUtils.PROJECT_ID, SERIES + "-subscription");
 
-  private static final Long SECONDS = 1000L;
-  private static final Long MINUTES = 60 * SECONDS;
-  private static final Long HOUR = 60 * MINUTES;
+  static final Long SECONDS = 1000L;
+  static final Long MINUTES = 60 * SECONDS;
+  static final Long HOUR = 60 * MINUTES;
 
   @Getter
-  private static class InputMessage {
-    private String key;
-    private Integer value;
+  static class InputMessage {
+    String key;
+    Integer value;
   }
 
   @AllArgsConstructor
@@ -68,11 +68,25 @@ public class TriggerExampleSeriesOne {
     public final Instant eventTime;
     public final Instant processingTime;
 
-    public OutputMessage(String key, Integer value, Instant time) {
+    private ProjectTopicName projectTopicName = TOPIC_NAME_SERIES_ONE;
+
+    OutputMessage(String key, Integer value, Instant time) {
       this.key = key;
       this.value = value;
       this.eventTime = time;
       this.processingTime = time;
+    }
+
+    OutputMessage(String key, Integer value, Instant eventTime, Instant processingTime) {
+      this.key = key;
+      this.value = value;
+      this.eventTime = eventTime;
+      this.processingTime = processingTime;
+    }
+
+    public void start(ProjectTopicName topicName) {
+      projectTopicName = topicName;
+      this.start();
     }
 
     @SneakyThrows
@@ -90,7 +104,8 @@ public class TriggerExampleSeriesOne {
 
       try {
         if (delay > 0) {
-          System.out.println("Will publishing data " + jsonObject + ", sleep until " + processingTime.toString());
+          System.out.println("Will publishing data " + jsonObject + " to: " + projectTopicName
+            + ", sleep until " + processingTime.toString());
           Thread.sleep(delay);
         }
       } catch (InterruptedException e) {
@@ -106,7 +121,7 @@ public class TriggerExampleSeriesOne {
       PubsubUtil.publish(
         PubsubUtil.PublishInput.builder()
           .objectToBePublished(jsonObject)
-          .projectTopicName(TOPIC_NAME)
+          .projectTopicName(projectTopicName)
           .attributes(attributes)
           .build()
       );
@@ -124,7 +139,7 @@ public class TriggerExampleSeriesOne {
    * Assuming now is : 10:00:00
    * And the window is 5 one minutes with allowed lateness 5 minutes after.
    * <p>
-   * Key (freeway) | Value (total_flow) | event time | processing time
+   * Key (key)     | Value (total_flow) | event time | processing time
    * 5             | 50                 | 10:00:03   | 10:00:47
    * 5             | 30                 | 10:01:00   | 10:01:03
    * 5             | 30                 | 10:02:00   | 10:06:00  <- late
@@ -143,13 +158,13 @@ public class TriggerExampleSeriesOne {
    * DEFAULT (NO Allow lateness, Trigger after end of window)
    * ================================================================================================
    * <p>
-   * Key (freeway) | Value (total_flow) | number_of_records | isFirst | isLast | timing
+   * Key (key)     | Value (total_flow) | number_of_records | isFirst | isLast | timing
    * 5             | 300                | 6                 | true    | true   | ON_TIME
    * <p>
    * ================================================================================================
    * WITH ALLOWED LATENESS (5 Minutes Lateness, Trigger Forever after end of window, Discarding Pane)
    * ================================================================================================
-   * Key (freeway) | Value (total_flow) | number_of_records | isFirst | isLast | timing
+   * Key (key)     | Value (total_flow) | number_of_records | isFirst | isLast | timing
    * 5             | 300                | 6                 | true    | false  | ON_TIME
    * 5             | 20                 | 1                 | false   | false  | LATE
    * 5             | 20                 | 1                 | false   | false  | LATE
@@ -158,7 +173,7 @@ public class TriggerExampleSeriesOne {
    * =================================================================================================
    * SPECULATIVE (5 Minutes Lateness, Trigger forever after first element in pane every 1 minute)
    * =================================================================================================
-   * Key (freeway) | Value (total_flow) | number_of_records | isFirst | isLast | timing
+   * Key (key)     | Value (total_flow) | number_of_records | isFirst | isLast | timing
    * 5             | 50                 | 1                 | true    | false  | EARLY
    * 5             | 140                | 3                 | false   | false  | EARLY
    * 5             | 180                | 4                 | false   | false  | EARLY
@@ -172,7 +187,7 @@ public class TriggerExampleSeriesOne {
    * SEQUENTIAL (5 Minutes Lateness, Trigger forever after first element in pane every 1 minute,
    * for late data firing every 2 minutes)
    * =================================================================================================
-   * Key (freeway) | Value (total_flow) | number_of_records | isFirst | isLast | timing
+   * Key (key)     | Value (total_flow) | number_of_records | isFirst | isLast | timing
    * 5             | 50                 | 1                 | true    | false  | EARLY
    * 5             | 140                | 3                 | false   | false  | EARLY
    * 5             | 180                | 4                 | false   | false  | EARLY
@@ -191,9 +206,9 @@ public class TriggerExampleSeriesOne {
    * counted as EARLY and ON_TIME (before the window closed) data
    */
 
-  private static final Instant nextWindow = TriggerCollection.getNearestWindowOf(WINDOW_DURATION);
+  static final Instant nextWindow = TriggerCollection.getNearestWindowOf(WINDOW_DURATION);
 
-  private static final List<OutputMessage> outputMessages =
+  static final List<OutputMessage> outputMessages =
     Arrays.asList(
       new OutputMessage("5", 50,
         nextWindow.plus(3 * SECONDS),
@@ -233,7 +248,7 @@ public class TriggerExampleSeriesOne {
     );
 
   // The noise message inside the window
-  private static final List<OutputMessage> randomOutputMessageInsideWindow = Arrays.asList(
+  static final List<OutputMessage> randomOutputMessageInsideWindow = Arrays.asList(
     new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
     new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
     new OutputMessage("6", 10, nextWindow.plus(MINUTES)),
@@ -296,7 +311,7 @@ public class TriggerExampleSeriesOne {
   );
 
   // The messages outside the window, this noise is for advancing the watermark at the current pane
-  private static final List<OutputMessage> randomOutputMessage = Arrays.asList(
+  static final List<OutputMessage> randomOutputMessage = Arrays.asList(
     new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + SECONDS)),
     new OutputMessage("5", 10, nextWindow.plus(5 * MINUTES + SECONDS)),
@@ -468,7 +483,7 @@ public class TriggerExampleSeriesOne {
         .fromSubscription(SUBSCRIPTION_NAME.toString()));
 
     PCollectionList<TableRow> resultList = messages.apply(ParDo.of(new EmitAndShowTimestamp()))
-      .apply(new TriggerCollection.CalculateTotalFlow(
+      .apply(new TriggerCollection.CalculateTotalFlowSeriesOne(
         WINDOW_DURATION,
         ALLOWED_LATENESS,
         TRIGGER_EVERY,
