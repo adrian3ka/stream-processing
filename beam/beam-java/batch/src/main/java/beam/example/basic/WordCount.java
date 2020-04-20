@@ -19,6 +19,7 @@ package beam.example.basic;
 
 import beam.example.trigger.common.ExampleUtils;
 import org.apache.beam.sdk.Pipeline;
+import org.apache.beam.sdk.PipelineResult;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.metrics.Counter;
 import org.apache.beam.sdk.metrics.Distribution;
@@ -172,7 +173,7 @@ public class WordCount {
     void setOutput(String value);
   }
 
-  static void runWordCount(WordCountOptions options) {
+  static PipelineResult.State runWordCount(WordCountOptions options) {
     Pipeline p = Pipeline.create(options);
 
     // Concepts #2 and #3: Our pipeline applies the composite CountWords transform, and passes the
@@ -182,13 +183,13 @@ public class WordCount {
       .apply(MapElements.via(new FormatAsTextFn()))
       .apply("WriteCounts", TextIO.write().to(options.getOutput()));
 
-    p.run().waitUntilFinish();
+    return p.run().waitUntilFinish();
   }
 
   public static void main(String[] args) {
     WordCountOptions options =
       PipelineOptionsFactory.fromArgs(args).withValidation().as(WordCountOptions.class);
 
-    runWordCount(options);
+    PipelineResult.State result = runWordCount(options);
   }
 }
