@@ -277,7 +277,9 @@ public class TriggerCollection {
                 sum += value;
                 numberOfRecords++;
 
-                System.out.println(id + "Processing " + value + " become: " + sum + "," + numberOfRecords
+                System.out.println(id + "Processing " + value
+                  + " key=" + c.element().getKey()
+                  + " | become: " + sum + "," + numberOfRecords
                   + " | event time: " + c.timestamp()
                   + " | processing time: " + Instant.now().toString()
                   + " | timing: " + c.pane().getTiming()

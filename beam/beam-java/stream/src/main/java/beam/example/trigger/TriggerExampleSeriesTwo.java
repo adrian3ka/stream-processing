@@ -116,8 +116,6 @@ public class TriggerExampleSeriesTwo {
    * 5             | 100                | 10:01:00   | 10:11.01  <- very late data
    * <p>
    *
-   * Note : The data calculated as late and didn't go into default mode if the data is more than 2 minutes from
-   * the event time, and will not included in any window.
    * ===========================================================================================================
    * default (2 minutes window, with every 1 minutes)
    * ===========================================================================================================
@@ -129,6 +127,8 @@ public class TriggerExampleSeriesTwo {
    * 5             | 160                | 3                 | true    | true   | ON_TIME | [10:02:00...10:04:00]
    * 5             | 60                 | 1                 | true    | true   | ON_TIME | [10:03:00...10:05:00]
    * 5             | 20                 | 1                 | true    | true   | ON_TIME | [10:04:00...10:06:00]
+   * Note : The data calculated as late and didn't go into default mode if the data is more than 2 minutes from
+   * the event time, and will not included in any window.
    * <p>
    * Note : Please run this example using google dataflow because the SDK have some issue that the watermark didn't
    * advancing for pubsub on direct runner. And also please recalculate based on the processing time on the
