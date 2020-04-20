@@ -39,9 +39,6 @@ public class TriggerExampleSeriesTwo {
   private static final Integer WINDOW_SLIDES_DURATION = 2;
   private static final Duration WINDOW_SLIDES_EVERY = Duration.standardMinutes(1);
 
-  private static final Duration ALLOWED_LATENESS = Duration.standardMinutes(5);
-  private static final Duration TRIGGER_EVERY = Duration.standardMinutes(1);
-  private static final Duration TRIGGER_EVERY_AFTER_LATENESS = Duration.standardMinutes(2);
   private static final ProjectTopicName TOPIC_NAME_SERIES_TWO =
     ProjectTopicName.of(ExampleUtils.PROJECT_ID, SERIES);
 
@@ -51,32 +48,19 @@ public class TriggerExampleSeriesTwo {
   public static class CalculateTotalFlowSeriesTwo extends PTransform<PCollection<KV<String, Integer>>, PCollectionList<TableRow>> {
     private int windowSlideDuration;
     private Duration slideEvery;
-    private Duration allowedLateness;
-    private Duration triggerEvery;
-    private Duration triggerEveryAfterLateness;
 
     public CalculateTotalFlowSeriesTwo(
       int windowSlideDuration,
-      Duration slideEvery,
-      Duration allowedLateness,
-      Duration triggerEvery,
-      Duration triggerEveryAfterLateness
+      Duration slideEvery
     ) {
       this.windowSlideDuration = windowSlideDuration;
       this.slideEvery = slideEvery;
-      this.allowedLateness = allowedLateness;
-      this.triggerEvery = triggerEvery;
-      this.triggerEveryAfterLateness = triggerEveryAfterLateness;
     }
 
     @Override
     public PCollectionList<TableRow> expand(PCollection<KV<String, Integer>> flowInfo) {
       System.out.println("Window slide duration: " + windowSlideDuration);
       System.out.println("Window slide every: " + slideEvery);
-
-      System.out.println("Allowed lateness: " + allowedLateness);
-      System.out.println("Trigger every: " + triggerEvery);
-      System.out.println("Trigger every after lateness: " + triggerEveryAfterLateness);
 
       PCollection<TableRow> defaultTriggerResults = flowInfo
         .apply("Default", Window
@@ -313,10 +297,7 @@ public class TriggerExampleSeriesTwo {
     PCollectionList<TableRow> resultList = messages.apply(ParDo.of(new EmitAndShowTimestamp()))
       .apply(new CalculateTotalFlowSeriesTwo(
         WINDOW_SLIDES_DURATION,
-        WINDOW_SLIDES_EVERY,
-        ALLOWED_LATENESS,
-        TRIGGER_EVERY,
-        TRIGGER_EVERY_AFTER_LATENESS
+        WINDOW_SLIDES_EVERY
       ));
 
     for (int i = 0; i < resultList.size(); i++) {

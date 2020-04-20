@@ -36,9 +36,6 @@ public class TriggerExampleSeriesThree {
 
   private static final Duration SESSION_GAP_DURATION = Duration.standardSeconds(30);
 
-  private static final Duration ALLOWED_LATENESS = Duration.standardMinutes(5);
-  private static final Duration TRIGGER_EVERY = Duration.standardMinutes(1);
-  private static final Duration TRIGGER_EVERY_AFTER_LATENESS = Duration.standardMinutes(2);
   private static final ProjectTopicName TOPIC_NAME_SERIES_THREE =
     ProjectTopicName.of(ExampleUtils.PROJECT_ID, SERIES);
 
@@ -47,29 +44,16 @@ public class TriggerExampleSeriesThree {
 
   public static class CalculateTotalFlowSeriesThree extends PTransform<PCollection<KV<String, Integer>>, PCollectionList<TableRow>> {
     private Duration gapDuration;
-    private Duration allowedLateness;
-    private Duration triggerEvery;
-    private Duration triggerEveryAfterLateness;
 
     public CalculateTotalFlowSeriesThree(
-      Duration gapDuration,
-      Duration allowedLateness,
-      Duration triggerEvery,
-      Duration triggerEveryAfterLateness
+      Duration gapDuration
     ) {
       this.gapDuration = gapDuration;
-      this.allowedLateness = allowedLateness;
-      this.triggerEvery = triggerEvery;
-      this.triggerEveryAfterLateness = triggerEveryAfterLateness;
     }
 
     @Override
     public PCollectionList<TableRow> expand(PCollection<KV<String, Integer>> flowInfo) {
       System.out.println("Window gap duration: " + gapDuration);
-
-      System.out.println("Allowed lateness: " + allowedLateness);
-      System.out.println("Trigger every: " + triggerEvery);
-      System.out.println("Trigger every after lateness: " + triggerEveryAfterLateness);
 
       PCollection<TableRow> defaultTriggerResults = flowInfo
         .apply("Default", Window
@@ -159,10 +143,7 @@ public class TriggerExampleSeriesThree {
 
     PCollectionList<TableRow> resultList = messages.apply(ParDo.of(new EmitAndShowTimestamp()))
       .apply(new CalculateTotalFlowSeriesThree(
-        SESSION_GAP_DURATION,
-        ALLOWED_LATENESS,
-        TRIGGER_EVERY,
-        TRIGGER_EVERY_AFTER_LATENESS
+        SESSION_GAP_DURATION
       ));
 
     for (int i = 0; i < resultList.size(); i++) {
