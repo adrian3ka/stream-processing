@@ -55,7 +55,7 @@ public class ExampleUtils {
   private Pubsub pubsubClient = null;
   private Set<PipelineResult> pipelinesToCancel = Sets.newHashSet();
   private List<String> pendingMessages = Lists.newArrayList();
-  
+
   public static final String PROJECT_ID = "beam-tutorial-272917";
 
   // Create your own storage first on google storage
@@ -66,6 +66,7 @@ public class ExampleUtils {
     List<String> listArgs = new ArrayList<>(Arrays.asList(args));
 
     listArgs.add("--project=" + PROJECT_ID);
+    listArgs.add("--tempLocation=" + GCS_TMP_LOCATION);
 
     String[] itemsArray = new String[listArgs.size()];
     itemsArray = listArgs.toArray(itemsArray);
