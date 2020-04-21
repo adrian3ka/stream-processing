@@ -15,14 +15,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package beam.example.basic;
+package beam.example.metrics;
 
 import beam.example.trigger.common.ExampleUtils;
 import com.google.api.services.bigquery.model.TableFieldSchema;
 import com.google.api.services.bigquery.model.TableRow;
 import com.google.api.services.bigquery.model.TableSchema;
 import org.apache.beam.sdk.Pipeline;
+import org.apache.beam.sdk.PipelineResult;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
+import org.apache.beam.sdk.metrics.*;
 import org.apache.beam.sdk.options.*;
 import org.apache.beam.sdk.transforms.*;
 import org.apache.beam.sdk.values.PCollection;
@@ -69,6 +71,8 @@ import java.util.logging.Logger;
  * and can be overridden with {@code --input}.
  */
 public class SideInput {
+  private static final String NAMESPACE = "namespace";
+
   // Default to using a 1000 row subset of the public weather station table publicdata:samples.gsod.
   private static final String WEATHER_SAMPLES_TABLE =
     "clouddataflow-readonly:samples.weather_stations";
@@ -83,6 +87,7 @@ public class SideInput {
     @ProcessElement
     public void processElement(ProcessContext c) {
       TableRow row = c.element();
+
       // Grab year, month, day, mean_temp from the row
       Integer year = Integer.parseInt((String) row.get("year"));
       Integer month = Integer.parseInt((String) row.get("month"));
@@ -95,6 +100,9 @@ public class SideInput {
           .set("month", month)
           .set("day", day)
           .set("mean_temp", meanTemp);
+
+      System.out.println(outRow);
+
       c.output(outRow);
     }
   }
@@ -118,6 +126,7 @@ public class SideInput {
       Integer month;
       month = (Integer) row.get("month");
       if (month.equals(this.monthFilter)) {
+        System.out.println("-> filtered row: " + row);
         c.output(row);
       }
     }
@@ -128,10 +137,17 @@ public class SideInput {
    * row ('mean_temp').
    */
   static class ExtractTempFn extends DoFn<TableRow, Double> {
+    private Distribution distribution = Metrics.distribution(NAMESPACE, "mean_temp_distribution");
+
     @ProcessElement
     public void processElement(ProcessContext c) {
       TableRow row = c.element();
       Double meanTemp = Double.parseDouble(row.get("mean_temp").toString());
+
+      System.out.println("Double: " + meanTemp + " | Long: " + meanTemp.longValue());
+
+      distribution.update(meanTemp.longValue());
+
       c.output(meanTemp);
     }
   }
@@ -149,7 +165,6 @@ public class SideInput {
 
     @Override
     public PCollection<TableRow> expand(PCollection<TableRow> rows) {
-
       // Extract the mean_temp from each row.
       PCollection<Double> meanTemps = rows.apply(ParDo.of(new ExtractTempFn()));
 
@@ -175,8 +190,13 @@ public class SideInput {
               public void processElement(ProcessContext c) {
                 Double meanTemp =
                   Double.parseDouble(c.element().get("mean_temp").toString());
+
                 Double gTemp = c.sideInput(globalMeanTemp);
+
+                System.out.println("meanTemp " + meanTemp + " | gTemp " + gTemp);
+
                 if (meanTemp < gTemp) {
+                  System.out.println("Emitting: " + c.element());
                   c.output(c.element());
                 }
               }
@@ -246,6 +266,21 @@ public class SideInput {
           .withCreateDisposition(BigQueryIO.Write.CreateDisposition.CREATE_IF_NEEDED)
           .withWriteDisposition(BigQueryIO.Write.WriteDisposition.WRITE_TRUNCATE));
 
-    p.run().waitUntilFinish();
+    PipelineResult pipelineResult = p.run();
+
+    // request the metric in namespace called "namespace"
+    MetricQueryResults metricsInNamespace =
+      pipelineResult
+        .metrics()
+        .queryMetrics(
+          MetricsFilter.builder()
+            .addNameFilter(MetricNameFilter.inNamespace("namespace"))
+            .build());
+
+    System.out.println("========================================================");
+
+    // The distribution result will be different from the side input average because it's cutting down the
+    // point behind the value.
+    MetricsUtil.displayMetricsData(metricsInNamespace);
   }
 }

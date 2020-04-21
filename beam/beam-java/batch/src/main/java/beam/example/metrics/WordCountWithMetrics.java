@@ -97,8 +97,6 @@ public class WordCountWithMetrics {
             .addNameFilter(MetricNameFilter.named("namespace", "uniqueWordCounter"))
             .build());
 
-    // print the metric value - there should be only one line because there is only one metric
-    // called "counter1" in the namespace called "namespace"
     for (MetricResult<Long> counter : metrics.getCounters()) {
       System.out.println(counter.getName() + ":" + counter.getAttempted());
     }
@@ -114,19 +112,7 @@ public class WordCountWithMetrics {
 
     System.out.println("========================================================");
 
-    // print the metric value - there should be only one line because there is only one metric
-    // called "counter1" in the namespace called "namespace"
-    for (MetricResult<Long> counter : metricsInNamespace.getCounters()) {
-      System.out.println(counter.getName() + ":" + counter.getAttempted());
-    }
-
-    for (MetricResult<GaugeResult> gauge : metricsInNamespace.getGauges()) {
-      System.out.println(gauge.getName() + ":" + gauge.getAttempted());
-    }
-
-    for (MetricResult<DistributionResult> distribution : metricsInNamespace.getDistributions()) {
-      System.out.println(distribution.getName() + ":" + distribution.getAttempted());
-    }
+    MetricsUtil.displayMetricsData(metricsInNamespace);
   }
 
   public static class MyGaugeMetricsDoFn extends DoFn<String, String> {
