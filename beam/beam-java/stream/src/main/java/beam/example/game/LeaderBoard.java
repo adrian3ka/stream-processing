@@ -88,7 +88,7 @@ public class LeaderBoard extends HourlyTeamScore {
   private static final int MAX_NUM_WORKER = 5;
   private static final Class PIPELINE_RUNNER = DataflowRunner.class;
   private static final ProjectTopicName TOPIC_NAME = ProjectTopicName.of(ExampleUtils.PROJECT_ID, "game");
-  private static final ProjectSubscriptionName SUBSCRIPTION_NAME =
+  static final ProjectSubscriptionName SUBSCRIPTION_NAME =
     ProjectSubscriptionName.of(ExampleUtils.PROJECT_ID, "game-subscription");
 
   private static final String INPUT_FILE = "gs://apache-beam-samples/game/gaming_data*.csv";

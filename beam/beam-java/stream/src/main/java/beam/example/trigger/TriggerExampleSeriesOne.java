@@ -34,6 +34,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static beam.example.time.TimeMultiplier.MINUTES;
+import static beam.example.time.TimeMultiplier.SECONDS;
+
 
 public class TriggerExampleSeriesOne {
   private static final Class RUNNER = DataflowRunner.class;
@@ -50,10 +53,6 @@ public class TriggerExampleSeriesOne {
 
   private static final ProjectSubscriptionName SUBSCRIPTION_NAME =
     ProjectSubscriptionName.of(ExampleUtils.PROJECT_ID, SERIES + "-subscription");
-
-  static final Long SECONDS = 1000L;
-  static final Long MINUTES = 60 * SECONDS;
-  static final Long HOUR = 60 * MINUTES;
 
   @Getter
   static class InputMessage {
@@ -137,7 +136,7 @@ public class TriggerExampleSeriesOne {
    * <p>
    * Better to run this example not to close to the next window, because the dataflow need to be prepared and initiatted
    * Assuming now is : 10:00:00
-   * And the window is 5 one minutes with allowed lateness 5 minutes after.
+   * And the window is 5 minutes with allowed lateness 5 minutes after.
    * <p>
    * Key (key)     | Value (total_flow) | event time | processing time
    * 5             | 50                 | 10:00:03   | 10:00:47

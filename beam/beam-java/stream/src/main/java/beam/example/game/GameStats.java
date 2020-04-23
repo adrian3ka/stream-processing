@@ -1,25 +1,26 @@
 /*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
  */
 package beam.example.game;
 
-import beam.example.trigger.common.ExampleUtils;
 import beam.example.game.utils.GameConstants;
 import beam.example.game.utils.WriteWindowedToBigQuery;
+import beam.example.trigger.common.ExampleUtils;
+import org.apache.beam.runners.dataflow.DataflowRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.PipelineResult;
 import org.apache.beam.sdk.extensions.gcp.options.GcpOptions;
@@ -140,7 +141,7 @@ public class GameStats extends LeaderBoard {
    */
   private static class UserSessionInfoFn extends DoFn<KV<String, Integer>, Integer> {
     @ProcessElement
-    public void processElement(DoFn.ProcessContext c, BoundedWindow window) {
+    public void processElement(ProcessContext c, BoundedWindow window) {
       IntervalWindow w = (IntervalWindow) window;
       int duration = new Duration(w.start(), w.end()).toPeriod().toStandardMinutes().getMinutes();
       c.output(duration);
@@ -227,10 +228,13 @@ public class GameStats extends LeaderBoard {
   }
 
   public static void main(String[] args) throws Exception {
+    new WriteLogToPubsub(args).start();
 
-    Options options = PipelineOptionsFactory.fromArgs(args).withValidation().as(Options.class);
+    Options options = PipelineOptionsFactory.fromArgs(ExampleUtils.appendArgs(args))
+      .as(Options.class);
     // Enforce that this pipeline is always run in streaming mode.
     options.setStreaming(true);
+    options.setRunner(DataflowRunner.class);
     ExampleUtils exampleUtils = new ExampleUtils(options);
     Pipeline pipeline = Pipeline.create(options);
 
@@ -240,7 +244,7 @@ public class GameStats extends LeaderBoard {
         .apply(
           PubsubIO.readStrings()
             .withTimestampAttribute(GameConstants.TIMESTAMP_ATTRIBUTE)
-            .fromTopic(options.getTopic()))
+            .fromSubscription(SUBSCRIPTION_NAME.toString()))
         .apply("ParseGameEvent", ParDo.of(new ParseEventFn()));
 
     // Extract username/score pairs from the event stream
