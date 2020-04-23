@@ -1,6 +1,8 @@
 ext {
   repo = rootProject
 
+  def beam_version = "2.20.0";
+
   def hamcrest_version = 2.1;
 
   src = [
@@ -10,10 +12,10 @@ ext {
   ]
 
   beam = [
-    directRunner  : 'org.apache.beam:beam-runners-direct-java:2.19.0',
-    dataflowRunner: 'org.apache.beam:beam-runners-google-cloud-dataflow-java:2.19.0',
-    sdkJavaCore   : 'org.apache.beam:beam-sdks-java-core:2.19.0',
-    sdkIoGcp      : 'org.apache.beam:beam-sdks-java-io-google-cloud-platform:2.19.0'
+    directRunner  : "org.apache.beam:beam-runners-direct-java:$beam_version",
+    dataflowRunner: "org.apache.beam:beam-runners-google-cloud-dataflow-java:$beam_version",
+    sdkJavaCore   : "org.apache.beam:beam-sdks-java-core:$beam_version",
+    sdkIoGcp      : "org.apache.beam:beam-sdks-java-io-google-cloud-platform:$beam_version"
   ]
 
   common = [

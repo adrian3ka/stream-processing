@@ -16,7 +16,6 @@ import org.joda.time.DateTime;
 import org.joda.time.Duration;
 import org.joda.time.Instant;
 
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class TriggerCollection {

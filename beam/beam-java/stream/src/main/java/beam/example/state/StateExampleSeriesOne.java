@@ -7,6 +7,8 @@ import beam.example.state.entity.Transaction;
 import beam.example.state.entity.TransactionPublisher;
 import beam.example.trigger.common.ExampleUtils;
 import beam.example.trigger.common.TriggerCollection;
+import com.google.api.services.bigquery.model.TableReference;
+import com.google.api.services.bigquery.model.TableRow;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.pubsub.v1.ProjectSubscriptionName;
@@ -14,39 +16,48 @@ import com.google.pubsub.v1.ProjectTopicName;
 import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.coders.VarLongCoder;
+import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubIO;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubMessage;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.state.StateSpec;
 import org.apache.beam.sdk.state.StateSpecs;
 import org.apache.beam.sdk.state.ValueState;
-import org.apache.beam.sdk.transforms.DoFn;
-import org.apache.beam.sdk.transforms.MapElements;
-import org.apache.beam.sdk.transforms.ParDo;
+import org.apache.beam.sdk.transforms.*;
+import org.apache.beam.sdk.transforms.windowing.*;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.values.TypeDescriptor;
 import org.apache.beam.sdk.values.TypeDescriptors;
+import org.joda.time.Duration;
 import org.joda.time.Instant;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.List;
+import java.util.UUID;
 
 import static beam.example.time.TimeMultiplier.MINUTES;
 import static beam.example.time.TimeMultiplier.SECONDS;
 import static org.apache.beam.vendor.guava.v26_0_jre.com.google.common.base.MoreObjects.firstNonNull;
 
 public class StateExampleSeriesOne {
-  private static final int WINDOW_DURATION = 1;
+  private static final int WINDOW_DURATION = 5;
   private static final Class RUNNER = DirectRunner.class;
   private static final String SERIES = "state-example-series-one";
+
+  private static final String DATASET = "cookbook";
+
+  private static final String TRANSACTION_ACCUMULATION_KEY = "transaction-accumulation-key";
 
   private static final ProjectTopicName TOPIC_NAME_SERIES_ONE =
     ProjectTopicName.of(ExampleUtils.PROJECT_ID, SERIES);
 
   private static final ProjectSubscriptionName SUBSCRIPTION_NAME_SERIES_ONE =
     ProjectSubscriptionName.of(ExampleUtils.PROJECT_ID, SERIES + "-subscription");
+
+  private static final Duration gapDuration = Duration.standardSeconds(30);
+  private static final int transactionCountMarkAsSuspicious = 3;
 
   /**
    * We are trying to create anomaly detection
@@ -59,9 +70,9 @@ public class StateExampleSeriesOne {
    * We mark to WATCH the user if their transaction is 2.5 times greater than global transaction
    * <p>
    * transactionId | userId        | total              | merchantId      | event time | processing time
-   * t1            | 1             | 500000             | m1              | 10:00:01   | 10:00:01
-   * t2            | 1             | 700000             | m1              | 10:00:03   | 10:00:03
-   * t3            | 1             | 300000             | m2              | 10:00:05   | 10:00:05
+   * t1            | 1             | 500000             | m1              | 10:00:01   | 10:00:01  <- suspicious transaction, burst transaction
+   * t2            | 1             | 700000             | m1              | 10:00:03   | 10:00:03  <- suspicious transaction, burst transaction
+   * t3            | 1             | 300000             | m2              | 10:00:05   | 10:00:05  <- suspicious transaction, burst transaction
    * t4            | 1             | 200000             | m2              | 10:00:10   | 10:00:10  <- suspicious transaction, burst transaction
    * t5            | 1             | 600000             | m3              | 10:00:15   | 10:00:15  <- suspicious transaction, burst transaction
    * <p>
@@ -73,9 +84,9 @@ public class StateExampleSeriesOne {
    * <p>
    */
 
-  static final Instant nextWindow = TriggerCollection.getNearestWindowOf(WINDOW_DURATION);
+  private static final Instant nextWindow = TriggerCollection.getNearestWindowOf(WINDOW_DURATION);
 
-  static final List<Transaction> userTransactions = Arrays.asList(
+  private static final List<Transaction> userTransactions = Arrays.asList(
     Transaction.builder().transactionId("t1").userId("1").total(500000L)
       .merchantId("m1")
       .eventTime(nextWindow.plus(SECONDS))
@@ -120,13 +131,14 @@ public class StateExampleSeriesOne {
     //==================================10 DATA======================================
   );
 
-  /**
-   * Add more noise, you can try to remove this and view the difference between them, the watermark never advance so
-   * the default and allowedLateness could get all of the data. And the other method (speculative and sequential)
-   * will showing data as EARLIER.
-   */
-
   public static void main(String[] args) {
+    TableReference tableRef =
+      TriggerCollection.getTableReference(
+        ExampleUtils.PROJECT_ID,
+        DATASET,
+        "StateExampleSeriesOne"
+      );
+
     userTransactions.forEach(transaction -> new TransactionPublisher(transaction).start(TOPIC_NAME_SERIES_ONE));
 
     System.out.println("The example will start ingesting the data at " + nextWindow.toString());
@@ -147,16 +159,137 @@ public class StateExampleSeriesOne {
         .fromSubscription(SUBSCRIPTION_NAME_SERIES_ONE.toString()))
       .apply(ParDo.of(new EncodeToTransaction()));
 
+    // All transaction will be mapped into one key so all of the transaction will be accumulated on the @State
     transactionPCollection
       .apply(
-        "MapTransactionAsKv",
+        "MapTransactionAsStaticKv",
         MapElements.into(
           TypeDescriptors.kvs(
             TypeDescriptors.strings(), TypeDescriptor.of(Transaction.class)))
-          .via((Transaction transaction) -> KV.of("", transaction)))
-      .apply(ParDo.of(new DetectTransactionAmount(0L, 0L)));
+          .via((Transaction transaction) -> KV.of(TRANSACTION_ACCUMULATION_KEY, transaction)))
+      .apply(ParDo.of(new DetectTransactionAmount(0L, 0L)))
+      .apply(ParDo.of(new ConvertSuspiciousTransactionInformationToTow()))
+      .apply(
+        BigQueryIO.writeTableRows().to(tableRef).withSchema(SuspiciousTransactionInformation.getBigQuerySchema())
+          .withWriteDisposition(BigQueryIO.Write.WriteDisposition.WRITE_APPEND)
+          .withCreateDisposition(BigQueryIO.Write.CreateDisposition.CREATE_IF_NEEDED)
+      );
 
+    transactionPCollection
+      .apply(
+        "MapTransactionByUserId",
+        MapElements.into(
+          TypeDescriptors.kvs(
+            TypeDescriptors.strings(), TypeDescriptor.of(Transaction.class)))
+          .via((Transaction transaction) -> KV.of(transaction.userId, transaction)))
+      .apply(new DetectBurstTransaction(gapDuration, transactionCountMarkAsSuspicious))
+      .apply(ParDo.of(new ConvertSuspiciousTransactionInformationToTow()))
+      .apply(
+        BigQueryIO.writeTableRows().to(tableRef).withSchema(SuspiciousTransactionInformation.getBigQuerySchema())
+          .withWriteDisposition(BigQueryIO.Write.WriteDisposition.WRITE_APPEND)
+          .withCreateDisposition(BigQueryIO.Write.CreateDisposition.CREATE_IF_NEEDED)
+      );
+
+    System.out.println("Prepare for running pipeline.....");
     pipeline.run();
+  }
+
+  public static class ConvertSuspiciousTransactionInformationToTow extends DoFn<SuspiciousTransactionInformation, TableRow> {
+    @ProcessElement
+    public void processElement(ProcessContext context, BoundedWindow window) {
+      SuspiciousTransactionInformation suspiciousTransactionInformation = context.element();
+
+      context.output(suspiciousTransactionInformation.getTableRow(window.toString()));
+    }
+  }
+
+
+  // Maybe you can use state map instead of window wih minimal elements count 3. But please be wise
+  // the state is saved on memory and it very risky to have memory leak issue if you mapped it by user id
+  // because we never know the boundary how would be very large our user is.
+  // The state will be never taken out if it unused for amount of time, but if we use triggering and window
+  // it will garbage collected. So it very possibly of memory leak.
+  public static class DetectBurstTransaction extends PTransform<PCollection<KV<String, Transaction>>, PCollection<SuspiciousTransactionInformation>> {
+    private Duration gapDuration;
+    private int suspiciousTransactionCount;
+
+    DetectBurstTransaction(
+      Duration gapDuration,
+      int suspiciousTransactionCount
+    ) {
+      this.gapDuration = gapDuration;
+      this.suspiciousTransactionCount = suspiciousTransactionCount;
+    }
+
+    private class ConvertToSuspiciousTransactionInformation extends PTransform<PCollection<KV<String, Transaction>>, PCollection<SuspiciousTransactionInformation>> {
+
+      @Override
+      public PCollection<SuspiciousTransactionInformation> expand(PCollection<KV<String, Transaction>> transactionMappedByUserId) {
+        PCollection<KV<String, Iterable<Transaction>>> flowPerKey =
+          transactionMappedByUserId.apply(GroupByKey.create());
+
+        PCollection<SuspiciousTransactionInformation> results = flowPerKey.apply(
+          ParDo.of(
+            new DoFn<KV<String, Iterable<Transaction>>, SuspiciousTransactionInformation>() {
+              @ProcessElement
+              public void processElement(ProcessContext context) {
+                // Just for differencing in print
+                String id = "[" + UUID.randomUUID().toString() + "]";
+
+                Iterable<Transaction> flows = context.element().getValue();
+                int transactionCount = 0;
+
+                for (Transaction transaction : flows) {
+                  transactionCount++;
+                  System.out.println(id + "Processing "
+                    + " userId=" + context.element().getKey()
+                    + " | event time: " + context.timestamp()
+                    + " | processing time: " + Instant.now().toString()
+                    + " | timing: " + context.pane().getTiming()
+                    + " | index:" + context.pane().getIndex()
+                    + " | transactionCount: " + transactionCount);
+
+                  String reason = String.format("Transaction id %s for user: %s marked as suspicious" +
+                      " because it have a burst transaction in session with gap duration %s",
+                    transaction.transactionId,
+                    transaction.userId,
+                    gapDuration
+                  );
+
+                  System.out.println(reason);
+
+                  context.output(SuspiciousTransactionInformation.builder()
+                    .transactionId(transaction.transactionId)
+                    .eventTime(context.timestamp())
+                    .reason(reason).build());
+                }
+              }
+            }));
+
+        return results;
+      }
+    }
+
+    @Override
+    public PCollection<SuspiciousTransactionInformation> expand(PCollection<KV<String, Transaction>> transactionMappedByUserId) {
+      System.out.println("Setting up with pipeline for DetectBurstTransaction...");
+      System.out.println("-> Gap duration: " + gapDuration);
+      System.out.println("-> Suspicious transaction count: " + suspiciousTransactionCount);
+
+      return transactionMappedByUserId.apply("TransactionPerSession",
+        Window.<KV<String, Transaction>>into(
+          Sessions.withGapDuration(gapDuration))
+          .triggering(
+            AfterEach.inOrder(
+              // The next transaction will assumed as suspicious
+              AfterPane.elementCountAtLeast(suspiciousTransactionCount + 1),
+              // All of the next transaction after that will be marked as suspicious
+              Repeatedly.forever(AfterProcessingTime.pastFirstElementInPane()))
+          )
+          .withAllowedLateness(Duration.ZERO)
+          .discardingFiredPanes()
+      ).apply(new ConvertToSuspiciousTransactionInformation());
+    }
   }
 
   public static class DetectTransactionAmount extends DoFn<KV<String, Transaction>, SuspiciousTransactionInformation> {
@@ -218,6 +351,7 @@ public class StateExampleSeriesOne {
           SuspiciousTransactionInformation.builder()
             .reason(reason)
             .transactionId(transaction.transactionId)
+            .eventTime(context.timestamp())
             .build()
         );
       }
