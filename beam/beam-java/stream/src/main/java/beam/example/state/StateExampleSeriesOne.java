@@ -15,8 +15,10 @@ import com.google.pubsub.v1.ProjectSubscriptionName;
 import com.google.pubsub.v1.ProjectTopicName;
 import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
+import org.apache.beam.sdk.coders.CoderRegistry;
 import org.apache.beam.sdk.coders.VarLongCoder;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
+import org.apache.beam.sdk.io.gcp.bigquery.TableRowJsonCoder;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubIO;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubMessage;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
@@ -42,7 +44,7 @@ import static beam.example.time.TimeMultiplier.SECONDS;
 import static org.apache.beam.vendor.guava.v26_0_jre.com.google.common.base.MoreObjects.firstNonNull;
 
 public class StateExampleSeriesOne {
-  private static final int WINDOW_DURATION = 5;
+  private static final int WINDOW_DURATION = 1;
   private static final Class RUNNER = DirectRunner.class;
   private static final String SERIES = "state-example-series-one";
 
@@ -145,7 +147,7 @@ public class StateExampleSeriesOne {
 
     PubsubToBigQuery.Options options = PipelineOptionsFactory.fromArgs(
       ExampleUtils.appendArgs(args)
-    ).withValidation().as(PubsubToBigQuery.Options.class);
+    ).as(PubsubToBigQuery.Options.class);
 
     options.setRunner(RUNNER);
     options.setJobName(SERIES + "-" + Instant.now().getMillis());
@@ -168,7 +170,8 @@ public class StateExampleSeriesOne {
             TypeDescriptors.strings(), TypeDescriptor.of(Transaction.class)))
           .via((Transaction transaction) -> KV.of(TRANSACTION_ACCUMULATION_KEY, transaction)))
       .apply(ParDo.of(new DetectTransactionAmount(0L, 0L)))
-      .apply(ParDo.of(new ConvertSuspiciousTransactionInformationToTow()))
+      .apply("ConvertSuspiciousTransactionInformationToRowForHugeAmount",
+        ParDo.of(new ConvertSuspiciousTransactionInformationToRow()))
       .apply(
         BigQueryIO.writeTableRows().to(tableRef).withSchema(SuspiciousTransactionInformation.getBigQuerySchema())
           .withWriteDisposition(BigQueryIO.Write.WriteDisposition.WRITE_APPEND)
@@ -183,7 +186,8 @@ public class StateExampleSeriesOne {
             TypeDescriptors.strings(), TypeDescriptor.of(Transaction.class)))
           .via((Transaction transaction) -> KV.of(transaction.userId, transaction)))
       .apply(new DetectBurstTransaction(gapDuration, transactionCountMarkAsSuspicious))
-      .apply(ParDo.of(new ConvertSuspiciousTransactionInformationToTow()))
+      .apply("ConvertSuspiciousTransactionInformationToRowForBurstTransaction",
+        ParDo.of(new ConvertSuspiciousTransactionInformationToRow()))
       .apply(
         BigQueryIO.writeTableRows().to(tableRef).withSchema(SuspiciousTransactionInformation.getBigQuerySchema())
           .withWriteDisposition(BigQueryIO.Write.WriteDisposition.WRITE_APPEND)
@@ -191,10 +195,11 @@ public class StateExampleSeriesOne {
       );
 
     System.out.println("Prepare for running pipeline.....");
+
     pipeline.run();
   }
 
-  public static class ConvertSuspiciousTransactionInformationToTow extends DoFn<SuspiciousTransactionInformation, TableRow> {
+  public static class ConvertSuspiciousTransactionInformationToRow extends DoFn<SuspiciousTransactionInformation, TableRow> {
     @ProcessElement
     public void processElement(ProcessContext context, BoundedWindow window) {
       SuspiciousTransactionInformation suspiciousTransactionInformation = context.element();

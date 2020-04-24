@@ -1,3 +1,13 @@
+// For Shadow jar
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath "com.github.jengelman.gradle.plugins:shadow:5.1.0"
+  }
+}
+
 plugins {
   id "net.ltgt.apt" version "0.20"
 }
@@ -8,6 +18,8 @@ apply from: 'variables.gradle'
 apply plugin: 'idea'
 apply plugin: 'java-library'
 apply plugin: 'maven-publish'
+apply plugin: 'com.github.johnrengelman.shadow'
+
 
 project.apply plugin: 'java'
 project.sourceCompatibility = '1.8'
@@ -19,6 +31,8 @@ dependencies {
 allprojects {
   apply plugin: "idea"
   apply plugin: "net.ltgt.apt-idea"
+  apply plugin: 'com.github.johnrengelman.shadow'
+
 }
 
 subprojects {
@@ -26,6 +40,7 @@ subprojects {
 
   repositories {
     mavenCentral()
+    jcenter()
     maven { url 'https://jitpack.io' }
   }
 

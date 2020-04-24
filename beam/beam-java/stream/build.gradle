@@ -1,27 +1,39 @@
 version = '1.0.0'
 
-jar {
-  from {
-    configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
-    configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
-  }
-
+shadowJar {
+  mergeServiceFiles()
+  
   archiveName = 'TimerExampleSeriesOne.jar'
 
   manifest {
-    attributes 'Implementation-Title': 'Try using gradle jar'
+    attributes 'Implementation-Title': 'This is the series one of the Timer Example Series'
     attributes 'Main-Class': "beam.example.timer.TimerExampleSeriesOne"
     attributes 'Implementation-Version': project.version
   }
-  destinationDir = file("$rootDir/stream/my-jar")
+  destinationDir = file("$rootDir/stream/my-shadow-jar")
   archiveClassifier = "all"
 
   archivesBaseName = 'app'
 
-  /* This will exclude the signatures of interfering dependencies. */
-  exclude 'META-INF/*.RSA'
-  exclude 'META-INF/*.SF'
-  exclude 'META-INF/*.DSA'
+  zip64 = true
+}
+
+shadowJar {
+  mergeServiceFiles()
+
+  archiveName = 'StateExampleSeriesOne.jar'
+
+  manifest {
+    attributes 'Implementation-Title': 'This is the series one of the State Example Series'
+    attributes 'Main-Class': "beam.example.state.StateExampleSeriesOne"
+    attributes 'Implementation-Version': project.version
+  }
+  destinationDir = file("$rootDir/stream/my-shadow-jar")
+  archiveClassifier = "all"
+
+  archivesBaseName = 'app'
+
+  zip64 = true
 }
 
 dependencies {

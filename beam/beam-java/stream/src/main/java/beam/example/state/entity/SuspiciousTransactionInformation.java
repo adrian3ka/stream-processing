@@ -12,6 +12,7 @@ import org.apache.beam.sdk.coders.AvroCoder;
 import org.apache.beam.sdk.coders.DefaultCoder;
 import org.joda.time.Instant;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +20,7 @@ import java.util.List;
 @DefaultCoder(AvroCoder.class)
 @NoArgsConstructor
 @AllArgsConstructor
-public class SuspiciousTransactionInformation {
+public class SuspiciousTransactionInformation implements Serializable {
   @NonNull
   public String transactionId;
 
