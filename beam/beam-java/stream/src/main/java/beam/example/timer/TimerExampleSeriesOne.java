@@ -28,7 +28,7 @@ import org.apache.beam.sdk.values.TypeDescriptors;
 import org.joda.time.Instant;
 
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static beam.example.time.TimeMultiplier.SECONDS;
@@ -47,13 +47,12 @@ public class TimerExampleSeriesOne {
 
   private static final Instant nextWindow = TriggerCollection.getNearestWindowOf(WINDOW_DURATION);
 
-  private static final List<TimerDelay> userTransactions = Arrays.asList(
+  private static final List<TimerDelay> userTransactions = Collections.singletonList(
     TimerDelay.builder().delayInSeconds(10)
       .timerId("1")
       .eventTime(nextWindow.plus(10 * SECONDS))
       .processingTime(nextWindow.plus(10 * SECONDS))
       .build()
-    //==================================10 DATA======================================
   );
 
   public static void main(String[] args) {
@@ -121,11 +120,8 @@ public class TimerExampleSeriesOne {
     }
 
     @OnTimer("timer")
-    public void onTimer(
-      @Element KV<String, TimerDelay> element,
-      OutputReceiver<TimerDelay> output
-    ) {
-      System.out.println("Timer fired " + element.getValue().timerId);
+    public void onTimer() {
+      System.out.println("Timer fired");
     }
   }
 }
