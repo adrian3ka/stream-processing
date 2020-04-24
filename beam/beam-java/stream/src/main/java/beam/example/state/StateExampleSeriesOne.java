@@ -171,6 +171,7 @@ public class StateExampleSeriesOne {
       .apply("ConvertSuspiciousTransactionInformationToRowForHugeAmount",
         ParDo.of(new ConvertSuspiciousTransactionInformationToRow()))
       .apply(
+        "WriteToBigqueryForHugeAmount",
         BigQueryIO.writeTableRows().to(tableRef).withSchema(SuspiciousTransactionInformation.getBigQuerySchema())
           .withWriteDisposition(BigQueryIO.Write.WriteDisposition.WRITE_APPEND)
           .withCreateDisposition(BigQueryIO.Write.CreateDisposition.CREATE_IF_NEEDED)
@@ -186,7 +187,7 @@ public class StateExampleSeriesOne {
       .apply(new DetectBurstTransaction(gapDuration, transactionCountMarkAsSuspicious))
       .apply("ConvertSuspiciousTransactionInformationToRowForBurstTransaction",
         ParDo.of(new ConvertSuspiciousTransactionInformationToRow()))
-      .apply(
+      .apply("WriteToBigqueryForBurstTransaction",
         BigQueryIO.writeTableRows().to(tableRef).withSchema(SuspiciousTransactionInformation.getBigQuerySchema())
           .withWriteDisposition(BigQueryIO.Write.WriteDisposition.WRITE_APPEND)
           .withCreateDisposition(BigQueryIO.Write.CreateDisposition.CREATE_IF_NEEDED)
