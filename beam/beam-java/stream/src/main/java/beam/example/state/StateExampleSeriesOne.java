@@ -15,10 +15,8 @@ import com.google.pubsub.v1.ProjectSubscriptionName;
 import com.google.pubsub.v1.ProjectTopicName;
 import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
-import org.apache.beam.sdk.coders.CoderRegistry;
 import org.apache.beam.sdk.coders.VarLongCoder;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
-import org.apache.beam.sdk.io.gcp.bigquery.TableRowJsonCoder;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubIO;
 import org.apache.beam.sdk.io.gcp.pubsub.PubsubMessage;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
@@ -233,7 +231,7 @@ public class StateExampleSeriesOne {
         PCollection<KV<String, Iterable<Transaction>>> flowPerKey =
           transactionMappedByUserId.apply(GroupByKey.create());
 
-        PCollection<SuspiciousTransactionInformation> results = flowPerKey.apply(
+        return flowPerKey.apply(
           ParDo.of(
             new DoFn<KV<String, Iterable<Transaction>>, SuspiciousTransactionInformation>() {
               @ProcessElement
@@ -270,8 +268,6 @@ public class StateExampleSeriesOne {
                 }
               }
             }));
-
-        return results;
       }
     }
 
@@ -316,7 +312,7 @@ public class StateExampleSeriesOne {
       new DetectTransactionAmount(0L, 0L);
     }
 
-    public DetectTransactionAmount(
+    DetectTransactionAmount(
       Long initialGrandTotal,
       Long initialTransactionCount
     ) {
